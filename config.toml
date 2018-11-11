@@ -21,18 +21,18 @@ home = [ "HTML", "RSS", "JSON"]
 [menu]
   [[menu.main]]
     identifier = "tutorials"
-    title = "tutorials"
+    title = "Tutorials"
     url = "/tutorials/"
     weight = 1
   [[menu.main]]
     identifier = "bits"
-    title = "bits"
+    title = "Bits"
     url = "/bits/"
     weight = 2
   [[menu.main]]
     identifier = "about"
     name = "this is about page"
-    title = "about"
+    title = "About"
     url = "/about/"
     weight = 99
 
