@@ -14,3 +14,8 @@ description= "codeigniter base url setting"
 skill_level=["beginner"]
 +++
 
+# setting up base url
+~~~php
+// file: application/config.php
+$config['base_url'] = 'http://localhost:8000';
+~~~
