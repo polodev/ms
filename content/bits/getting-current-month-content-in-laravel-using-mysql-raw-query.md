@@ -1,17 +1,16 @@
 +++
 type="post"
 toc=true
-title= "{{ replace .Name "-" " " | title }}"
-date= {{ .Date }}
+title= "Getting Current Month Content in Laravel Using Mysql Raw Query"
+date= 2018-11-12T01:24:29+06:00
 draft= false
 weight= 1
 authors= ["Polo dev"]
 categories= ['']
 tags= ['']
-language=['']
 tutorial_tags= ['']
 bit_tags= ['']
-tutorialTypes=['tutorials']
+tutorialTypes=['']
 keyword= ""
 description= ""
 skill_level=["beginner"]
