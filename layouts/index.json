@@ -5,6 +5,7 @@
       {
         "title": "{{ .Title }}",
         "keyword": {{ .Params.keyword | jsonify }},
+        "description": {{ .Params.description | jsonify }},
         "uri": "{{ .Permalink }}"
       }
 

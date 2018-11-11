@@ -5,6 +5,7 @@
       {
         "title": "Order by Clause in and Manipulate Database Result Codeigniter",
         "keyword": "codeigniter, database ordery by query, sql",
+        "description": "Order by Clause in and Manipulate Database Result Codeigniter",
         "uri": "https://polodev.github.io/ms/bits/order-by-clause-in-and-manipulate-database-result-codeigniter/"
       }
 
@@ -18,6 +19,7 @@
       {
         "title": "Export and Import Json in Mongodb",
         "keyword": "mongodb, export, import",
+        "description": "Export and Import Json in Mongodb",
         "uri": "https://polodev.github.io/ms/bits/export-and-import-json-in-mongodb/"
       }
 
@@ -31,6 +33,7 @@
       {
         "title": "Getting Current Month Content in Laravel Using Mysql Raw Query",
         "keyword": "laravel, mysql query",
+        "description": "How to get current month result in laravel mysql select query",
         "uri": "https://polodev.github.io/ms/bits/getting-current-month-content-in-laravel-using-mysql-raw-query/"
       }
 
@@ -44,6 +47,7 @@
       {
         "title": "Getting Single Result From Codeigniter",
         "keyword": "codeigniter, database query",
+        "description": "How to run database query for getting single result in codeigniter",
         "uri": "https://polodev.github.io/ms/bits/getting-single-result-from-codeigniter/"
       }
 
@@ -57,6 +61,7 @@
       {
         "title": "Insert Into Database in Codeigniter",
         "keyword": "codeigniter, database insert query, sql",
+        "description": "Insert Into Database in Codeigniter",
         "uri": "https://polodev.github.io/ms/bits/insert-into-database-in-codeigniter/"
       }
 
@@ -70,6 +75,7 @@
       {
         "title": "Laravel Request Function Helpers",
         "keyword": "laravel, helper functions",
+        "description": "Laravel Request Function Helpers",
         "uri": "https://polodev.github.io/ms/bits/laravel-request-function-helpers/"
       }
 
@@ -83,6 +89,7 @@
       {
         "title": "Laravel Serve Command for Viewing Site in Same Network",
         "keyword": "laravel, artisan command",
+        "description": "Laravel Serve Command for Viewing Site in Same Network",
         "uri": "https://polodev.github.io/ms/bits/laravel-serve-command-for-viewing-site-in-same-network/"
       }
 
@@ -96,6 +103,7 @@
       {
         "title": "Multiple File Upload Using Jquery Ajax With Complete Percentage",
         "keyword": "multiple file upload using ajax",
+        "description": "How to upload multiple file using ajax and formdata",
         "uri": "https://polodev.github.io/ms/bits/multiple-file-upload-using-jquery-ajax-with-complete-percentage/"
       }
 
@@ -109,6 +117,7 @@
       {
         "title": "Ajax Api Call for Multiple File Upload Using Ajax",
         "keyword": "multiple file upload using ajax, codeigniter, file upload, form data",
+        "description": "How to upload multiple file using ajax and formdata in codeigniter website",
         "uri": "https://polodev.github.io/ms/tutorials/ajax-api-call-for-multiple-file-upload-using-ajax/"
       }
 
@@ -122,6 +131,7 @@
       {
         "title": "Deleting in Database and Unlink File in Codeigniter",
         "keyword": "codeigniter, database, file delete, unlink",
+        "description": "How delete database record in codeigniter and delete associate file",
         "uri": "https://polodev.github.io/ms/tutorials/deleting-in-database-and-unlink-file-in-codeigniter/"
       }
 
@@ -135,6 +145,7 @@
       {
         "title": "Next and Previous Element in Php Array",
         "keyword": "php functions, next element in php array, previous elements in php array",
+        "description": "how to find next and previous element from php array",
         "uri": "https://polodev.github.io/ms/tutorials/next-and-previous-element-in-php-array/"
       }
 
@@ -148,6 +159,7 @@
       {
         "title": "Php Functions - array_values, json_encode, json_decode, array_intersect",
         "keyword": "php functions - array_values, json_encode, json_decode, array_intersect",
+        "description": "Basic manipulation using php function - array_values, json_encode, json_decode, array_intersect",
         "uri": "https://polodev.github.io/ms/tutorials/php-functions-part-one/"
       }
 
@@ -161,6 +173,7 @@
       {
         "title": "Setting and Getting User Data in Session Session Flash Codeigniter",
         "keyword": "codeigniter, session",
+        "description": "Setting and Getting User Data in Session Session Flash Codeigniter",
         "uri": "https://polodev.github.io/ms/tutorials/setting-and-getting-user-data-in-session-session-flash-codeigniter/"
       }
 
@@ -174,6 +187,7 @@
       {
         "title": "Basic Multilingual Features in Website Using Javascript and Keep Language Persist Using Local Storage",
         "keyword": "language, multilingual",
+        "description": "How to convert basic site into multilingual site",
         "uri": "https://polodev.github.io/ms/tutorials/basic-multilingual-features-in-website-using-javascript-and-keep-language-persist-using-local-storage/"
       }
 
@@ -187,6 +201,7 @@
       {
         "title": "Create a Google Column Chart",
         "keyword": "google chart",
+        "description": "how to implement google column chart and pie chart easily in your website",
         "uri": "https://polodev.github.io/ms/tutorials/create-a-google-column-chart/"
       }
 
@@ -200,6 +215,7 @@
       {
         "title": "Flatten Array in Php",
         "keyword": "flatten array",
+        "description": "flatten array in php",
         "uri": "https://polodev.github.io/ms/bits/flatten-array-in-php/"
       }
 
@@ -213,6 +229,7 @@
       {
         "title": "How to Add Syntax Highlighting, Line Number Clipboard Js in Go Hugo Website",
         "keyword": "syntax highlighting, clipboard js, goHugo",
+        "description": "Adding syntax highlighting in gohugo website using pygments, and adding code copy option using clipboard js",
         "uri": "https://polodev.github.io/ms/tutorials/how-to-add-syntax-highlighting-ln-number-clipboard-js-in-go-hugo-website/"
       }
 
@@ -226,6 +243,7 @@
       {
         "title": "Installing Robo3t in Ubuntu 18.X",
         "keyword": "ubuntu, robo3t, mongodb",
+        "description": "How to install robo3t in ubuntu 18.X",
         "uri": "https://polodev.github.io/ms/tutorials/installing-robo3t-in-ubuntu-18.x/"
       }
 
@@ -239,6 +257,7 @@
       {
         "title": "Nearby Location Using Latitude and Longitude in Laravel Application   Mysql Query Plus Vue Implementation",
         "keyword": "nearby location, mysql location query, vue js, mysql",
+        "description": "How to get nearby location using latitude and longitude value from mysql database and showing results using vue js",
         "uri": "https://polodev.github.io/ms/tutorials/nearby-location-using-latitude-and-longitude-in-laravel-application---mysql-query-plus-vue-implementation/"
       }
 
@@ -252,6 +271,7 @@
       {
         "title": "Update Database in Codeigniter",
         "keyword": "update database in codeigniter",
+        "description": "update database in codeigniter",
         "uri": "https://polodev.github.io/ms/bits/update-database-in-codeigniter/"
       }
 
@@ -265,6 +285,7 @@
       {
         "title": "Codeigniter Base Url",
         "keyword": "codeigniter base url setting",
+        "description": "codeigniter base url setting",
         "uri": "https://polodev.github.io/ms/bits/codeigniter-base-url/"
       }
 
@@ -278,6 +299,7 @@
       {
         "title": "Wordpress Theme Development 101",
         "keyword": "Essential wordpress theme development code for beginner",
+        "description": "Essential wordpress theme development code for beginner",
         "uri": "https://polodev.github.io/ms/tutorials/wordpress-theme-development-101/"
       }
 
@@ -291,6 +313,7 @@
       {
         "title": "Jquery Essentials W3 Schools Summary",
         "keyword": "",
+        "description": "",
         "uri": "https://polodev.github.io/ms/tutorials/jquery-essentials-w3-schools-summary/"
       }
 
@@ -304,6 +327,7 @@
       {
         "title": "Codeigniter Essentials",
         "keyword": "Codeigniter Essential training gist",
+        "description": "In this tutorial I have wrapped up codeigniter essential like mvc structure, database connection in codeigniter, getting all, single data from codeigniter. It could be bootstrap lesson for beginner learner",
         "uri": "https://polodev.github.io/ms/tutorials/codeigniter-essentials/"
       }
 
