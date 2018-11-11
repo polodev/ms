@@ -16,7 +16,7 @@
   </span>
   <span class='reading_time'>
       <i class='fa fa-clock'></i>
-    {{ .ReadingTime }} minutes
+   {{  math.Ceil (mul .ReadingTime 1.3) }} minutes
   </span>
 
   {{ if .Params.tutorial_tags }}

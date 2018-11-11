@@ -65,15 +65,15 @@ pre {
   top: 0px;
   right: 0px;
   display: inline-block;
-  color: maroon;
-  border: 1px solid maroon;
+  color: var(--green1);
+  border: 1px solid var(--green2);
   cursor: pointer;
   @media screen and (max-width: 600px){
     display: none;
   }
 }
 .copy-button:hover {
-  background-color: maroon;
+  background-color: var(--green1);
   color: white;
 }
 

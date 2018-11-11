@@ -20,16 +20,10 @@ disqusShortname = "dev-learning"
 home = [ "HTML", "RSS", "JSON"]
 [menu]
   [[menu.main]]
-    identifier = "home"
-    name = "this is home page"
-    title = "home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
     identifier = "tutorials"
     title = "tutorials"
     url = "/tutorials/"
-    weight = 2
+    weight = 1
   [[menu.main]]
     identifier = "bits"
     title = "bits"

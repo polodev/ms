@@ -45,7 +45,7 @@ class Search extends React.Component {
   _changeQueryAndFilter (e) {
     let query = e.target.value
     let search_results = this.state.lunrIndex.search(`*${query}*`);
-    search_results = search_results.slice(0, 2);
+    search_results = search_results.slice(0, 5);
     search_results = query.length ? search_results : []
     this.setState({query, search_results})
   }

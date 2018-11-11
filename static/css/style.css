@@ -78,8 +78,8 @@ pre {
   top: 0px;
   right: 0px;
   display: inline-block;
-  color: maroon;
-  border: 1px solid maroon;
+  color: var(--green1);
+  border: 1px solid var(--green2);
   cursor: pointer;
 }
 
@@ -90,7 +90,7 @@ pre {
 }
 
 .copy-button:hover {
-  background-color: maroon;
+  background-color: var(--green1);
   color: white;
 }
 
@@ -245,6 +245,179 @@ span.mark {
   font-size: 14px;
   display: inline-block;
   cursor: pointer;
+}
+
+:root {
+  --bg3: #fcfcfc;
+  --yellow1: #EFBB35;
+  --green1: #008f68;
+  --green2: #6DB65B;
+  --code: #dc3958;
+  --code-text: #6C7757;
+  --code-comment: #9AA880;
+}
+
+.root2 {
+  --bg: #fff;
+  --bg2: #fafafa;
+  --bg4: #f8f8f8;
+  --footer-bg: rgba(114, 186, 94, .15);
+  --text-color: #555;
+  --pale-text: #999;
+  --info-box-text: #84613d;
+  --gs0: #eee;
+  --gs1: #CCC;
+  --gs2: #AAA;
+  --green1: #008f68;
+  --green2: #6DB65B;
+  --green3: #4AAE9B;
+  --yellow2: #dfa612;
+  --yellow3: #FAE042;
+  --subtle: rgba(0, 0, 0, .1);
+  --very-subtle: rgba(0, 0, 0, .05);
+  --top1: rgba(107, 183, 86, .95);
+  --top2: rgba(0, 143, 104, .95);
+  --subtle-green1: rgba(114, 186, 94, 0.55);
+  --subtle-green2: rgba(114, 186, 94, 0.05);
+  --subtle-yellow1: rgba(239, 187, 53, 0.6);
+  --subtle-yellow2: rgba(236, 198, 48, .1);
+  --subtle-yellow3: rgba(236, 198, 48, .3);
+  --fb: #3b5998;
+  --reddit: #FC471E;
+  --h-news: #F60;
+  --twitter: #00aced;
+  --cat-head: rgba(114, 186, 94, 0.1);
+  --front-text-color: #93a791;
+  --info-box-bg: rgba(255, 213, 70, 0.1);
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: var(--code-comment);
+}
+
+.hljs-meta,
+.hljs-name,
+.hljs-regexp,
+.hljs-selector-class,
+.hljs-selector-id,
+.hljs-tag,
+.hljs-template-variable,
+.hljs-variable {
+  color: var(--code);
+}
+
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-deletion,
+.hljs-link,
+.hljs-literal,
+.hljs-number,
+.hljs-params,
+.hljs-type {
+  color: var(--yellow1);
+}
+
+.hljs-addition,
+.hljs-bullet,
+.hljs-string,
+.hljs-symbol {
+  color: var(--green1);
+}
+
+.hljs-function,
+.hljs-keyword,
+.hljs-selector-tag {
+  color: var(--green2);
+}
+
+.hljs,
+.nohighlight {
+  display: block;
+  /*overflow-x: auto;*/
+  color: var(--code-text);
+  /*padding: .9em .5em*/
+}
+
+.language-css .token.string,
+.style .token.string,
+.token.entity,
+.token.operator,
+.token.url {
+  background: transparent;
+}
+
+.file-desc,
+time[datetime],
+code,
+code.highlighter-rouge,
+.breadcrumbs > *,
+span.author,
+.related-posts h4,
+.related-posts .front-teaser,
+.subfooter,
+blockquote p,
+.post-meta,
+footer a {
+  font-family: "IBM Plex Mono", 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
+}
+
+code {
+  color: var(--code);
+  white-space: pre-wrap;
+  padding: 0;
+}
+
+img,
+pre {
+  border-radius: 3px;
+}
+
+code[class*=language-],
+pre[class*=language-] {
+  background: 0 0;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/*pre[class*=language-] {
+  padding: 1em;
+  margin: 1.5em 0;
+  overflow: auto
+}
+*/
+
+pre {
+  background: var(--bg3);
+  padding: 5px 20px;
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.08), 0px 0px 4px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.08), 0px 0px 4px rgba(0, 0, 0, 0.05);
+}
+
+code[class*=language-] {
+  max-height: 700px;
+  overflow: auto;
+}
+
+:not(pre) > code[class*=language-],
+pre[class*=language-] {
+  background: var(--bg3);
+}
+
+:not(pre) > code[class*=language-] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
 }
 
 .history_date tr.data {
