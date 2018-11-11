@@ -7,7 +7,6 @@ weight= 1
 authors= ["Polo Dev"]
 categories= ["codeigniter", "php", "php mvc framework"]
 tags= ["codeigniter", "php", "php mvc framework"]
-bits= ["codeigniter", "php", "php mvc framework"]
 tutorialTypes=['tutorials']
 keyword= "Codeigniter Essential training gist"
 description= "In this tutorial I have wrapped up codeigniter essential like mvc structure, database connection in codeigniter, getting all, single data from codeigniter. It could be bootstrap lesson for beginner learner"

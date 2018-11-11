@@ -8,7 +8,6 @@ authors= ["Polo Dev"]
 categories= ['wordpress theme development']
 tags= ['wordpress theme development']
 tutorials= ['wordpress theme development']
-bits= ['wordpress theme development']
 tutorialTypes=['tutorials']
 keyword= "Essential wordpress theme development code for beginner"
 description= "Essential wordpress theme development code for beginner"

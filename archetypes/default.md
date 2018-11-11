@@ -5,13 +5,13 @@ date= {{ .Date }}
 draft= false
 weight= 1
 authors= ["Polo Dev"]
-categories= ['jquery']
-tags= ['jquery']
-tutorials= ['jquery']
-bits= ['jquery']
-tutorialTypes=['tutorials']
-keyword= "Essential jquery code for beginner"
-description= "Essential jquery code for beginner"
-skill_level=["beginner"]
+categories= ['']
+tags= ['']
+tutorials= ['']
+bits= ['']
+tutorialTypes=['']
+keyword= ""
+description= ""
+skill_level=["beginner", "intermediate", "advanced"]
 +++
 

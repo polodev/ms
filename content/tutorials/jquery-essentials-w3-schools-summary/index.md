@@ -8,11 +8,10 @@ authors= ["Polo Dev"]
 categories= ["jquery"]
 tags= ["jquery"]
 tutorials= ["jquery"]
-bits= []
 tutorialTypes=['tutorials']
 keyword= ""
 description= ""
-skill_level=["beginner", "intermediate", "advanced"]
+skill_level=["beginner"]
 +++
 
 
