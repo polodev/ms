@@ -29,11 +29,11 @@ class Search extends React.Component {
       this.field("title", {
           boost: 10
       });
-      this.field("tags", {
-          boost: 3
+      this.field("keyword", {
+          boost: 8
       });
-      this.field("content", {
-        boost: 1
+      this.field("description", {
+          boost: 8
       });
       this.ref("uri");
       search_file.forEach(function(doc) {
