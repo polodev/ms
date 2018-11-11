@@ -1,17 +1,13 @@
 ---
 ---
-# this site made only for self study purpose
-# Why I have created this page
-any topic will be added here entirely in single markdown post. so it will help me to visualize entire tech stack
-# dtags only for decks
+# Bits
+Small chunks of code, code snippet, basic command
 
-# what need to be done
-use all js library in relative url instead of cdn. since if I missed electricity still I will be able to work. get a solution for packing all js in single minified file
+# Tutorials
+Big Chunks of code
 
-# format for category of deck
-category name will be only core name lower case and `front-end`,  `back-end`, `tools`, `os`
 
-# topics
+# topic could be cover
 
 ### core technology
 * html
