@@ -14,6 +14,6 @@ keyword= ""
 description= ""
 skill_level=["beginner", "intermediate", "advanced"]
 series=[]
-series_weight=[]
+series_weight=1
 +++
 
