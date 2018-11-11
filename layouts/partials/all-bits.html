@@ -2,10 +2,10 @@
   <div class="card-header">
     <h3>All Bits</h3>
   </div>
-  <ul class="list-group">
+  <ul class="sidebar_tags">
     {{ range $key, $value := .Site.Taxonomies.bit_tags }}
-    <li class="list-group-item">
-      <a href="{{$.Site.BaseURL}}/bit_tags/{{$key | urlize}}">{{ $key | humanize }}</a> ({{len $value }})
+    <li class="sidebar_tag">
+      <a href="{{$.Site.BaseURL}}/bit_tags/{{$key | urlize}}">{{ $key | humanize }} ({{len $value }})</a>
     </li>
     {{ end }}
   </ul>
