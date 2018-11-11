@@ -68,6 +68,9 @@ pre {
   color: maroon;
   border: 1px solid maroon;
   cursor: pointer;
+  @media screen and (max-width: 600px){
+    display: none;
+  }
 }
 .copy-button:hover {
   background-color: maroon;

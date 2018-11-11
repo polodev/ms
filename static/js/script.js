@@ -7,41 +7,49 @@
   */
 var editor_defualt_height = 400
 
-$(document).ready(function () {
-var pre = document.getElementsByTagName('pre')
-for (var i = 0; i < pre.length; i++) {
-    var isLanguage = pre[i].children[0].className.indexOf('language-');
-    if ( isLanguage === 0 ) {
-      var button = document.createElement('button');
-          button.className = 'copy-button';
-          button.textContent = 'Copy';
-          pre[i].appendChild(button);
-    }
+function setUpCodeCopy () {
+  var pre = document.getElementsByTagName('pre')
+  for (var i = 0; i < pre.length; i++) {
+      var isLanguage = pre[i].children[0].className.indexOf('language-');
+      if ( isLanguage === 0 ) {
+        var button = document.createElement('button');
+            button.className = 'copy-button';
+            button.textContent = 'Copy';
+            pre[i].appendChild(button);
+      }
+  }
+  // setting up target for copy
+  var copyCode = new ClipboardJS('.copy-button', {
+      target: function(trigger) {
+          return trigger.previousElementSibling;
+      }
+  });
+
+  // success message
+  copyCode.on('success', function(event) {
+      event.clearSelection();
+      event.trigger.textContent = 'Copied';
+      window.setTimeout(function() {
+          event.trigger.textContent = 'Copy';
+      }, 2000);
+  });
+  // error message
+  copyCode.on('error', function(event) {
+      event.trigger.textContent = 'Press "Ctrl + C" to copy';
+      window.setTimeout(function() {
+          event.trigger.textContent = 'Copy';
+      }, 2000);
+  });
 }
-// setting up target for copy
-var copyCode = new ClipboardJS('.copy-button', {
-    target: function(trigger) {
-        return trigger.previousElementSibling;
-    }
-});
 
-// success message
-copyCode.on('success', function(event) {
-    event.clearSelection();
-    event.trigger.textContent = 'Copied';
-    window.setTimeout(function() {
-        event.trigger.textContent = 'Copy';
-    }, 2000);
-});
-// error message
-copyCode.on('error', function(event) {
-    event.trigger.textContent = 'Press "Ctrl + C" to copy';
-    window.setTimeout(function() {
-        event.trigger.textContent = 'Copy';
-    }, 2000);
-});
 
+$(document).ready(function () {
+  setUpCodeCopy();
+  if ($(window).width() > 540) {
+  }
 })
+
+
 
 /**
  * toggle toc
@@ -98,7 +106,6 @@ $(function () {
       this.$body.css('margin-bottom', 0)
     },
     toggleEditor: function () {
-      console.log('editor', this.$editor)
       this.$editor.is(':hidden') ? this.openingEditor() : this.closingEditor();
     },
     bindEvents: function () {
@@ -224,7 +231,6 @@ $(function() {
         options: this.options,
         fontOptions: this.fontOptions,
       }
-      console.log('currentOptions', currentOptions)
     },
     render: function () {
       this.editor = CodeMirror(this.mounting_div, {

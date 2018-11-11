@@ -5,7 +5,7 @@
   <ul class="list-group">
     {{ range $key, $value := .Site.Taxonomies.tutorial_tags }}
     <li class="list-group-item">
-      <a class="btn btn-link" href="{{$.Site.BaseURL}}/tutorial_tags/{{$key | urlize}}">{{ $key | humanize }}</a> ({{len $value }})
+      <a href="{{$.Site.BaseURL}}/tutorial_tags/{{$key | urlize}}">{{ $key | humanize }}</a> ({{len $value }})
     </li>
     {{ end }}
   </ul>
