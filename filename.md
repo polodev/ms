@@ -10,10 +10,10 @@ hugo new tutorials/nearby-location-using-latitude-and-longitude-in-laravel-appli
 hugo new tutorials/next-and-previous-element-in-php-array/index.md
 hugo new tutorials/php-functions-part-one/index.md
 hugo new tutorials/ajax-api-call-for-multiple-file-upload-using-ajax/index.md
-
-
 hugo new tutorials/deleting-in-database-and-unlink-file-in-codeigniter/index.md
 hugo new tutorials/setting-and-getting-user-data-in-session-session-flash-codeigniter/index.md
+
+
 
 
 #-bits
