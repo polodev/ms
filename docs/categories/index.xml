@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Site</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Jul 2018 15:26:09 +0600</lastBuildDate>
+    
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Back End</title>
+      <link>/categories/back-end/</link>
+      <pubDate>Sat, 28 Jul 2018 15:26:09 +0600</pubDate>
+      
+      <guid>/categories/back-end/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Front End</title>
+      <link>/categories/front-end/</link>
+      <pubDate>Sat, 28 Jul 2018 15:26:09 +0600</pubDate>
+      
+      <guid>/categories/front-end/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>International Affairs</title>
+      <link>/categories/international-affairs/</link>
+      <pubDate>Sat, 28 Jul 2018 15:34:53 +0600</pubDate>
+      
+      <guid>/categories/international-affairs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>/categories/javascript/</link>
+      <pubDate>Sat, 28 Jul 2018 15:26:09 +0600</pubDate>
+      
+      <guid>/categories/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jquery</title>
+      <link>/categories/jquery/</link>
+      <pubDate>Sat, 28 Jul 2018 15:26:09 +0600</pubDate>
+      
+      <guid>/categories/jquery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Php</title>
+      <link>/categories/php/</link>
+      <pubDate>Sat, 28 Jul 2018 15:26:09 +0600</pubDate>
+      
+      <guid>/categories/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Un</title>
+      <link>/categories/un/</link>
+      <pubDate>Sat, 28 Jul 2018 15:34:43 +0600</pubDate>
+      
+      <guid>/categories/un/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
