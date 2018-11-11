@@ -67,12 +67,14 @@ span.author,
 blockquote p,
 .post-meta,
 footer a {
-    font-family: "IBM Plex Mono", 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace
+    // font-family: "IBM Plex Mono", 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace
+    font-family: Monaco, Menlo, Consolas, 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, "Courier New", monospace;
 }
 code {
-  color: var(--code);
+  // color: var(--code);
+  color: #c7254e;
+  background-color: #f9f2f4;
   white-space: pre-wrap;
-  padding: 0;
 }
 img,
 pre {
