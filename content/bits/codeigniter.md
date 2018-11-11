@@ -9,8 +9,7 @@ categories= ["php", "back-end"]
 tags= ["php", "codeigniter"]
 tutorials= ["php", "codeigniter"]
 bits= ["php", "codeigniter"]
-tutorialTypes=["decks"]
-available_tutorialTypes= ["bangaldesh affairs", "decks", "international affairs", "math", "english", "bangla", "tutorial"]
+tutorialTypes=["bits"]
 +++
 
 # 1 - setting up base url

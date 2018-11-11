@@ -10,5 +10,8 @@ tags= []
 tutorials= []
 bits= []
 tutorialTypes=['tutorials']
+keyword= ""
+description= ""
+skill_level=["beginner", "intermediate", "advanced"]
 +++
 

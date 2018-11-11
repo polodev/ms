@@ -8,9 +8,8 @@ weight= 1
 authors= ["Polo Dev"]
 categories= ["javascript", "jquery", "front-end"]
 tags= ["jquery", "javascript"]
-dtags= ["jquery", "javascript"]
-tutorialTypes=["decks"]
-available_tutorialTypes= ["bangaldesh affairs", "decks", "international affairs", "math", "english", "bangla", "tutorial"]
+tutorials= ["jquery", "javascript"]
+tutorialTypes=["tutorials"]
 +++
 
 # 1 - Basic syntax

@@ -8,9 +8,8 @@ weight= 1
 authors= ["Polo Dev"]
 categories= ["php", "back-end"]
 tags= ["php", "codeigniter"]
-dtags= ["php", "codeigniter"]
-tutorialTypes=["decks"]
-available_tutorialTypes= ["bangaldesh affairs", "decks", "international affairs", "math", "english", "bangla", "tutorial"]
+tutorials= ["php", "codeigniter"]
+tutorialTypes=["tutorials"]
 +++
 
 # 1 - setting up base url
