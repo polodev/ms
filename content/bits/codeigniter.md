@@ -7,7 +7,6 @@ weight= 1
 authors= ["Polo Dev"]
 categories= ["php", "back-end"]
 tags= ["php", "codeigniter"]
-tutorials= ["php", "codeigniter"]
 bits= ["php", "codeigniter"]
 tutorialTypes=["bits"]
 +++

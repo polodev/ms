@@ -18,12 +18,23 @@
       <i class='fa fa-clock'></i>
     {{ .ReadingTime }} minutes
   </span>
-  {{ if .Params.categories }}
+  {{ if .Params.tutorials }}
     <span class="category-block">
       <i class='fa fa-folder'></i>
-      {{ range $i, $category := .Params.categories }}
+      {{ range $i, $category := .Params.tutorials }}
         {{if $i}},{{end}}
-        <a href="{{$.Site.BaseURL}}categories/{{. | urlize }}">
+        <a href="{{$.Site.BaseURL}}tutorials/{{. | urlize }}">
+          {{ $category }}
+        </a>
+      {{ end }}
+    </span>
+  {{ end}}
+  {{ if .Params.bits }}
+    <span class="category-block">
+      <i class='fa fa-folder'></i>
+      {{ range $i, $category := .Params.bits }}
+        {{if $i}},{{end}}
+        <a href="{{$.Site.BaseURL}}bits/{{. | urlize }}">
           {{ $category }}
         </a>
       {{ end }}

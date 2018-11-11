@@ -2,10 +2,12 @@ baseURL="https://polodev.github.io/ms/"
 relativeurls = false
 languageCode = "en-us"
 publishDir="docs"
-title = "Learning With Ease"
+title = "This Site"
 disqusShortname = "dev-learning"
 [params]
   afterDomain='ms'
+  site_title = "polodev"
+  site_description = "Learning With Ease"
 [taxonomies]
   category="categories"
   tag="tags"
