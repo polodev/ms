@@ -13,10 +13,10 @@
     
     <item>
       <title>Next and Previous Element in Php Array</title>
-      <link>https://polodev.github.io/ms/tutorials/next-and-previous-element-in-php-array/</link>
+      <link>https://polodev.github.io/ms/tutorials/2018-11-12-next-and-previous-element-in-php-array/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/next-and-previous-element-in-php-array/</guid>
+      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-next-and-previous-element-in-php-array/</guid>
       <description> getting next element from array function get_next_element ($needle, $haystack) { $index = array_search($needle, $haystack); if (count($haystack) &amp;lt; 2) { return false; } if ($index &amp;lt; (count($haystack) - 1)) { $index++; }else { $index = 0; } return $haystack[$index]; }  Previous Element function get_prev_elemnt($needle, $haystack) { if (count($haystack) &amp;lt; 2) { return false; } $index = array_search($needle, $haystack); if ($index == 0 || $index &amp;lt; 1) { $index = count($haystack) - 1; }else { $index--; } return $haystack[$index]; }  Testing $needle = 3; $haystack = [3, 2, 4, 5, 6]; echo get_prev_elemnt($needle, $haystack);  </description>
     </item>
     

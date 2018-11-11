@@ -13,10 +13,10 @@
     
     <item>
       <title>Nearby Location Using Latitude and Longitude in Laravel Application   Mysql Query Plus Vue Implementation</title>
-      <link>https://polodev.github.io/ms/tutorials/nearby-location-using-latitude-and-longitude-in-laravel-application---mysql-query-plus-vue-implementation/</link>
+      <link>https://polodev.github.io/ms/tutorials/2018-11-12-nearby-location-using-latitude-and-longitude-in-laravel-application---mysql-query-plus-vue-implementation/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/nearby-location-using-latitude-and-longitude-in-laravel-application---mysql-query-plus-vue-implementation/</guid>
+      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-nearby-location-using-latitude-and-longitude-in-laravel-application---mysql-query-plus-vue-implementation/</guid>
       <description>nearby location mysql raw query in laravel controller public function restaurant_by_coords () { $lat = request(&#39;lat&#39;); $lon = request(&#39;lon&#39;); $distance = 20; // hear distance in km $mysqlQuery = &amp;quot;SELECT settings.id as id, settings.title as title, settings.phone as phone, users.name as name, user_id, shortcode, address, logo, ( 6371 * acos( cos( radians( $lat ) ) * cos( radians( `lat` ) ) * cos( radians( `lon` ) - radians( $lon ) ) + sin(radians($lat)) * sin(radians(`lat`)) ) ) `distance` FROM `settings` JOIN `users` WHERE settings.</description>
     </item>
     

@@ -13,10 +13,10 @@
     
     <item>
       <title>Deleting in Database and Unlink File in Codeigniter</title>
-      <link>https://polodev.github.io/ms/tutorials/deleting-in-database-and-unlink-file-in-codeigniter/</link>
+      <link>https://polodev.github.io/ms/tutorials/2018-11-12-deleting-in-database-and-unlink-file-in-codeigniter/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/deleting-in-database-and-unlink-file-in-codeigniter/</guid>
+      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-deleting-in-database-and-unlink-file-in-codeigniter/</guid>
       <description> controller code public function delete_attachment() { $id = $this-&amp;gt;input-&amp;gt;post( &#39;id&#39;) ; $this-&amp;gt;db-&amp;gt;select( &#39;*&#39; ); $this-&amp;gt;db-&amp;gt;where( &#39;id&#39;, $id); $q = $this-&amp;gt;db-&amp;gt;get( &#39;attachments&#39; ); $first = $q-&amp;gt;row(); $this-&amp;gt;db-&amp;gt;delete(&#39;attachments&#39;, array(&#39;id&#39; =&amp;gt; $id)); if($this-&amp;gt;db-&amp;gt;affected_rows() &amp;gt;= 1){ $upload_path = &#39;./assets/user/images/&#39; . $first-&amp;gt;path; if(unlink($upload_path)) { $this-&amp;gt;attachments_by_clients_web_id(); } } else { $this-&amp;gt;attachments_by_clients_web_id(); } return; } public function attachments_by_clients_web_id() { $id = $this-&amp;gt;session-&amp;gt;userdata( &#39;id&#39; ); $attachments = $this-&amp;gt;user_model-&amp;gt;attachments_by_clients_web_id($id); echo json_encode($attachments); }  model // return whole results after deleting public function attachments_by_clients_web_id($clients_web_id) { $where[&#39;clients_web_id&#39;] = $clients_web_id; $result_set = $this-&amp;gt;db-&amp;gt;get_where(&#39;attachments&#39;, $where); return $result_set-&amp;gt;result_array(); }  </description>
     </item>
     

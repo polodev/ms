@@ -13,10 +13,10 @@
     
     <item>
       <title>Basic Multilingual Features in Website Using Javascript and Keep Language Persist Using Local Storage</title>
-      <link>https://polodev.github.io/ms/tutorials/basic-multilingual-features-in-website-using-javascript-and-keep-language-persist-using-local-storage/</link>
+      <link>https://polodev.github.io/ms/tutorials/2018-11-12-basic-multilingual-features-in-website-using-javascript-and-keep-language-persist-using-local-storage/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/basic-multilingual-features-in-website-using-javascript-and-keep-language-persist-using-local-storage/</guid>
+      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-basic-multilingual-features-in-website-using-javascript-and-keep-language-persist-using-local-storage/</guid>
       <description>following snippet helps me to convert a basic site to 2 language site
 Html code for menu &amp;lt;h3 data-langen=&amp;quot;Sorry this resturent does not have any menu yet . please try again later&amp;quot; data-langhe=&amp;quot;מצטערים, אין תפריט זה עדיין. בבקשה נסה שוב מאוחר יותר&amp;quot; class=&amp;quot;blanker&amp;quot;&amp;gt;Sorry this resturent does not have any menu yet . please try again later &amp;lt;/h3&amp;gt;  initial code for checking country (in my case Israel) and changed language to Hebrew function changeLanguage (lang) { if (lang == &#39;en&#39;) { $(&amp;quot;[data-langen]&amp;quot;).</description>
     </item>

@@ -13,10 +13,10 @@
     
     <item>
       <title>Setting and Getting User Data in Session Session Flash Codeigniter</title>
-      <link>https://polodev.github.io/ms/tutorials/setting-and-getting-user-data-in-session-session-flash-codeigniter/</link>
+      <link>https://polodev.github.io/ms/tutorials/2018-11-12-setting-and-getting-user-data-in-session-session-flash-codeigniter/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/setting-and-getting-user-data-in-session-session-flash-codeigniter/</guid>
+      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-setting-and-getting-user-data-in-session-session-flash-codeigniter/</guid>
       <description>setting user data $session_data = array( &#39;type&#39; =&amp;gt; &amp;quot;admin&amp;quot;, &#39;email&#39; =&amp;gt; $email, &#39;id&#39; =&amp;gt; $res-&amp;gt;id, &#39;username&#39; =&amp;gt; $res-&amp;gt;username, &#39;password&#39; =&amp;gt; $res-&amp;gt;password, ); $this-&amp;gt;session-&amp;gt;set_userdata($session_data);  getting user data $id = $this-&amp;gt;session-&amp;gt;userdata( &#39;id&#39; );  setting flash message in session $this-&amp;gt;session-&amp;gt;set_flashdata( &#39;success&#39;, &#39;All updated successfully&#39; );  getting flash message from session &amp;lt;?php if ($this-&amp;gt;session-&amp;gt;flashdata(&#39;success&#39;)) { ?&amp;gt; &amp;lt;div class=&amp;quot;alert alert-success&amp;quot;&amp;gt; &amp;lt;?= $this-&amp;gt;session-&amp;gt;flashdata(&#39;success&#39;) ?&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;?php } ?&amp;gt; &amp;lt;?php if ($this-&amp;gt;session-&amp;gt;flashdata(&#39;error&#39;)) { ?</description>
     </item>
     

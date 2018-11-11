@@ -13,10 +13,10 @@
     
     <item>
       <title>Php Functions - array_values, json_encode, json_decode, array_intersect</title>
-      <link>https://polodev.github.io/ms/tutorials/php-functions-part-one/</link>
+      <link>https://polodev.github.io/ms/tutorials/2018-11-12-php-functions-part-one/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/php-functions-part-one/</guid>
+      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-php-functions-part-one/</guid>
       <description>array_values() json_encode(); json_decode() array_intersect()  array_values() It will give removed key of associated array
 $a = [ &#39;f1&#39; =&amp;gt; &#39;banana&#39;, &#39;f2&#39; =&amp;gt; &#39;apple&#39;, &#39;f3&#39; =&amp;gt; &#39;orange&#39;, ]; print_r (array_values($a));  Output for state above code
 Array ( [0] =&amp;gt; banana [1] =&amp;gt; apple [2] =&amp;gt; orange )  json_encode() - encode php to json $a = [ &#39;f1&#39; =&amp;gt; &#39;banana&#39;, &#39;f2&#39; =&amp;gt; &#39;apple&#39;, &#39;f3&#39; =&amp;gt; &#39;orange&#39;, ]; $b = json_encode($a); print_r( $b );  output</description>
@@ -24,10 +24,10 @@ Array ( [0] =&amp;gt; banana [1] =&amp;gt; apple [2] =&amp;gt; orange )  json_en
     
     <item>
       <title>Codeigniter Essentials</title>
-      <link>https://polodev.github.io/ms/tutorials/codeigniter-essentials/</link>
+      <link>https://polodev.github.io/ms/tutorials/2018-11-12-codeigniter-essentials/</link>
       <pubDate>Sun, 11 Nov 2018 18:12:45 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/codeigniter-essentials/</guid>
+      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-codeigniter-essentials/</guid>
       <description>1 - setting up base url // file: application/config.php $config[&#39;base_url&#39;] = &#39;http://localhost:8000&#39;;  2 - to load a view // file: controllers &amp;gt; Properties.php class Properties extends CI_Controller { public function index() { $this-&amp;gt;load-&amp;gt;view(&#39;layouts/header&#39;); $this-&amp;gt;load-&amp;gt;view(&#39;layouts/navbar&#39;); $this-&amp;gt;load-&amp;gt;view(&#39;properties/index&#39;) $this-&amp;gt;load-&amp;gt;view(&#39;layouts/footer&#39;); } }  3 - automatic url in codeigniter index.php/{cotroller}/{method}/[param1]/[param2]  4 - passing value in to the view $data[&#39;user_name&#39;] = &#39;Bernard&#39;; $data[&#39;status_group&#39;] = [&#39;all&#39;, &#39;available&#39;, &#39;unavailable&#39;]; $this-&amp;gt;load-&amp;gt;view(&#39;properties/index&#39;, $data)  5 - controller with params how codeIgniter making route automatically</description>
     </item>
     

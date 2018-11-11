@@ -13,10 +13,10 @@
     
     <item>
       <title>Ajax Api Call for Multiple File Upload Using Ajax</title>
-      <link>https://polodev.github.io/ms/tutorials/ajax-api-call-for-multiple-file-upload-using-ajax/</link>
+      <link>https://polodev.github.io/ms/tutorials/2018-11-12-ajax-api-call-for-multiple-file-upload-using-ajax/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/ajax-api-call-for-multiple-file-upload-using-ajax/</guid>
+      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-ajax-api-call-for-multiple-file-upload-using-ajax/</guid>
       <description>upload php view file &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1&amp;quot;&amp;gt; &amp;lt;!-- Important Owl stylesheet --&amp;gt; &amp;lt;!-- &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;&amp;lt;?php/// echo base_url(&#39;/assets/site/css/owl.carousel.css&#39;); ?&amp;gt;&amp;quot;&amp;gt; --&amp;gt; &amp;lt;!-- Default Theme --&amp;gt; &amp;lt;!-- &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;&amp;lt;?php// echo base_url(&#39;/assets/site/css/owl.theme.default.min.css&#39;); ?&amp;gt;&amp;quot;&amp;gt; --&amp;gt; &amp;lt;!-- &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; href=&amp;quot;&amp;lt;?php///echo base_url(&#39;/assets/site/css/style.css&#39;); ?&amp;gt;&amp;quot;&amp;gt; --&amp;gt; &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css&amp;quot;&amp;gt; &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; href=&amp;quot;&amp;lt;?php echo base_url(&#39;/assets/site/css/style.css&#39;); ?&amp;gt;&amp;quot;&amp;gt; &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css&amp;quot;&amp;gt; &amp;lt;script src=&#39;https://code.jquery.com/jquery-3.3.1.js&#39;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;style&amp;gt; form h2 { color: #379e01; font-size: 25px; padding: 50px 0; } form { width: 80%; margin: 0 auto; } .</description>
     </item>
     

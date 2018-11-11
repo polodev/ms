@@ -13,10 +13,10 @@
     
     <item>
       <title>Laravel Request Function Helpers</title>
-      <link>https://polodev.github.io/ms/bits/laravel-request-function-helpers/</link>
+      <link>https://polodev.github.io/ms/bits/2018-11-12-laravel-request-function-helpers/</link>
       <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/bits/laravel-request-function-helpers/</guid>
+      <guid>https://polodev.github.io/ms/bits/2018-11-12-laravel-request-function-helpers/</guid>
       <description> to get app address using request() or Request:: request()-&amp;gt;root(); Request::fullUrl(), request()-&amp;gt;fullUrl(),  </description>
     </item>
     

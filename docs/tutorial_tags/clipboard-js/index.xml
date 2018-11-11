@@ -13,10 +13,10 @@
     
     <item>
       <title>How to Add Syntax Highlighting, Line Number Clipboard Js in Go Hugo Website</title>
-      <link>https://polodev.github.io/ms/tutorials/how-to-add-syntax-highlighting-ln-number-clipboard-js-in-go-hugo-website/</link>
+      <link>https://polodev.github.io/ms/tutorials/2018-11-12-how-to-add-syntax-highlighting-ln-number-clipboard-js-in-go-hugo-website/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/how-to-add-syntax-highlighting-ln-number-clipboard-js-in-go-hugo-website/</guid>
+      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-how-to-add-syntax-highlighting-ln-number-clipboard-js-in-go-hugo-website/</guid>
       <description>Installing Pygmentation first you have to download python Pygments in your machine. In mac you can easily download by pip install Pygments . If you use ubuntu sudo apt-get install python3-pygments
 adding pygmentsUseClasses in config.toml file pygmentsUseClasses=true  generate chroma style using hugo gen command hugo gen chromastyles --style=monokai &amp;gt; static/css/syntax.css // for more info run following command hugo gen chromastyles -h  I have used monokai theme. There are a lot of themes available.</description>
     </item>

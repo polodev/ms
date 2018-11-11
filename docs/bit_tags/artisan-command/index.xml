@@ -13,10 +13,10 @@
     
     <item>
       <title>Laravel Serve Command for Viewing Site in Same Network</title>
-      <link>https://polodev.github.io/ms/bits/laravel-serve-command-for-viewing-site-in-same-network/</link>
+      <link>https://polodev.github.io/ms/bits/2018-11-12-laravel-serve-command-for-viewing-site-in-same-network/</link>
       <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/bits/laravel-serve-command-for-viewing-site-in-same-network/</guid>
+      <guid>https://polodev.github.io/ms/bits/2018-11-12-laravel-serve-command-for-viewing-site-in-same-network/</guid>
       <description> to find ip address // inet will be host ifconfig | grep 192.168  to serve sudo php artisan serve --host=192.168.31.254 --port=80  </description>
     </item>
     
