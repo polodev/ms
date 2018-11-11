@@ -7,6 +7,9 @@
 
   {{ partial "post_meta" . }}
 
+
+  {{ if eq .Params.toc true }}
+
   {{with .TableOfContents }}
   <div class="toc">
     <h2>
@@ -20,14 +23,27 @@
   </div>
   {{end}}
 
-  <div class='article'>
+  {{end}}
+
+  <div class='article mt-4'>
     {{.Content}}
   </div>
   <!-- /.article -->
-  {{if .Params.tags }}
+  {{if .Params.tutorial_tags }}
     <div class='tags py-3'>
-      Tags: {{ range .Params.tags }}
-        <a href="{{$.Site.BaseURL}}tags/{{ . | urlize }}">
+      Tags: {{ range .Params.tutorial_tags }}
+        <a href="{{$.Site.BaseURL}}tutorial_tags/{{ . | urlize }}">
+          {{ . }}
+        </a>
+      {{ end }}
+
+    </div>
+  {{end}}
+  <!-- /.tags -->
+   {{if .Params.bit_tags }}
+    <div class='tags py-3'>
+      Tags: {{ range .Params.bit_tags }}
+        <a href="{{$.Site.BaseURL}}bit_tags/{{ . | urlize }}">
           {{ . }}
         </a>
       {{ end }}

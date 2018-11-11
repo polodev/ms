@@ -1,5 +1,6 @@
 +++
 type="post"
+toc=true
 title= "Wordpress Theme Development 101"
 date= 2018-11-11T18:20:16+06:00
 draft= false

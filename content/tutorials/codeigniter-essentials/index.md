@@ -1,5 +1,6 @@
 +++
 type="post"
+toc=true
 title= "Codeigniter Essentials"
 date= 2018-11-11T18:12:45+06:00
 draft= false

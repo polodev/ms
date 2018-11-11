@@ -1,5 +1,6 @@
 +++
 type="post"
+toc='false'
 title= "Codeigniter Base Url"
 date= 2018-11-11T18:52:24+06:00
 draft= false

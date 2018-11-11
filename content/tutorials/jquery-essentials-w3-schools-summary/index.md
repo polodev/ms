@@ -1,5 +1,6 @@
 +++
 type="post"
+toc=true
 title= "Jquery Essentials W3 Schools Summary"
 date= 2018-11-11T18:18:21+06:00
 draft= false
