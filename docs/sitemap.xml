@@ -31,6 +31,10 @@
   </url>
   
   <url>
+    <loc>https://polodev.github.io/ms/search/</loc>
+  </url>
+  
+  <url>
     <loc>https://polodev.github.io/ms/authors/</loc>
     <priority>0</priority>
   </url>

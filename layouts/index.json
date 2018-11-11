@@ -1,13 +1,19 @@
-[{{ range $index, $page := .Site.RegularPages }}
-{{- if ne $page.Type "json" -}}
-{{- if and $index (gt $index 0) -}},{{- end }}
-{
-	"uri": "{{ $page.Permalink }}",
-	"title": "{{ htmlEscape $page.Title}}",
-	"tags": [{{ range $tindex, $tag := $page.Params.tags }}{{ if $tindex }}, {{ end }}"{{ $tag| htmlEscape }}"{{ end }}],
-  "content": {{$page.Plain | jsonify}}
-}
-{{- end -}}
-{{- end -}}]
+{{$length := len .Site.RegularPages }}
+
+[{{range $index, $t := .Site.RegularPages}}
+
+      {
+        "total": "{{ $length }}-{{$index}}",
+        "id": "{{ .Permalink }}",
+        "title": "{{ .Title }}",
+        "keyword": {{ .Params.keyword | jsonify }},
+        "description": {{ .Params.description | jsonify }},
+        "uri": "{{ .Permalink }}"
+      }
 
 
+      {{ if lt (add $index 1) $length  }}
+        ,
+      {{ end }}
+
+{{ end }}]

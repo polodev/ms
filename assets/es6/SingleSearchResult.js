@@ -14,8 +14,9 @@ class Search extends React.Component {
       search_results: [],
       lunrIndex: [],
     }
-    this._changeQueryAndFilter = this._changeQueryAndFilter.bind(this)
+    this._search = this._search.bind(this)
     this._getTitleByUri = this._getTitleByUri.bind(this)
+    this._getQueryVariable = this._getQueryVariable.bind(this)
   }
   // _changeQueryAndFilter (e) {
   //   let query = e.target.value
@@ -40,46 +41,54 @@ class Search extends React.Component {
           this.add(doc);
       }, this);
     });
-    this.setState({lunrIndex})
+    this.setState({lunrIndex}, () => {
+      this._search();
+    })
   }
-  _changeQueryAndFilter (e) {
-    let query = e.target.value
+  _search (e) {
+    var query = this._getQueryVariable('search');
     let search_results = this.state.lunrIndex.search(`*${query}*`);
-    search_results = search_results.slice(0, 2);
     search_results = query.length ? search_results : []
     this.setState({query, search_results})
   }
+
+
+  _getQueryVariable(variable) {
+    var query = window.location.search.substring(1);
+    var vars = query.split('&');
+
+    for (var i = 0; i < vars.length; i++) {
+      var pair = vars[i].split('=');
+
+      if (pair[0] === variable) {
+        return decodeURIComponent(pair[1].replace(/\+/g, '%20'));
+      }
+    }
+  }
+
+
+
+
+
+
   _getTitleByUri (uri) {
     return search_file.find(doc => doc.uri == uri).title
   }
   render ()  {
     const {query, search_results} = this.state
-    const after_domain = document.body.dataset.after_domain
-    console.log('after_domain', after_domain);
     return (
-      <form method="get" action={`/${after_domain}/search`}>
-        <input
-          autoComplete="off"
-          className="form-control mr-sm-2"
-          value={query}
-          name='search'
-          placeholder="Search..."
-          onChange={this._changeQueryAndFilter}
-          />
-          {
-            search_results.length ?
-            <div id='search_result'>
-              <ul>
-              {
-                search_results.map((result, index) => <li key={index}>
-                  <a href={result.ref}>{this._getTitleByUri(result.ref)}</a>
-                </li> )
-              }
-              </ul>
-            </div> : null
-          }
-      </form>
-    )
+          search_results.length ?
+          <div>
+            <h2>Search results for <span className='mark'>{query}</span></h2>
+            <ul>
+            {
+              search_results.map((result, index) => <li key={index}>
+                <a href={result.ref}>{this._getTitleByUri(result.ref)}</a>
+              </li> )
+            }
+            </ul>
+          </div> : <h2>No result found for <span className='mark'>{query}</span></h2>
+      )
   }
 }
 
