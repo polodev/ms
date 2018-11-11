@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Export on This Site</title>
+    <link>https://polodev.github.io/ms/bit_tags/export/</link>
+    <description>Recent content in Export on This Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Nov 2018 01:24:29 +0600</lastBuildDate>
+    
+	<atom:link href="https://polodev.github.io/ms/bit_tags/export/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Export and Import Json in Mongodb</title>
+      <link>https://polodev.github.io/ms/bits/export-and-import-json-in-mongodb/</link>
+      <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bits/export-and-import-json-in-mongodb/</guid>
+      <description> exporting in mongo db mongoexport -d database_name -c collection_name -o file_name  importing in mongodb mongoimport -d datbase_name -c collection_name file_name  </description>
+    </item>
+    
+  </channel>
+</rss>

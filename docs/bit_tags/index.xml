@@ -6,16 +6,170 @@
     <description>Recent content in Bit_tags on This Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 12 Nov 2018 01:24:29 +0600</lastBuildDate>
     
 	<atom:link href="https://polodev.github.io/ms/bit_tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Ajax</title>
+      <link>https://polodev.github.io/ms/bit_tags/ajax/</link>
+      <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bit_tags/ajax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artisan Command</title>
+      <link>https://polodev.github.io/ms/bit_tags/artisan-command/</link>
+      <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bit_tags/artisan-command/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Codeigniter</title>
       <link>https://polodev.github.io/ms/bit_tags/codeigniter/</link>
-      <pubDate>Sun, 11 Nov 2018 18:52:24 +0600</pubDate>
+      <pubDate>Mon, 12 Nov 2018 01:24:30 +0600</pubDate>
       
       <guid>https://polodev.github.io/ms/bit_tags/codeigniter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Database Insert Query</title>
+      <link>https://polodev.github.io/ms/bit_tags/database-insert-query/</link>
+      <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bit_tags/database-insert-query/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Database Order by Query</title>
+      <link>https://polodev.github.io/ms/bit_tags/database-order-by-query/</link>
+      <pubDate>Mon, 12 Nov 2018 01:24:30 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bit_tags/database-order-by-query/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Database Query</title>
+      <link>https://polodev.github.io/ms/bit_tags/database-query/</link>
+      <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bit_tags/database-query/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Export</title>
+      <link>https://polodev.github.io/ms/bit_tags/export/</link>
+      <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bit_tags/export/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flatten Array</title>
+      <link>https://polodev.github.io/ms/bit_tags/flatten-array/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bit_tags/flatten-array/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formdata</title>
+      <link>https://polodev.github.io/ms/bit_tags/formdata/</link>
+      <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bit_tags/formdata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>https://polodev.github.io/ms/bit_tags/functions/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bit_tags/functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Helper Functions</title>
+      <link>https://polodev.github.io/ms/bit_tags/helper-functions/</link>
+      <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bit_tags/helper-functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Import</title>
+      <link>https://polodev.github.io/ms/bit_tags/import/</link>
+      <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bit_tags/import/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Laravel</title>
+      <link>https://polodev.github.io/ms/bit_tags/laravel/</link>
+      <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bit_tags/laravel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mongodb</title>
+      <link>https://polodev.github.io/ms/bit_tags/mongodb/</link>
+      <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bit_tags/mongodb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiple File Upload</title>
+      <link>https://polodev.github.io/ms/bit_tags/multiple-file-upload/</link>
+      <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bit_tags/multiple-file-upload/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mysql</title>
+      <link>https://polodev.github.io/ms/bit_tags/mysql/</link>
+      <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bit_tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Php</title>
+      <link>https://polodev.github.io/ms/bit_tags/php/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bit_tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sql</title>
+      <link>https://polodev.github.io/ms/bit_tags/sql/</link>
+      <pubDate>Mon, 12 Nov 2018 01:24:30 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bit_tags/sql/</guid>
       <description></description>
     </item>
     

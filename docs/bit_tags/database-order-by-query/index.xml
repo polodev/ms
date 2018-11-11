@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Database Order by Query on This Site</title>
+    <link>https://polodev.github.io/ms/bit_tags/database-order-by-query/</link>
+    <description>Recent content in Database Order by Query on This Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Nov 2018 01:24:30 +0600</lastBuildDate>
+    
+	<atom:link href="https://polodev.github.io/ms/bit_tags/database-order-by-query/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Order by Clause in and Manipulate Database Result Codeigniter</title>
+      <link>https://polodev.github.io/ms/bits/order-by-clause-in-and-manipulate-database-result-codeigniter/</link>
+      <pubDate>Mon, 12 Nov 2018 01:24:30 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bits/order-by-clause-in-and-manipulate-database-result-codeigniter/</guid>
+      <description>public function getUserInfoById($id) { $this-&amp;gt;db-&amp;gt;select( &#39;*&#39; ); $this-&amp;gt;db-&amp;gt;where( &#39;id&#39;, $id ); $q = $this-&amp;gt;db-&amp;gt;get( &#39;clients_web&#39; ); return $q-&amp;gt;row(); } public function getAllUpload() { $this-&amp;gt;db-&amp;gt;select(&#39;*&#39;); $this-&amp;gt;db-&amp;gt;from(&#39;user_upload&#39;); $this-&amp;gt;db-&amp;gt;order_by(&amp;quot;id&amp;quot;, &amp;quot;desc&amp;quot;); $query=$this-&amp;gt;db-&amp;gt;get(); $attachments = $query-&amp;gt;result_array(); $r = []; foreach ($attachments as $value) { $id = explode(&#39;,&#39;, $value[&#39;attachments&#39;]); $this-&amp;gt;db-&amp;gt;select(&#39;*&#39;); $this-&amp;gt;db-&amp;gt;from(&#39;attachments&#39;); $this-&amp;gt;db-&amp;gt;where_in(&#39;id&#39;, $id); $value[&#39;file_list&#39;] = $this-&amp;gt;db-&amp;gt;get(); $value[&#39;file_list&#39;] = $value[&#39;file_list&#39;]-&amp;gt;result_array(); $value[&#39;user_details&#39;] = $this-&amp;gt;getUserInfoById($value[&#39;clients_web_id&#39;]); $r[] = $value; } // echo json_encode(); // echo json_encode($r); return $r; }  </description>
+    </item>
+    
+  </channel>
+</rss>

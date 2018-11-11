@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laravel on This Site</title>
+    <link>https://polodev.github.io/ms/bit_tags/laravel/</link>
+    <description>Recent content in Laravel on This Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Nov 2018 01:24:29 +0600</lastBuildDate>
+    
+	<atom:link href="https://polodev.github.io/ms/bit_tags/laravel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting Current Month Content in Laravel Using Mysql Raw Query</title>
+      <link>https://polodev.github.io/ms/bits/getting-current-month-content-in-laravel-using-mysql-raw-query/</link>
+      <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bits/getting-current-month-content-in-laravel-using-mysql-raw-query/</guid>
+      <description>current months result
+$this_month = date(&#39;n&#39;); $ratings_last_month = DB::select(&amp;quot;select count(id) as c, rating from ratings where (user_id=$id and MONTH(created_at) = $this_month ) group by `rating` order by rating&amp;quot;);  table description
++------------+------------------+------+-----+---------+----------------+ | Field | Type | Null | Key | Default | Extra | +------------+------------------+------+-----+---------+----------------+ | id | int(10) unsigned | NO | PRI | NULL | auto_increment | | rating | int(11) | NO | | NULL | | | ip_address | varchar(255) | NO | | NULL | | | user_id | int(11) | NO | | NULL | | | created_at | timestamp | YES | | NULL | | | updated_at | timestamp | YES | | NULL | | +------------+------------------+------+-----+---------+----------------+  </description>
+    </item>
+    
+    <item>
+      <title>Laravel Request Function Helpers</title>
+      <link>https://polodev.github.io/ms/bits/laravel-request-function-helpers/</link>
+      <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bits/laravel-request-function-helpers/</guid>
+      <description> to get app address using request() or Request:: request()-&amp;gt;root(); Request::fullUrl(), request()-&amp;gt;fullUrl(),  </description>
+    </item>
+    
+    <item>
+      <title>Laravel Serve Command for Viewing Site in Same Network</title>
+      <link>https://polodev.github.io/ms/bits/laravel-serve-command-for-viewing-site-in-same-network/</link>
+      <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bits/laravel-serve-command-for-viewing-site-in-same-network/</guid>
+      <description> to find ip address // inet will be host ifconfig | grep 192.168  to serve sudo php artisan serve --host=192.168.31.254 --port=80  </description>
+    </item>
+    
+  </channel>
+</rss>

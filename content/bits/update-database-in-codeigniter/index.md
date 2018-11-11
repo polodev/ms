@@ -1,6 +1,6 @@
 +++
 type="post"
-toc=true
+toc=false
 title= "Update Database in Codeigniter"
 date= 2018-11-12T01:23:52+06:00
 draft= false

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Php on This Site</title>
+    <link>https://polodev.github.io/ms/bit_tags/php/</link>
+    <description>Recent content in Php on This Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Nov 2018 01:23:52 +0600</lastBuildDate>
+    
+	<atom:link href="https://polodev.github.io/ms/bit_tags/php/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Flatten Array in Php</title>
+      <link>https://polodev.github.io/ms/bits/flatten-array-in-php/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bits/flatten-array-in-php/</guid>
+      <description> following code for int type in my case. just change function appropriately when you want to change public function flattenUnique(array $array) { $return = array(); array_walk_recursive($array, function($a) use (&amp;amp;$return) { $return[] = intval($a); }); return array_unique( $return ); }  </description>
+    </item>
+    
+    <item>
+      <title>Update Database in Codeigniter</title>
+      <link>https://polodev.github.io/ms/bits/update-database-in-codeigniter/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bits/update-database-in-codeigniter/</guid>
+      <description>public function upload_doc() { $id = $this-&amp;gt;session-&amp;gt;userdata( &#39;id&#39; ); $data = array( &#39;heading&#39; =&amp;gt; $this-&amp;gt;input-&amp;gt;post(&#39;heading&#39;), ); $this-&amp;gt;db-&amp;gt;where( &#39;id&#39;, $id ); $this-&amp;gt;db-&amp;gt;update( &#39;clients_web&#39;, $data ); $this-&amp;gt;session-&amp;gt;set_flashdata( &#39;success&#39;, &#39;All updated successfully&#39; ); redirect( &#39;/account/upload&#39; ); }  </description>
+    </item>
+    
+  </channel>
+</rss>

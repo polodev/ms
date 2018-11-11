@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> polodev | Learning With Ease </title>
+  <link rel="canonical" href="https://polodev.github.io/ms/tutorials/how-to-add-syntax-highlighting-ln-number-clipboard-js-in-go-hugo-website/">
+  <link rel='icon' href='http://membd.blogspot.com/favicon.ico' />
+  <link rel='icon' href='/ms/images/favicons/apple-touch-icon.png' />
+
+  
+
+ <link rel='stylesheet' type="text/css" href=' /ms/dist/codemirror_master.css'/>
+
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="/ms/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/ms/css/highlightjs.min.css">
+  <link rel="stylesheet" href="/ms/css/resizable.css">
+  <link rel="stylesheet" href="/ms/css/style.css">
+
+</head>
+<body data-after_domain="ms">
+<nav class="navbar navbar-expand-md navbar-light bg-light main_menu">
+  <a class="navbar-brand" href="/ms/">
+     polodev
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      
+      
+        <li class='nav-item '>
+          <a class="nav-link" href='/ms/tutorials/'>tutorials</a>
+        </li>
+      
+        <li class='nav-item '>
+          <a class="nav-link" href='/ms/bits/'>bits</a>
+        </li>
+      
+        <li class='nav-item '>
+          <a class="nav-link" href='/ms/about/'>about</a>
+        </li>
+      
+
+
+    </ul>
+    <div class='d-flex justify-content-center align-items-center mr-4' id="toggle_editor_button">
+      <button class="btn">toggle editor</button>
+    </div>
+    <div id="search_box" class="search_result_box d-inline my-2">
+      
+      
+    </div>
+  </div>
+  
+</nav>
+
+<div class="center mt-4">
+  <div class="row">
+    <div class="col-md-9">
+      <div class="mt-3">
+      
+<div id="single_page_content">
+  <h1 class="post_title">
+    <a href="/ms/tutorials/how-to-add-syntax-highlighting-ln-number-clipboard-js-in-go-hugo-website/">How to Add Syntax Highlighting, Line Number Clipboard Js in Go Hugo Website</a>
+  </h1>
+  <hr/>
+
+  
+<div class='author meta ml-1'>
+  
+    <i class='fa fa-user'></i>
+    <a href='https://polodev.github.io/ms//authors/polo-dev'>
+      Polo dev
+    </a>
+  
+</div>
+
+
+<div class="meta">
+  <span class="date">
+    <i class='fa fa-calendar'></i>
+    November 12, 2018
+  </span>
+  <span class='reading_time'>
+      <i class='fa fa-clock'></i>
+   4 minutes
+  </span>
+
+  
+    <span class="category-block">
+      <i class='fa fa-folder'></i>
+      
+        
+        <a href="https://polodev.github.io/ms/tutorial_tags/codeigniter">
+          codeigniter
+        </a>
+      
+        ,
+        <a href="https://polodev.github.io/ms/tutorial_tags/clipboard-js">
+          clipboard js
+        </a>
+      
+        ,
+        <a href="https://polodev.github.io/ms/tutorial_tags/gohugo">
+          gohugo
+        </a>
+      
+        ,
+        <a href="https://polodev.github.io/ms/tutorial_tags/syntax-highlighting">
+          syntax highlighting
+        </a>
+      
+    </span>
+  
+
+  
+
+</div>
+
+
+
+  
+
+  
+  <div class="toc">
+    <h2>
+      Table of Contents
+      <span id="toc_toggle_span">[hide]</span>
+    </h2>
+    <div id='toc_content'>
+      <nav id="TableOfContents">
+<ul>
+<li><a href="#installing-pygmentation">Installing Pygmentation</a></li>
+<li><a href="#adding-pygmentsuseclasses-in-config-toml-file">adding pygmentsUseClasses in <code>config.toml</code> file</a></li>
+<li><a href="#generate-chroma-style-using-hugo-gen-command">generate chroma style using <code>hugo gen</code> command</a></li>
+<li><a href="#writing-your-code-in-between-highlight-shortcode-in-your-markdown-file">writing your code in between highlight shortcode in your markdown file</a></li>
+<li><a href="#for-the-php-highlight">for the php highlight</a></li>
+<li><a href="#adding-clipboard-js-in-your-html">adding clipboard js in your html</a></li>
+<li><a href="#add-copy-to-clipboard-button-in-js-programmatically">add copy to clipboard button in js programmatically</a></li>
+<li><a href="#add-style-for-clipboard-button">add style for clipboard button</a></li>
+<li><a href="#adding-click-handler-to-copy-from-clipboard">adding click handler to copy from clipboard</a></li>
+<li><a href="#using-highlightjs-alongside-pygments-not-necessary-at-all">Using <code>highlightjs</code> alongside <code>Pygments</code>.  - not necessary at all</a></li>
+<li><a href="#instantiate-highlightjs">instantiate <code>highlightjs</code></a></li>
+<li><a href="#adding-copy-button-by-filtering-already-added-copy-button-in-pygments-block">adding copy button by filtering already added <code>copy-button</code> in <code>pygments</code> block</a></li>
+</ul>
+</nav>
+    </div>
+    
+  </div>
+  
+
+  
+
+  <div class='article mt-4 single'>
+    
+
+<h1 id="installing-pygmentation">Installing Pygmentation</h1>
+
+<p>first you have to download python Pygments in your machine. In mac you can easily download by <code>pip install Pygments</code> . If you use ubuntu <code>sudo apt-get install python3-pygments</code></p>
+
+<h1 id="adding-pygmentsuseclasses-in-config-toml-file">adding pygmentsUseClasses in <code>config.toml</code> file</h1>
+
+<pre><code class="language-toml">pygmentsUseClasses=true
+</code></pre>
+
+<h1 id="generate-chroma-style-using-hugo-gen-command">generate chroma style using <code>hugo gen</code> command</h1>
+
+<pre><code class="language-bash">hugo gen chromastyles --style=monokai &gt; static/css/syntax.css
+// for more info run following command
+hugo gen chromastyles -h
+</code></pre>
+
+<p>I have used monokai theme. There are a lot of themes available. all themes are available <a href="https://xyproto.github.io/splash/docs/longer/all.html">here</a> to check. Add generated css in your html file</p>
+
+<pre><code class="language-html">{% raw %}
+  &lt;link rel='stylesheet' href='{{.Site.BaseURL}}css/syntax.css'/&gt;
+{% endraw %}
+</code></pre>
+
+<h1 id="writing-your-code-in-between-highlight-shortcode-in-your-markdown-file">writing your code in between highlight shortcode in your markdown file</h1>
+
+<pre><code class="language-gohtml">{% raw %}
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">199
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">//</span> <span style="color:#f92672">...</span> <span style="color:#a6e22e">code</span></code></pre></td></tr></table>
+</div>
+</div>
+{% endraw %}
+</code></pre>
+
+<h1 id="for-the-php-highlight">for the php highlight</h1>
+
+<p>In case of of <code>php</code> highlight, your code block should be start with <code>&lt;?php</code>. otherwise Pygments didn&rsquo;t guess your language for syntax highlighting. I feel like its a bug. I am a php developer. So my most of the code snippet will be in php.</p>
+
+<h1 id="adding-clipboard-js-in-your-html">adding clipboard js in your html</h1>
+
+<p>I have added cdn you can download and added to your path</p>
+
+<pre><code class="language-html">&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+
+<h1 id="add-copy-to-clipboard-button-in-js-programmatically">add copy to clipboard button in js programmatically</h1>
+
+<p>following code will only work if you pass <code>linenos=table</code> param in <code>highlight</code> shortcode</p>
+
+<pre><code class="language-js">var tables = document.querySelectorAll('table.lntable');
+tables.forEach(function (table) {
+  var tds = table.querySelectorAll('td');
+  if (tds.length &gt; 1) {
+    var codeTd = tds[1];
+    var pre = codeTd.querySelector('pre');
+    var button = document.createElement('button');
+    button.className = 'copy-button';
+    button.textContent = 'Copy';
+    pre.appendChild(button);
+  }
+})
+</code></pre>
+
+<p>When we set <code>linenos=table</code> params it will generate table with 2 <code>td</code>. first <code>td</code> hold line number 2nd <code>td</code> hold actual code. So we targeted 2nd <code>td</code> and append <code>button.copy-button</code>.</p>
+
+<h1 id="add-style-for-clipboard-button">add style for clipboard button</h1>
+
+<p>following style make <code>button.copy-button</code> top right corner of code block.</p>
+
+<pre><code class="language-css">table.lntable {
+  position: relative;
+}
+.copy-button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: inline-block;
+  color: maroon;
+  border: 1px solid maroon;
+  cursor: pointer;
+}
+.copy-button:hover {
+  background-color: maroon;
+  color: white;
+}
+</code></pre>
+
+<h1 id="adding-click-handler-to-copy-from-clipboard">adding click handler to copy from clipboard</h1>
+
+<pre><code class="language-js">// setting up target for copy
+var copyCode = new ClipboardJS('.copy-button', {
+    target: function(trigger) {
+        return trigger.previousElementSibling;
+    }
+});
+
+// success message
+copyCode.on('success', function(event) {
+    event.clearSelection();
+    event.trigger.textContent = 'Copied';
+    window.setTimeout(function() {
+        event.trigger.textContent = 'Copy';
+    }, 2000);
+});
+// error message
+copyCode.on('error', function(event) {
+    event.trigger.textContent = 'Press &quot;Ctrl + C&quot; to copy';
+    window.setTimeout(function() {
+        event.trigger.textContent = 'Copy';
+    }, 2000);
+});
+
+</code></pre>
+
+<h1 id="using-highlightjs-alongside-pygments-not-necessary-at-all">Using <code>highlightjs</code> alongside <code>Pygments</code>.  - not necessary at all</h1>
+
+<p>If you want to add <code>highlightjs</code> alongside this <code>Pygments</code> first add css and js of highlights js</p>
+
+<pre><code class="language-html">&lt;link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css'/&gt;
+&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js'&gt;&lt;/script&gt;
+</code></pre>
+
+<h1 id="instantiate-highlightjs">instantiate <code>highlightjs</code></h1>
+
+<pre><code class="language-js">hljs.initHighlightingOnLoad();
+</code></pre>
+
+<h1 id="adding-copy-button-by-filtering-already-added-copy-button-in-pygments-block">adding copy button by filtering already added <code>copy-button</code> in <code>pygments</code> block</h1>
+
+<pre><code class="language-js">var pres = document.querySelectorAll('pre');
+pres.forEach(function (pre, i) {
+  if (pre.parentNode.nodeName !== 'TD') {
+    var isLanguage = pre.children[0].className.indexOf('language-');
+    if ( isLanguage === 0 ) {
+      var button = document.createElement('button');
+      button.className = 'copy-button';
+      button.textContent = 'Copy';
+      pre.appendChild(button);
+    }
+  }
+})
+</code></pre>
+
+<p>Thats all. Thank you</p>
+
+  </div>
+  
+  
+    <div class='tags py-3'>
+      Tags: 
+        <a href="https://polodev.github.io/ms/tutorial_tags/codeigniter">
+          codeigniter
+        </a>
+      
+        <a href="https://polodev.github.io/ms/tutorial_tags/clipboard-js">
+          clipboard js
+        </a>
+      
+        <a href="https://polodev.github.io/ms/tutorial_tags/gohugo">
+          gohugo
+        </a>
+      
+        <a href="https://polodev.github.io/ms/tutorial_tags/syntax-highlighting">
+          syntax highlighting
+        </a>
+      
+
+    </div>
+  
+  
+   
+  
+
+  <div class="text-center py-3">
+    
+      <a class="btn btn-info" href="https://polodev.github.io/ms/tutorials/installing-robo3t-in-ubuntu-18.x/">Previous Post</a>
+    
+    
+      <a class="btn btn-info" href="https://polodev.github.io/ms/tutorials/create-a-google-column-chart/">Next Post</a>
+    
+  </div>
+
+</div>
+
+
+
+
+<h3>See Also</h3>
+<ul>
+  
+  <li><a href="/ms/bits/order-by-clause-in-and-manipulate-database-result-codeigniter/">Order by Clause in and Manipulate Database Result Codeigniter</a></li>
+  
+  <li><a href="/ms/bits/multiple-file-upload-using-jquery-ajax-with-complete-percentage/">Multiple File Upload Using Jquery Ajax With Complete Percentage</a></li>
+  
+  <li><a href="/ms/bits/export-and-import-json-in-mongodb/">Export and Import Json in Mongodb</a></li>
+  
+  <li><a href="/ms/bits/laravel-request-function-helpers/">Laravel Request Function Helpers</a></li>
+  
+  <li><a href="/ms/bits/getting-single-result-from-codeigniter/">Getting Single Result From Codeigniter</a></li>
+  
+</ul>
+
+
+<div id="disqus_thread"></div>
+<script>
+
+
+
+
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://'+ "dev-learning" +'.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+<progress value="0" id="progressBar">
+  <div class="progress-container">
+    <span class="progress-bar"></span>
+  </div>
+</progress>
+
+      </div>
+    </div>
+    <div class="col-md-3">
+      <aside>
+        
+          <div class="card my-2">
+  <div class="card-header">
+    <h3>Tutorial Tags</h3>
+  </div>
+  <ul class="sidebar_tags">
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/ajax">Ajax (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/clipboard-js">Clipboard js (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/codeigniter">Codeigniter (4)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/database">Database (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/file-delete">File delete (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/formdata">Formdata (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/full-code">Full code (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/gohugo">Gohugo (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/google-chart">Google chart (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/javascript">Javascript (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/jquery">Jquery (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/mongodb">Mongodb (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/multilingual">Multilingual (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/multiple-file-upload">Multiple file upload (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/mysql">Mysql (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/mysql-location-query">Mysql location query (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/nearby-location">Nearby location (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/php">Php (2)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/php-array">Php array (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/php-functions">Php functions (2)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/php-mvc-framework">Php mvc framework (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/robo3t">Robo3t (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/session">Session (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/session-flash">Session flash (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/syntax-highlighting">Syntax highlighting (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/ubuntu">Ubuntu (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/unlink">Unlink (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/vue-js">Vue js (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/wordpress-theme-development">Wordpress theme development (1)</a>
+    </li>
+    
+  </ul>
+</div>
+
+          <div class="card my-2">
+  <div class="card-header">
+    <h3>Bit Tags</h3>
+  </div>
+  <ul class="sidebar_tags">
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//bit_tags/ajax">Ajax (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//bit_tags/artisan-command">Artisan command (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//bit_tags/codeigniter">Codeigniter (5)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//bit_tags/database-insert-query">Database insert query (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//bit_tags/database-order-by-query">Database order by query (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//bit_tags/database-query">Database query (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//bit_tags/export">Export (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//bit_tags/flatten-array">Flatten array (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//bit_tags/formdata">Formdata (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//bit_tags/functions">Functions (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//bit_tags/helper-functions">Helper functions (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//bit_tags/import">Import (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//bit_tags/laravel">Laravel (3)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//bit_tags/mongodb">Mongodb (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//bit_tags/multiple-file-upload">Multiple file upload (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//bit_tags/mysql">Mysql (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//bit_tags/php">Php (2)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//bit_tags/sql">Sql (2)</a>
+    </li>
+    
+  </ul>
+</div>
+
+        
+      </aside>
+    </div>
+  </div>
+</div>
+<div id='editor' class="hidden">
+  <div id='editor_inner'>
+    <div class='codemirror_area'>
+
+      <div class='codemirror_setting'>
+        <div class='codemirror_setting_inner pb-3'>
+          <div class='d-flex justify-content-between'>
+            <h4>setting</h4>
+            <button id="close_codemirror_setting_button" class="btn btn-secondary"><i class="fa fa-times"></i></button>
+          </div>
+          <hr/>
+        <div class='row'>
+
+
+          <div class='col-sm-4'>
+            <h3>Editor</h3>
+
+            <div class='form-check'>
+              <input name="vim" value="vim" type='checkbox' id="vim" class='form-check-input'/>
+              <label for='vim' class='form-check-label'>Enable Vim keymap</label>
+            </div>
+            
+            <div class='form-check'>
+              <input name="lineWrapping" value="lineWrapping" type='checkbox' id="lineWrapping" class='form-check-input'/>
+              <label for='lineWrapping' class='form-check-label'>Enable Line Wrapping</label>
+            </div>
+            
+
+            <div class='form-group'>
+              <label for='font_family'>Font Family</label>
+              <select name='font_family' id='font_family' class="form-control">
+                <option value='monaco'>Monaco</option>
+                <option value='menlo'>Menlo</option>
+                <option value='fira_code'>fira_code</option>
+                <option value='source_code_pro'>Source Code Pro</option>
+                <option value='ubuntu_mono'>Ubuntu Mono</option>
+              </select>
+            </div>
+            
+            <div class='form-group'>
+              <label for='font_size'>Font Size</label>
+              <select name='font_size' id='font_size'>
+                <option value='14px'>14px</option>
+                <option value='16px'>16px</option>
+                <option value='18px'>18px</option>
+                <option value='20px'>20px</option>
+                <option value='22px'>22px</option>
+                <option value='22px'>22px</option>
+                <option value='24px'>24px</option>
+                <option value='26px'>26px</option>
+                <option value='28px'>28px</option>
+                <option value='30px'>30px</option>
+              </select>
+            </div>
+            
+            <div class='input-group'>
+              <div class='input-group-prepend'>
+                <label for='tab_size'>tab size</label>
+              </div>
+              <input type='text' name='tab_size' id='tab_size' class="form-control" />
+              
+            </div>
+          </div>
+          <div class='col-sm-4'>
+            <h3>Theme</h3>
+            <div>
+              <div class='form-check'>
+                <input value="monokai" type='radio' class="form-check-input" id="monokai" name="theme" />
+                <label class="form-check-label" for='monokai'>monokai</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="material" type='radio' class="form-check-input" id="material" name="theme" />
+                <label class="form-check-label" for='material'>material</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="solarized" type='radio' class="form-check-input" id="solarized" name="theme" />
+                <label class="form-check-label" for='solarized'>solarized</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="tomorrow-night-bright" type='radio' class="form-check-input" id="tomorrow-night-bright" name="theme" />
+                <label class="form-check-label" for='tomorrow-night-bright'>tomorrow-night-bright</label>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class='col-sm-4'>
+            <h3>Mode</h3>
+              <div class='form-check'>
+                <input value="htmlmixed" type='radio' class="form-check-input" id="htmlmixed" name="mode" />
+                <label class="form-check-label" for='htmlmixed'>Html</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="css" type='radio' class="form-check-input" id="css" name="mode" />
+                <label class="form-check-label" for='css'>Css</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="javascript" type='radio' class="form-check-input" id="javascript" name="mode" />
+                <label class="form-check-label" for='javascript'>JavaScript</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="jsx" type='radio' class="form-check-input" id="jsx" name="mode" />
+                <label class="form-check-label" for='jsx'>Jsx</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="php" type='radio' class="form-check-input" id="php" name="mode" />
+                <label class="form-check-label"  for='php'>Php</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="sql" type='radio' class="form-check-input" id="sql" name="mode" />
+                <label class="form-check-label" for='sql'>Sql</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="markdown" type='radio' class="form-check-input" id="markdown" name="mode" />
+                <label class="form-check-label" for='markdown'>Markdown</label>
+              </div>
+              
+          </div>
+
+        </div>
+          
+        </div>
+      </div>
+
+      <div class='codemirror_wrapper'>
+
+        
+        <div id='codemirror_editor'></div>
+
+        <div class="codemirror_editor_button">
+          <button class='btn btn-danger' id="close_footer_panel_button"><i class="fa fa-times"></i></button>
+          <button class='btn btn-info' id="open_codemirror_setting_button"><i class="fa fa-wrench"></i></button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div title="open editor" id="open_editor_from_footer">
+  <i class="fa fa-laptop-code"></i>
+</div>
+<script src="/ms/js/jquery.min.js"></script>
+<script src="/ms/js/resizable.js"></script>
+
+
+
+
+ <script src='/ms/dist/codemirror_master.js'></script>
+
+
+<script src="/ms/js/popper.min.js"></script>
+<script src="/ms/js/bootstrap.min.js"></script>
+<script src="/ms/js/clipboard.min.js"></script>
+<script src="/ms/js/highlight.min.js"></script>
+<script src="/ms/js/script.js"></script>
+<script src="/ms/js/ecma.js"></script>
+<script src="/ms/js/reading_position_progress.js"></script>
+
+
+
+</body>
+</html>

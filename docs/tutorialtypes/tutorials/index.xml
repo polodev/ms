@@ -6,10 +6,102 @@
     <description>Recent content in Tutorials on This Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Nov 2018 18:20:16 +0600</lastBuildDate>
+    <lastBuildDate>Mon, 12 Nov 2018 01:23:53 +0600</lastBuildDate>
     
 	<atom:link href="https://polodev.github.io/ms/tutorialtypes/tutorials/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ajax Api Call for Multiple File Upload Using Ajax</title>
+      <link>https://polodev.github.io/ms/tutorials/ajax-api-call-for-multiple-file-upload-using-ajax/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorials/ajax-api-call-for-multiple-file-upload-using-ajax/</guid>
+      <description>upload php view file &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1&amp;quot;&amp;gt; &amp;lt;!-- Important Owl stylesheet --&amp;gt; &amp;lt;!-- &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;&amp;lt;?php/// echo base_url(&#39;/assets/site/css/owl.carousel.css&#39;); ?&amp;gt;&amp;quot;&amp;gt; --&amp;gt; &amp;lt;!-- Default Theme --&amp;gt; &amp;lt;!-- &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;&amp;lt;?php// echo base_url(&#39;/assets/site/css/owl.theme.default.min.css&#39;); ?&amp;gt;&amp;quot;&amp;gt; --&amp;gt; &amp;lt;!-- &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; href=&amp;quot;&amp;lt;?php///echo base_url(&#39;/assets/site/css/style.css&#39;); ?&amp;gt;&amp;quot;&amp;gt; --&amp;gt; &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css&amp;quot;&amp;gt; &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; href=&amp;quot;&amp;lt;?php echo base_url(&#39;/assets/site/css/style.css&#39;); ?&amp;gt;&amp;quot;&amp;gt; &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css&amp;quot;&amp;gt; &amp;lt;script src=&#39;https://code.jquery.com/jquery-3.3.1.js&#39;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;style&amp;gt; form h2 { color: #379e01; font-size: 25px; padding: 50px 0; } form { width: 80%; margin: 0 auto; } .</description>
+    </item>
+    
+    <item>
+      <title>Next and Previous Element in Php Array</title>
+      <link>https://polodev.github.io/ms/tutorials/next-and-previous-element-in-php-array/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorials/next-and-previous-element-in-php-array/</guid>
+      <description> getting next element from array function get_next_element ($needle, $haystack) { $index = array_search($needle, $haystack); if (count($haystack) &amp;lt; 2) { return false; } if ($index &amp;lt; (count($haystack) - 1)) { $index++; }else { $index = 0; } return $haystack[$index]; }  Previous Element function get_prev_elemnt($needle, $haystack) { if (count($haystack) &amp;lt; 2) { return false; } $index = array_search($needle, $haystack); if ($index == 0 || $index &amp;lt; 1) { $index = count($haystack) - 1; }else { $index--; } return $haystack[$index]; }  Testing $needle = 3; $haystack = [3, 2, 4, 5, 6]; echo get_prev_elemnt($needle, $haystack);  </description>
+    </item>
+    
+    <item>
+      <title>Php Functions - array_values, json_encode, json_decode, array_intersect</title>
+      <link>https://polodev.github.io/ms/tutorials/php-functions-part-one/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorials/php-functions-part-one/</guid>
+      <description>array_values() json_encode(); json_decode() array_intersect()  array_values() It will give removed key of associated array
+$a = [ &#39;f1&#39; =&amp;gt; &#39;banana&#39;, &#39;f2&#39; =&amp;gt; &#39;apple&#39;, &#39;f3&#39; =&amp;gt; &#39;orange&#39;, ]; print_r (array_values($a));  Output for state above code
+Array ( [0] =&amp;gt; banana [1] =&amp;gt; apple [2] =&amp;gt; orange )  json_encode() - encode php to json $a = [ &#39;f1&#39; =&amp;gt; &#39;banana&#39;, &#39;f2&#39; =&amp;gt; &#39;apple&#39;, &#39;f3&#39; =&amp;gt; &#39;orange&#39;, ]; $b = json_encode($a); print_r( $b );  output</description>
+    </item>
+    
+    <item>
+      <title>Setting and Getting User Data in Session Session Flash Codeigniter</title>
+      <link>https://polodev.github.io/ms/tutorials/setting-and-getting-user-data-in-session-session-flash-codeigniter/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorials/setting-and-getting-user-data-in-session-session-flash-codeigniter/</guid>
+      <description>setting user data $session_data = array( &#39;type&#39; =&amp;gt; &amp;quot;admin&amp;quot;, &#39;email&#39; =&amp;gt; $email, &#39;id&#39; =&amp;gt; $res-&amp;gt;id, &#39;username&#39; =&amp;gt; $res-&amp;gt;username, &#39;password&#39; =&amp;gt; $res-&amp;gt;password, ); $this-&amp;gt;session-&amp;gt;set_userdata($session_data);  getting user data $id = $this-&amp;gt;session-&amp;gt;userdata( &#39;id&#39; );  setting flash message in session $this-&amp;gt;session-&amp;gt;set_flashdata( &#39;success&#39;, &#39;All updated successfully&#39; );  getting flash message from session &amp;lt;?php if ($this-&amp;gt;session-&amp;gt;flashdata(&#39;success&#39;)) { ?&amp;gt; &amp;lt;div class=&amp;quot;alert alert-success&amp;quot;&amp;gt; &amp;lt;?= $this-&amp;gt;session-&amp;gt;flashdata(&#39;success&#39;) ?&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;?php } ?&amp;gt; &amp;lt;?php if ($this-&amp;gt;session-&amp;gt;flashdata(&#39;error&#39;)) { ?</description>
+    </item>
+    
+    <item>
+      <title>Basic Multilingual Features in Website Using Javascript and Keep Language Persist Using Local Storage</title>
+      <link>https://polodev.github.io/ms/tutorials/basic-multilingual-features-in-website-using-javascript-and-keep-language-persist-using-local-storage/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorials/basic-multilingual-features-in-website-using-javascript-and-keep-language-persist-using-local-storage/</guid>
+      <description>following snippet helps me to convert a basic site to 2 language site
+Html code for menu &amp;lt;h3 data-langen=&amp;quot;Sorry this resturent does not have any menu yet . please try again later&amp;quot; data-langhe=&amp;quot;מצטערים, אין תפריט זה עדיין. בבקשה נסה שוב מאוחר יותר&amp;quot; class=&amp;quot;blanker&amp;quot;&amp;gt;Sorry this resturent does not have any menu yet . please try again later &amp;lt;/h3&amp;gt;  initial code for checking country (in my case Israel) and changed language to Hebrew function changeLanguage (lang) { if (lang == &#39;en&#39;) { $(&amp;quot;[data-langen]&amp;quot;).</description>
+    </item>
+    
+    <item>
+      <title>Create a Google Column Chart</title>
+      <link>https://polodev.github.io/ms/tutorials/create-a-google-column-chart/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorials/create-a-google-column-chart/</guid>
+      <description>html part &amp;lt;div class=&amp;quot;col-lg-6 pull-left grpahinformation&amp;quot;&amp;gt; &amp;lt;div id=&amp;quot;restaurant_rating&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;  calling setOnLoadCallback function with callback parameter google.charts.setOnLoadCallback(restaurant_rating);  define callback function restaurant_rating() { // Create the data table. var data = new google.visualization.DataTable(); data.addColumn(&#39;string&#39; , &#39;Topping&#39;); data.addColumn(&#39;number&#39; , &#39;Count&#39;); data.addColumn({ type: &#39;string&#39;, role: &#39;style&#39; }); var colors=[&#39;salmon&#39;, &#39;teal&#39;, &#39;brown&#39;, &#39;cadetblue&#39;, &#39;burlywood&#39;]; data.addRows([&amp;lt;?php if(isset($ratings)){ foreach($ratings as $rating){ ?&amp;gt; [&#39;Rating &amp;lt;?= $rating-&amp;gt;rating ?&amp;gt;&#39; , &amp;lt;?= $rating-&amp;gt;c ?&amp;gt;, colors.shift()] , &amp;lt;?php } }?</description>
+    </item>
+    
+    <item>
+      <title>How to Add Syntax Highlighting, Line Number Clipboard Js in Go Hugo Website</title>
+      <link>https://polodev.github.io/ms/tutorials/how-to-add-syntax-highlighting-ln-number-clipboard-js-in-go-hugo-website/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorials/how-to-add-syntax-highlighting-ln-number-clipboard-js-in-go-hugo-website/</guid>
+      <description>Installing Pygmentation first you have to download python Pygments in your machine. In mac you can easily download by pip install Pygments . If you use ubuntu sudo apt-get install python3-pygments
+adding pygmentsUseClasses in config.toml file pygmentsUseClasses=true  generate chroma style using hugo gen command hugo gen chromastyles --style=monokai &amp;gt; static/css/syntax.css // for more info run following command hugo gen chromastyles -h  I have used monokai theme. There are a lot of themes available.</description>
+    </item>
+    
+    <item>
+      <title>Installing Robo3t in Ubuntu 18.X</title>
+      <link>https://polodev.github.io/ms/tutorials/installing-robo3t-in-ubuntu-18.x/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorials/installing-robo3t-in-ubuntu-18.x/</guid>
+      <description>download robomongo 3t from their website. Let downloaded file name is robomongo-0.9.0-rc8-linux-x86_64-c113244.tar.gz
+extract robomongo-0.9.0-rc8-linux-x86_64-c113244.tar.gz file
+move extracted folder to /usr/bin directory by following command
+sudo mv robomongo-0.9.0-rc8-linux-x86_64-c113244/ /usr/bin/robomongo  add export PATH=/usr/bin/robomongo/bin:$PATH in your .bashrc or .zshrc
+If you are using fish shell, you need to change the last line to:
+set PATH $PATH /usr/bin/robomongo/bin
+now start robo3t by typing following in command prompt
+robo3t  </description>
+    </item>
+    
+    <item>
+      <title>Nearby Location Using Latitude and Longitude in Laravel Application   Mysql Query Plus Vue Implementation</title>
+      <link>https://polodev.github.io/ms/tutorials/nearby-location-using-latitude-and-longitude-in-laravel-application---mysql-query-plus-vue-implementation/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorials/nearby-location-using-latitude-and-longitude-in-laravel-application---mysql-query-plus-vue-implementation/</guid>
+      <description>nearby location mysql raw query in laravel controller public function restaurant_by_coords () { $lat = request(&#39;lat&#39;); $lon = request(&#39;lon&#39;); $distance = 20; // hear distance in km $mysqlQuery = &amp;quot;SELECT settings.id as id, settings.title as title, settings.phone as phone, users.name as name, user_id, shortcode, address, logo, ( 6371 * acos( cos( radians( $lat ) ) * cos( radians( `lat` ) ) * cos( radians( `lon` ) - radians( $lon ) ) + sin(radians($lat)) * sin(radians(`lat`)) ) ) `distance` FROM `settings` JOIN `users` WHERE settings.</description>
+    </item>
     
     <item>
       <title>Wordpress Theme Development 101</title>

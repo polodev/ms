@@ -6,17 +6,98 @@
     <description>Recent content in Tutorial_tags on This Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Nov 2018 18:12:45 +0600</lastBuildDate>
+    <lastBuildDate>Mon, 12 Nov 2018 01:23:53 +0600</lastBuildDate>
     
 	<atom:link href="https://polodev.github.io/ms/tutorial_tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Ajax</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/ajax/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/ajax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clipboard Js</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/clipboard-js/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/clipboard-js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Codeigniter</title>
       <link>https://polodev.github.io/ms/tutorial_tags/codeigniter/</link>
-      <pubDate>Sun, 11 Nov 2018 18:12:45 +0600</pubDate>
+      <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
       
       <guid>https://polodev.github.io/ms/tutorial_tags/codeigniter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Database</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/database/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>File Delete</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/file-delete/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/file-delete/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formdata</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/formdata/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/formdata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Full Code</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/full-code/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/full-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gohugo</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/gohugo/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/gohugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Chart</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/google-chart/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/google-chart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/javascript/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/javascript/</guid>
       <description></description>
     </item>
     
@@ -30,11 +111,83 @@
     </item>
     
     <item>
+      <title>Mongodb</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/mongodb/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/mongodb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multilingual</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/multilingual/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/multilingual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiple File Upload</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/multiple-file-upload/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/multiple-file-upload/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mysql</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/mysql/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mysql Location Query</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/mysql-location-query/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/mysql-location-query/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nearby Location</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/nearby-location/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/nearby-location/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Php</title>
       <link>https://polodev.github.io/ms/tutorial_tags/php/</link>
-      <pubDate>Sun, 11 Nov 2018 18:12:45 +0600</pubDate>
+      <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
       
       <guid>https://polodev.github.io/ms/tutorial_tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Php Array</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/php-array/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/php-array/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Php Functions</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/php-functions/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/php-functions/</guid>
       <description></description>
     </item>
     
@@ -44,6 +197,69 @@
       <pubDate>Sun, 11 Nov 2018 18:12:45 +0600</pubDate>
       
       <guid>https://polodev.github.io/ms/tutorial_tags/php-mvc-framework/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robo3t</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/robo3t/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/robo3t/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Session</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/session/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/session/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Session Flash</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/session-flash/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/session-flash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Syntax Highlighting</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/syntax-highlighting/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/syntax-highlighting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/ubuntu/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unlink</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/unlink/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/unlink/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vue Js</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/vue-js/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/vue-js/</guid>
       <description></description>
     </item>
     

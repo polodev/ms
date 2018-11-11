@@ -12,16 +12,16 @@ hugo new tutorials/php-functions-part-one/index.md
 hugo new tutorials/ajax-api-call-for-multiple-file-upload-using-ajax/index.md
 hugo new tutorials/deleting-in-database-and-unlink-file-in-codeigniter/index.md
 hugo new tutorials/setting-and-getting-user-data-in-session-session-flash-codeigniter/index.md
-
-
-
-
-#-bits
 hugo new bits/export-and-import-json-in-mongodb.md
 hugo new bits/laravel-serve-command-for-viewing-site-in-same-network.md
 hugo new bits/getting-current-month-content-in-laravel-using-mysql-raw-query.md
 hugo new bits/laravel-request-function-helpers.md
 hugo new bits/getting-single-result-from-codeigniter.md
 hugo new bits/insert-into-database-in-codeigniter.md
-hugo new bits/multiple-file-upload-using-jquery-ajax-with-complete-percentage.md
 hugo new bits/order-by-clause-in-and-manipulate-database-result-codeigniter.md
+
+
+
+
+#-bits
+hugo new bits/multiple-file-upload-using-jquery-ajax-with-complete-percentage.md

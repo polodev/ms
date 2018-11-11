@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artisan Command on This Site</title>
+    <link>https://polodev.github.io/ms/bit_tags/artisan-command/</link>
+    <description>Recent content in Artisan Command on This Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Nov 2018 01:24:29 +0600</lastBuildDate>
+    
+	<atom:link href="https://polodev.github.io/ms/bit_tags/artisan-command/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Laravel Serve Command for Viewing Site in Same Network</title>
+      <link>https://polodev.github.io/ms/bits/laravel-serve-command-for-viewing-site-in-same-network/</link>
+      <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bits/laravel-serve-command-for-viewing-site-in-same-network/</guid>
+      <description> to find ip address // inet will be host ifconfig | grep 192.168  to serve sudo php artisan serve --host=192.168.31.254 --port=80  </description>
+    </item>
+    
+  </channel>
+</rss>

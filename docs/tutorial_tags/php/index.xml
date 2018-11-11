@@ -6,10 +6,21 @@
     <description>Recent content in Php on This Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Nov 2018 18:12:45 +0600</lastBuildDate>
+    <lastBuildDate>Mon, 12 Nov 2018 01:23:53 +0600</lastBuildDate>
     
 	<atom:link href="https://polodev.github.io/ms/tutorial_tags/php/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Php Functions - array_values, json_encode, json_decode, array_intersect</title>
+      <link>https://polodev.github.io/ms/tutorials/php-functions-part-one/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorials/php-functions-part-one/</guid>
+      <description>array_values() json_encode(); json_decode() array_intersect()  array_values() It will give removed key of associated array
+$a = [ &#39;f1&#39; =&amp;gt; &#39;banana&#39;, &#39;f2&#39; =&amp;gt; &#39;apple&#39;, &#39;f3&#39; =&amp;gt; &#39;orange&#39;, ]; print_r (array_values($a));  Output for state above code
+Array ( [0] =&amp;gt; banana [1] =&amp;gt; apple [2] =&amp;gt; orange )  json_encode() - encode php to json $a = [ &#39;f1&#39; =&amp;gt; &#39;banana&#39;, &#39;f2&#39; =&amp;gt; &#39;apple&#39;, &#39;f3&#39; =&amp;gt; &#39;orange&#39;, ]; $b = json_encode($a); print_r( $b );  output</description>
+    </item>
     
     <item>
       <title>Codeigniter Essentials</title>
