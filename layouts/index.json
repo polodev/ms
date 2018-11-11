@@ -3,11 +3,8 @@
 [{{range $index, $t := .Site.RegularPages}}
 
       {
-        "total": "{{ $length }}-{{$index}}",
-        "id": "{{ .Permalink }}",
         "title": "{{ .Title }}",
         "keyword": {{ .Params.keyword | jsonify }},
-        "description": {{ .Params.description | jsonify }},
         "uri": "{{ .Permalink }}"
       }
 
