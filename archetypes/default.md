@@ -13,5 +13,7 @@ tutorialTypes=['']
 keyword= ""
 description= ""
 skill_level=["beginner", "intermediate", "advanced"]
+series=[]
+series_weight=[]
 +++
 
