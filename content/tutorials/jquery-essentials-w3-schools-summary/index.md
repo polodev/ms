@@ -1,16 +1,20 @@
 +++
 type="post"
-title= "W3schools Jquery"
-tutorial_type='decks'
-date= 2018-07-28T15:26:09+06:00
+title= "Jquery Essentials W3 Schools Summary"
+date= 2018-11-11T18:18:21+06:00
 draft= false
 weight= 1
 authors= ["Polo Dev"]
-categories= ["javascript", "jquery", "front-end"]
-tags= ["jquery", "javascript"]
-tutorials= ["jquery", "javascript"]
-tutorialTypes=["tutorials"]
+categories= ["jquery"]
+tags= ["jquery"]
+tutorials= ["jquery"]
+bits= []
+tutorialTypes=['tutorials']
+keyword= ""
+description= ""
+skill_level=["beginner", "intermediate", "advanced"]
 +++
+
 
 # 1 - Basic syntax
 ~~~js

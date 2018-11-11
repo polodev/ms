@@ -1,15 +1,17 @@
 +++
 type="post"
-title= "CodeIgniter"
-tutorial_type='decks'
-date= 2018-07-28T15:26:09+06:00
+title= "Codeigniter Essentials"
+date= 2018-11-11T18:12:45+06:00
 draft= false
 weight= 1
 authors= ["Polo Dev"]
-categories= ["php", "back-end"]
-tags= ["php", "codeigniter"]
-tutorials= ["php", "codeigniter"]
-tutorialTypes=["tutorials"]
+categories= ["codeigniter", "php", "php mvc framework"]
+tags= ["codeigniter", "php", "php mvc framework"]
+bits= ["codeigniter", "php", "php mvc framework"]
+tutorialTypes=['tutorials']
+keyword= "Codeigniter Essential training gist"
+description= "In this tutorial I have wrapped up codeigniter essential like mvc structure, database connection in codeigniter, getting all, single data from codeigniter. It could be bootstrap lesson for beginner learner"
+skill_level=["intermediate"]
 +++
 
 # 1 - setting up base url
@@ -339,6 +341,8 @@ class Composer_loader
 // file: config/autoload.php
 $autoload['libraries'] = ['Composer_loader'];
 ~~~
+
+
 
 
 

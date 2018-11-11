@@ -1,16 +1,21 @@
 +++
 type="post"
-tutorial_type="__text__"
-title= "Wp Tuts 2"
-date= 2018-08-04T00:09:10+06:00
+title= "Wordpress Theme Development 101"
+date= 2018-11-11T18:20:16+06:00
 draft= false
 weight= 1
 authors= ["Polo Dev"]
-categories= ['wordpress']
-tags= ['wordpress']
-tutorials= ['wordpress', 'theme development']
+categories= ['wordpress theme development']
+tags= ['wordpress theme development']
+tutorials= ['wordpress theme development']
+bits= ['wordpress theme development']
 tutorialTypes=['tutorials']
+keyword= "Essential wordpress theme development code for beginner"
+description= "Essential wordpress theme development code for beginner"
+skill_level=["beginner"]
 +++
+
+
 # list of file
 
 * index.php
