@@ -19,24 +19,24 @@
     {{ .ReadingTime }} minutes
   </span>
 
-  {{ if .Params.tutorials }}
+  {{ if .Params.tutorial_tags }}
     <span class="category-block">
       <i class='fa fa-folder'></i>
-      {{ range $i, $category := .Params.tutorials }}
+      {{ range $i, $category := .Params.tutorial_tags }}
         {{if $i}},{{end}}
-        <a href="{{$.Site.BaseURL}}tutorials/{{. | urlize }}">
+        <a href="{{$.Site.BaseURL}}tutorial_tags/{{. | urlize }}">
           {{ $category }}
         </a>
       {{ end }}
     </span>
   {{ end}}
 
-  {{ if .Params.bits }}
+  {{ if .Params.bit_tags }}
     <span class="category-block">
       <i class='fa fa-folder'></i>
-      {{ range $i, $category := .Params.bits }}
+      {{ range $i, $category := .Params.bit_tags }}
         {{if $i}},{{end}}
-        <a href="{{$.Site.BaseURL}}bits/{{. | urlize }}">
+        <a href="{{$.Site.BaseURL}}bit_tags/{{. | urlize }}">
           {{ $category }}
         </a>
       {{ end }}

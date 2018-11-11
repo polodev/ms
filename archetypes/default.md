@@ -1,5 +1,6 @@
 +++
 type="post"
+toc=true
 title= "{{ replace .Name "-" " " | title }}"
 date= {{ .Date }}
 draft= false
@@ -7,8 +8,8 @@ weight= 1
 authors= ["Polo Dev"]
 categories= ['']
 tags= ['']
-tutorials= ['']
-bits= ['']
+tutorial_tags= ['']
+bit_tags= ['']
 tutorialTypes=['']
 keyword= ""
 description= ""
