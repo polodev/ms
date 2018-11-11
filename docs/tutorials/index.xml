@@ -1,22 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tutorials on Site</title>
-    <link>/tutorials/</link>
-    <description>Recent content in Tutorials on Site</description>
+    <title>Tutorials on This Site</title>
+    <link>https://polodev.github.io/ms/tutorials/</link>
+    <description>Recent content in Tutorials on This Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Jul 2018 15:58:48 +0600</lastBuildDate>
+    <lastBuildDate>Sun, 11 Nov 2018 18:12:45 +0600</lastBuildDate>
     
-	<atom:link href="/tutorials/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://polodev.github.io/ms/tutorials/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Tutorial 101</title>
-      <link>/tutorials/tutorial-101/</link>
-      <pubDate>Sat, 28 Jul 2018 15:58:48 +0600</pubDate>
+      <title>Codeigniter</title>
+      <link>https://polodev.github.io/ms/tutorials/codeigniter/</link>
+      <pubDate>Sun, 11 Nov 2018 18:12:45 +0600</pubDate>
       
-      <guid>/tutorials/tutorial-101/</guid>
+      <guid>https://polodev.github.io/ms/tutorials/codeigniter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jquery</title>
+      <link>https://polodev.github.io/ms/tutorials/jquery/</link>
+      <pubDate>Sun, 11 Nov 2018 18:18:21 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorials/jquery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Php</title>
+      <link>https://polodev.github.io/ms/tutorials/php/</link>
+      <pubDate>Sun, 11 Nov 2018 18:12:45 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorials/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Php Mvc Framework</title>
+      <link>https://polodev.github.io/ms/tutorials/php-mvc-framework/</link>
+      <pubDate>Sun, 11 Nov 2018 18:12:45 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorials/php-mvc-framework/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wordpress Theme Development</title>
+      <link>https://polodev.github.io/ms/tutorials/wordpress-theme-development/</link>
+      <pubDate>Sun, 11 Nov 2018 18:20:16 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorials/wordpress-theme-development/</guid>
       <description></description>
     </item>
     

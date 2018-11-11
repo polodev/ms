@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jquery on This Site</title>
+    <link>https://polodev.github.io/ms/tutorials/jquery/</link>
+    <description>Recent content in Jquery on This Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Nov 2018 18:18:21 +0600</lastBuildDate>
+    
+	<atom:link href="https://polodev.github.io/ms/tutorials/jquery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jquery Essentials W3 Schools Summary</title>
+      <link>https://polodev.github.io/ms/tutorials/jquery-essentials-w3-schools-summary/</link>
+      <pubDate>Sun, 11 Nov 2018 18:18:21 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorials/jquery-essentials-w3-schools-summary/</guid>
+      <description>1 - Basic syntax $(selector).action()  2 - The Document Ready Event $(document).ready(function(){ // jQuery methods go here... }); // shorter $(function(){ // jQuery methods go here... });  3 - Selects the first &amp;lt;li&amp;gt; element of the first &amp;lt;ul&amp;gt; $(&amp;quot;ul li:first&amp;quot;)  4 - Selects the first &amp;lt;li&amp;gt; element of every &amp;lt;ul&amp;gt; $(&amp;quot;ul li:first-child&amp;quot;)  5 - Selects all &amp;lt;a&amp;gt; elements with a target attribute value equal to &amp;quot;_blank&amp;quot; $(&amp;quot;a[target=&#39;_blank&#39;]&amp;quot;)  6 - Selects all &amp;lt;a&amp;gt; elements with a target attribute value NOT equal to &amp;quot;_blank&amp;quot; $(&amp;quot;a[target!</description>
+    </item>
+    
+  </channel>
+</rss>

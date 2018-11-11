@@ -12,7 +12,8 @@ bits= ['']
 tutorialTypes=['']
 keyword= ""
 description= ""
-skill_level=["beginner", "intermediate", "advanced"]
+skill_level=["beginner"]
+available_skill_level=["beginner", "intermediate", "advanced"]
 series=[]
 series_weight=1
 +++

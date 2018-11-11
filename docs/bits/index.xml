@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bits on This Site</title>
+    <link>https://polodev.github.io/ms/bits/</link>
+    <description>Recent content in Bits on This Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://polodev.github.io/ms/bits/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Codeigniter</title>
+      <link>https://polodev.github.io/ms/bits/codeigniter/</link>
+      <pubDate>Sun, 11 Nov 2018 18:52:24 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bits/codeigniter/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordpress Theme Development on This Site</title>
+    <link>https://polodev.github.io/ms/categories/wordpress-theme-development/</link>
+    <description>Recent content in Wordpress Theme Development on This Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Nov 2018 18:20:16 +0600</lastBuildDate>
+    
+	<atom:link href="https://polodev.github.io/ms/categories/wordpress-theme-development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wordpress Theme Development 101</title>
+      <link>https://polodev.github.io/ms/tutorials/wordpress-theme-development-101/</link>
+      <pubDate>Sun, 11 Nov 2018 18:20:16 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorials/wordpress-theme-development-101/</guid>
+      <description>list of file  index.php style.css screenshot.png functions.php header.php footer.php single.php archive.php search.php content.php content-link.php content-gallery.php content-aside.php content-link.php page.php page-about.php company-template.php front-page.php comments.php  theme name and other meta data /** * Theme Name: Advanced WP; * Author: Jeff Bezos * Author URI: http://jeff.com * Description: Advanced wordpress theme * Version: 1.0 * * /  language attribute in html tag &amp;lt;html &amp;lt;?php language_attributes() ?&amp;gt;&amp;lt;/html&amp;gt;  adding stylesheet url using bloginfo bloginfo(&#39;stylesheet_url);  adding meta charset bloginfo(&#39;charset&#39;) ;  blog title bloginfo(&#39;name&#39;)  description bloginfo(&#39;description&#39;)  for wp_head &amp;amp; wp_footer() wp_head() wp_footer(); // responsible for admin menu in view page  search option in wordpress &amp;lt;form method=&#39;get&#39; action=&amp;quot;&amp;lt;?</description>
+    </item>
+    
+  </channel>
+</rss>
