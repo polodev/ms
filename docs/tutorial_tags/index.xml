@@ -75,6 +75,24 @@
     </item>
     
     <item>
+      <title>Git</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/git/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git Remote Url</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/git-remote-url/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/git-remote-url/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Gohugo</title>
       <link>https://polodev.github.io/ms/tutorial_tags/gohugo/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
@@ -134,6 +152,15 @@
       <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
       
       <guid>https://polodev.github.io/ms/tutorial_tags/multiple-file-upload/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiple Repo</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/multiple-repo/</link>
+      <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/multiple-repo/</guid>
       <description></description>
     </item>
     

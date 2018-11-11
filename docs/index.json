@@ -92,6 +92,15 @@
       
 
       {
+        "title": "Multiple git origin remote url to push code to multiple git repository",
+        "keyword": "git, git remote url, multiple repo, git command, git delete remote origin, add remote origin",
+        "uri": "https://polodev.github.io/ms/tutorials/2018-11-12-multiple-git-origin-url-to-push-code-to-multiple-repository/"
+      }
+      
+        ,
+      
+
+      {
         "title": "Next and Previous Element in Php Array",
         "keyword": "php functions, next element in php array, previous elements in php array",
         "uri": "https://polodev.github.io/ms/tutorials/2018-11-12-next-and-previous-element-in-php-array/"
