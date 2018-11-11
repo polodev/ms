@@ -50,22 +50,13 @@ includeNewer = true
 toLower = false
 
 [[related.indices]]
-name = "keywords"
-weight = 150
+name = "keyword"
+weight = 100
 [[related.indices]]
 name  = "author"
 toLower = true
-weight = 30
+weight = 10
 [[related.indices]]
-name  = "tags"
-weight = 200
-[[related.indices]]
-name  = "tutorials"
-weight = 200
-[[related.indices]]
-name  = "bits"
-weight = 200
-[[related.indices]]
-name  = "type"
-weight = 1000
+name  = "tutorialTypes"
+weight = 50
 
