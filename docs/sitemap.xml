@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://polodev.github.io/ms/tutorials/2018-11-13-how-to-make-full-width-image-and-video-carousal-using-owl-carousal/</loc>
+    <lastmod>2018-11-13T19:38:42+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://polodev.github.io/ms/bits/2018-11-12-order-by-clause-in-and-manipulate-database-result-codeigniter/</loc>
     <lastmod>2018-11-12T01:24:30+06:00</lastmod>
   </url>
@@ -129,13 +134,13 @@
   
   <url>
     <loc>https://polodev.github.io/ms/tags/</loc>
-    <lastmod>2018-11-12T01:24:30+06:00</lastmod>
+    <lastmod>2018-11-13T19:38:42+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://polodev.github.io/ms/categories/</loc>
-    <lastmod>2018-11-12T01:24:30+06:00</lastmod>
+    <lastmod>2018-11-13T19:38:42+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -152,14 +157,14 @@
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/tutorial_tags/ajax/</loc>
-    <lastmod>2018-11-12T01:23:53+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/bit_tags/ajax/</loc>
+    <lastmod>2018-11-12T01:24:29+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/bit_tags/ajax/</loc>
-    <lastmod>2018-11-12T01:24:29+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/tutorial_tags/ajax/</loc>
+    <lastmod>2018-11-12T01:23:53+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -193,8 +198,14 @@
   </url>
   
   <url>
+    <loc>https://polodev.github.io/ms/tutorial_tags/carousal/</loc>
+    <lastmod>2018-11-13T19:38:42+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://polodev.github.io/ms/categories/</loc>
-    <lastmod>2018-11-12T01:24:30+06:00</lastmod>
+    <lastmod>2018-11-13T19:38:42+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -211,6 +222,12 @@
   </url>
   
   <url>
+    <loc>https://polodev.github.io/ms/bit_tags/codeigniter/</loc>
+    <lastmod>2018-11-12T01:24:30+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://polodev.github.io/ms/categories/codeigniter/</loc>
     <lastmod>2018-11-11T18:52:24+06:00</lastmod>
     <priority>0</priority>
@@ -219,12 +236,6 @@
   <url>
     <loc>https://polodev.github.io/ms/tutorial_tags/codeigniter/</loc>
     <lastmod>2018-11-12T01:23:53+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://polodev.github.io/ms/bit_tags/codeigniter/</loc>
-    <lastmod>2018-11-12T01:24:30+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -271,20 +282,26 @@
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/tutorial_tags/formdata/</loc>
-    <lastmod>2018-11-12T01:23:53+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://polodev.github.io/ms/bit_tags/formdata/</loc>
     <lastmod>2018-11-12T01:24:29+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://polodev.github.io/ms/tutorial_tags/formdata/</loc>
+    <lastmod>2018-11-12T01:23:53+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://polodev.github.io/ms/tutorial_tags/full-code/</loc>
     <lastmod>2018-11-12T01:23:53+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/ms/tutorial_tags/full-width-slider/</loc>
+    <lastmod>2018-11-13T19:38:42+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -361,14 +378,14 @@
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/tutorial_tags/mongodb/</loc>
-    <lastmod>2018-11-12T01:23:52+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/bit_tags/mongodb/</loc>
+    <lastmod>2018-11-12T01:24:29+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/bit_tags/mongodb/</loc>
-    <lastmod>2018-11-12T01:24:29+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/tutorial_tags/mongodb/</loc>
+    <lastmod>2018-11-12T01:23:52+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -379,14 +396,14 @@
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/tutorial_tags/multiple-file-upload/</loc>
-    <lastmod>2018-11-12T01:23:53+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/bit_tags/multiple-file-upload/</loc>
+    <lastmod>2018-11-12T01:24:29+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/bit_tags/multiple-file-upload/</loc>
-    <lastmod>2018-11-12T01:24:29+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/tutorial_tags/multiple-file-upload/</loc>
+    <lastmod>2018-11-12T01:23:53+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -397,14 +414,14 @@
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/tutorial_tags/mysql/</loc>
-    <lastmod>2018-11-12T01:23:52+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/bit_tags/mysql/</loc>
+    <lastmod>2018-11-12T01:24:29+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/bit_tags/mysql/</loc>
-    <lastmod>2018-11-12T01:24:29+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/tutorial_tags/mysql/</loc>
+    <lastmod>2018-11-12T01:23:52+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -421,8 +438,20 @@
   </url>
   
   <url>
+    <loc>https://polodev.github.io/ms/tutorial_tags/owl-carousal-2/</loc>
+    <lastmod>2018-11-13T19:38:42+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://polodev.github.io/ms/tags/php/</loc>
     <lastmod>2018-11-11T18:12:45+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/ms/bit_tags/php/</loc>
+    <lastmod>2018-11-12T01:23:52+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -435,12 +464,6 @@
   <url>
     <loc>https://polodev.github.io/ms/tutorial_tags/php/</loc>
     <lastmod>2018-11-12T01:23:53+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://polodev.github.io/ms/bit_tags/php/</loc>
-    <lastmod>2018-11-12T01:23:52+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -476,7 +499,7 @@
   
   <url>
     <loc>https://polodev.github.io/ms/authors/polo-dev/</loc>
-    <lastmod>2018-11-12T01:24:30+06:00</lastmod>
+    <lastmod>2018-11-13T19:38:42+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -527,13 +550,13 @@
   
   <url>
     <loc>https://polodev.github.io/ms/tags/</loc>
-    <lastmod>2018-11-12T01:24:30+06:00</lastmod>
+    <lastmod>2018-11-13T19:38:42+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://polodev.github.io/ms/</loc>
-    <lastmod>2018-11-12T01:24:30+06:00</lastmod>
+    <lastmod>2018-11-13T19:38:42+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -557,13 +580,13 @@
   
   <url>
     <loc>https://polodev.github.io/ms/tutorials/</loc>
-    <lastmod>2018-11-12T01:23:53+06:00</lastmod>
+    <lastmod>2018-11-13T19:38:42+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://polodev.github.io/ms/tutorialtypes/tutorials/</loc>
-    <lastmod>2018-11-12T01:23:53+06:00</lastmod>
+    <lastmod>2018-11-13T19:38:42+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -576,6 +599,12 @@
   <url>
     <loc>https://polodev.github.io/ms/tutorial_tags/unlink/</loc>
     <lastmod>2018-11-12T01:23:53+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/ms/tutorial_tags/video-slider/</loc>
+    <lastmod>2018-11-13T19:38:42+06:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -22,6 +22,19 @@ series_weight=1
 
 # html part
 
+in html markup `.oc__item__content__media` accept 4 data attribute
+
+* data-type='image'
+* data-menu_color="black"
+* data-background_position="center 0"
+* data-source='assets/images/product_image/slider/desktop_background.jpg'
+
+1. Here data-type will be `image` or `video`
+2. `data-menu_color` will be `white` or nothing. I mean if you don't want to change basic black color, you can ignore.
+3. `data-background_position` will be valid css background position - default `center center`. You can ignore if you want to make position `center center`
+4. `data-source` will be image or video source. you have to pass relevant value for `data-type`
+
+
 ~~~html
 <div class='mainhome__content'>
   <div class="owl-carousel">
@@ -29,28 +42,13 @@ series_weight=1
       <div class='oc__item__content'>
         <div
           class='oc__item__content__media'
-          data-type='image'
-          data-menu_color="white"
-          data-background_position="center 0"
-          data-source='assets/images/product_image/slider/desktop_background.jpg'
-          >
-        </div>
-        <div class='oc__item__content__text'>
-          <h2 style="padding: 300px">Carousel One - inner content is totally in your control. whate ever design you want make, you can makeit. can add link </h2>
-        </div>
-      </div>
-    </div>
-    <div class='oc__item'>
-      <div class='oc__item__content'>
-        <div
-          class='oc__item__content__media'
           data-type='video'
           data-menu_color="white"
-          data-source='https://static.zara.net/video//mkt/2018/11/aw18-party-kids-video03d/aw18-party-kids-video03d_1.mp4'
+          data-source='https://www.w3schools.com/howto/rain.mp4'
           >
         </div>
         <div class='oc__item__content__text'>
-          <!-- <h2 style="padding: 300px">Carousel Three - inner content is totally in your control. whate ever design you want make, you can makeit. can add link </h2> -->
+          <h2 style="padding: 300px">Carousel one - inner content is totally in your control. whate ever design you want make, you can makeit. can add link </h2>
         </div>
       </div>
     </div>
@@ -114,6 +112,14 @@ series_weight=1
   </div>
 </div>
 ~~~
+
+# Embed from codepen
+
+<div>
+  <p data-height="265" data-theme-id="light" data-slug-hash="YRNrxO" data-default-tab="html,result" data-user="polo-dev-shibu" data-pen-title="How to Make Full Width Image and Video Carousal Using Owl Carousal" class="codepen">See the Pen <a href="https://codepen.io/polo-dev-shibu/pen/YRNrxO/">How to Make Full Width Image and Video Carousal Using Owl Carousal</a> by Polo Dev Shibu (<a href="https://codepen.io/polo-dev-shibu">@polo-dev-shibu</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+</div>
+
 
 # scss part
 

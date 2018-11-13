@@ -6,10 +6,20 @@
     <description>Recent content in Tutorials on This Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Nov 2018 01:23:53 +0600</lastBuildDate>
+    <lastBuildDate>Tue, 13 Nov 2018 19:38:42 +0600</lastBuildDate>
     
 	<atom:link href="https://polodev.github.io/ms/tutorialtypes/tutorials/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to Make Full Width Image and Video Carousal Using Owl Carousal</title>
+      <link>https://polodev.github.io/ms/tutorials/2018-11-13-how-to-make-full-width-image-and-video-carousal-using-owl-carousal/</link>
+      <pubDate>Tue, 13 Nov 2018 19:38:42 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorials/2018-11-13-how-to-make-full-width-image-and-video-carousal-using-owl-carousal/</guid>
+      <description>html part in html markup .oc__item__content__media accept 4 data attribute
+ data-type=&amp;lsquo;image&amp;rsquo; data-menu_color=&amp;ldquo;black&amp;rdquo; data-background_position=&amp;ldquo;center 0&amp;rdquo; data-source=&amp;lsquo;assets/images/product_image/slider/desktop_background.jpg&amp;rsquo;   Here data-type will be image or video data-menu_color will be white or nothing. I mean if you don&amp;rsquo;t want to change basic black color, you can ignore. data-background_position will be valid css background position - default center center. You can ignore if you want to make position center center data-source will be image or video source.</description>
+    </item>
     
     <item>
       <title>Ajax Api Call for Multiple File Upload Using Ajax</title>
