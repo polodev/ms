@@ -32,6 +32,12 @@ home = [ "HTML", "RSS", "JSON"]
     url = "/bits/"
     weight = 2
   [[menu.main]]
+    identifier = "sitemap"
+    name = "sitemap"
+    title = "Sitemap"
+    url = "/sitemap/"
+    weight = 3
+  [[menu.main]]
     identifier = "about"
     name = "this is about page"
     title = "About"

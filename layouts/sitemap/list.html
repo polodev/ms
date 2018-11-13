@@ -1,0 +1,15 @@
+{{ define "main" }}
+<section>
+  <!-- double loop -->
+  <ul>
+    {{ range $key, $taxonomy := .Site.Taxonomies.tutorialTypes }}
+
+      <h2 class="pt-4 pb-2">All {{$key}} ({{len $taxonomy}}) </h2>
+        <!-- {{ range $taxonomy.Pages }} -->
+        <li><a href="{{ .Permalink}}">{{ .LinkTitle }}</a></li>
+        <!-- {{ end }} -->
+    {{ end }}
+  </ul>
+</section>
+
+{{end}}

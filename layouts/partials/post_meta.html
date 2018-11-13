@@ -14,10 +14,14 @@
     <i class='fa fa-calendar'></i>
     {{ .PublishDate.Format "January 2, 2006" }}
   </span>
+
+ {{ $readingTime :=  math.Ceil (mul .ReadingTime 1.3) }}
+ {{if (lt $readingTime 25 )}}
   <span class='reading_time'>
       <i class='fa fa-clock'></i>
-   {{  math.Ceil (mul .ReadingTime 1.3) }} minutes
+      {{$readingTime}} minutes
   </span>
+{{end}}
 
   {{ if .Params.tutorial_tags }}
     <span class="category-block">
