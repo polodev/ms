@@ -109,6 +109,12 @@ pre {
     padding: 5px 20px;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.08), 0px 0px 4px rgba(0,0,0,0.05);
 }
+.codepen {
+  background: var(--bg3);
+  padding: 20px 5px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.08), 0px 0px 4px rgba(0,0,0,0.05);
+  margin: 2em 0;
+}
 code[class*=language-] {
     max-height: 700px;
     overflow: auto;

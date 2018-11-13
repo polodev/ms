@@ -45,6 +45,12 @@
 body {
 	color: #333;
   position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
 }
 img {
 	max-width: 100%;

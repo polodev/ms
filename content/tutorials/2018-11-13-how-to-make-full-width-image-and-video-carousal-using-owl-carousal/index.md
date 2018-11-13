@@ -48,7 +48,7 @@ in html markup `.oc__item__content__media` accept 4 data attribute
           >
         </div>
         <div class='oc__item__content__text'>
-          <h2 style="padding: 300px">Carousel one - inner content is totally in your control. whate ever design you want make, you can makeit. can add link </h2>
+          <h2>carousal inner content 1</h2>
         </div>
       </div>
     </div>
@@ -62,7 +62,7 @@ in html markup `.oc__item__content__media` accept 4 data attribute
           >
         </div>
         <div class='oc__item__content__text'>
-          <h2 style="padding: 300px">Carousel Two - inner content is totally in your control. whate ever design you want make, you can makeit. can add link </h2>
+          <h2>carousal inner content 2</h2>
         </div>
       </div>
     </div>
@@ -77,7 +77,7 @@ in html markup `.oc__item__content__media` accept 4 data attribute
           >
         </div>
         <div class='oc__item__content__text'>
-          <h2 style="padding: 300px">Carousel Four - inner content is totally in your control. whate ever design you want make, you can makeit. can add link </h2>
+          <h2>carousal inner content 3</h2>
         </div>
       </div>
     </div>
@@ -91,7 +91,7 @@ in html markup `.oc__item__content__media` accept 4 data attribute
           >
         </div>
         <div class='oc__item__content__text'>
-          <h2 style="padding: 300px">Carousel five - inner content is totally in your control. whate ever design you want make, you can makeit. can add link </h2>
+          <h2>carousal inner content 4</h2>
         </div>
       </div>
     </div>
@@ -105,7 +105,7 @@ in html markup `.oc__item__content__media` accept 4 data attribute
           >
         </div>
         <div class='oc__item__content__text'>
-          <h2 style="padding: 300px">Carousel 6 - inner content is totally in your control. whate ever design you want make, you can makeit. can add link </h2>
+          <h2>carousal inner content 5</h2>
         </div>
       </div>
     </div>
@@ -113,17 +113,23 @@ in html markup `.oc__item__content__media` accept 4 data attribute
 </div>
 ~~~
 
-# Embed from codepen
 
-<div>
-  <p data-height="265" data-theme-id="light" data-slug-hash="YRNrxO" data-default-tab="html,result" data-user="polo-dev-shibu" data-pen-title="How to Make Full Width Image and Video Carousal Using Owl Carousal" class="codepen">See the Pen <a href="https://codepen.io/polo-dev-shibu/pen/YRNrxO/">How to Make Full Width Image and Video Carousal Using Owl Carousal</a> by Polo Dev Shibu (<a href="https://codepen.io/polo-dev-shibu">@polo-dev-shibu</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<div class="codepen">
+  <h2>
+      Embed from codepen
+  </h2>
+  <p data-height="400" data-theme-id="light" data-slug-hash="YRNrxO" data-default-tab="html,result" data-user="polo-dev-shibu" data-pen-title="How to Make Full Width Image and Video Carousal Using Owl Carousal" class="codepen">See the Pen <a href="https://codepen.io/polo-dev-shibu/pen/YRNrxO/">How to Make Full Width Image and Video Carousal Using Owl Carousal</a> by Polo Dev Shibu (<a href="https://codepen.io/polo-dev-shibu">@polo-dev-shibu</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 </div>
 
 
-# scss part
+# scss part - You can view compile css in codepen
 
 ~~~css
+body, html {
+ margin: 0;
+ padding: 0;
+}
 .owl-carousel {
 
 }
@@ -155,6 +161,9 @@ in html markup `.oc__item__content__media` accept 4 data attribute
     }
     &__text {
       z-index: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       width: 100%;
       height: 100%;
     }

@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> polodev | Learning With Ease </title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
   <link rel="canonical" href="https://polodev.github.io/ms/tutorials/2018-11-13-how-to-make-full-width-image-and-video-carousal-using-owl-carousal/">
   <link rel='icon' href='/ms/images/favicon.ico' />
 
   
 
  <link rel='stylesheet' type="text/css" href=' /ms/dist/codemirror_master.css'/>
-
   
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link rel="stylesheet" href="/ms/css/bootstrap.min.css">
@@ -136,8 +136,7 @@
       <nav id="TableOfContents">
 <ul>
 <li><a href="#html-part">html part</a></li>
-<li><a href="#embed-from-codepen">Embed from codepen</a></li>
-<li><a href="#scss-part">scss part</a></li>
+<li><a href="#scss-part-you-can-view-compile-css-in-codepen">scss part - You can view compile css in codepen</a></li>
 <li><a href="#js-part">js part</a></li>
 </ul>
 </nav>
@@ -181,7 +180,7 @@
           &gt;
         &lt;/div&gt;
         &lt;div class='oc__item__content__text'&gt;
-          &lt;h2 style=&quot;padding: 300px&quot;&gt;Carousel one - inner content is totally in your control. whate ever design you want make, you can makeit. can add link &lt;/h2&gt;
+          &lt;h2&gt;carousal inner content 1&lt;/h2&gt;
         &lt;/div&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -195,7 +194,7 @@
           &gt;
         &lt;/div&gt;
         &lt;div class='oc__item__content__text'&gt;
-          &lt;h2 style=&quot;padding: 300px&quot;&gt;Carousel Two - inner content is totally in your control. whate ever design you want make, you can makeit. can add link &lt;/h2&gt;
+          &lt;h2&gt;carousal inner content 2&lt;/h2&gt;
         &lt;/div&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -210,7 +209,7 @@
           &gt;
         &lt;/div&gt;
         &lt;div class='oc__item__content__text'&gt;
-          &lt;h2 style=&quot;padding: 300px&quot;&gt;Carousel Four - inner content is totally in your control. whate ever design you want make, you can makeit. can add link &lt;/h2&gt;
+          &lt;h2&gt;carousal inner content 3&lt;/h2&gt;
         &lt;/div&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -224,7 +223,7 @@
           &gt;
         &lt;/div&gt;
         &lt;div class='oc__item__content__text'&gt;
-          &lt;h2 style=&quot;padding: 300px&quot;&gt;Carousel five - inner content is totally in your control. whate ever design you want make, you can makeit. can add link &lt;/h2&gt;
+          &lt;h2&gt;carousal inner content 4&lt;/h2&gt;
         &lt;/div&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -238,7 +237,7 @@
           &gt;
         &lt;/div&gt;
         &lt;div class='oc__item__content__text'&gt;
-          &lt;h2 style=&quot;padding: 300px&quot;&gt;Carousel 6 - inner content is totally in your control. whate ever design you want make, you can makeit. can add link &lt;/h2&gt;
+          &lt;h2&gt;carousal inner content 5&lt;/h2&gt;
         &lt;/div&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -246,16 +245,21 @@
 &lt;/div&gt;
 </code></pre>
 
-<h1 id="embed-from-codepen">Embed from codepen</h1>
-
-<div>
-  <p data-height="265" data-theme-id="light" data-slug-hash="YRNrxO" data-default-tab="html,result" data-user="polo-dev-shibu" data-pen-title="How to Make Full Width Image and Video Carousal Using Owl Carousal" class="codepen">See the Pen <a href="https://codepen.io/polo-dev-shibu/pen/YRNrxO/">How to Make Full Width Image and Video Carousal Using Owl Carousal</a> by Polo Dev Shibu (<a href="https://codepen.io/polo-dev-shibu">@polo-dev-shibu</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<div class="codepen">
+  <h2>
+      Embed from codepen
+  </h2>
+  <p data-height="400" data-theme-id="light" data-slug-hash="YRNrxO" data-default-tab="html,result" data-user="polo-dev-shibu" data-pen-title="How to Make Full Width Image and Video Carousal Using Owl Carousal" class="codepen">See the Pen <a href="https://codepen.io/polo-dev-shibu/pen/YRNrxO/">How to Make Full Width Image and Video Carousal Using Owl Carousal</a> by Polo Dev Shibu (<a href="https://codepen.io/polo-dev-shibu">@polo-dev-shibu</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 </div>
 
-<h1 id="scss-part">scss part</h1>
+<h1 id="scss-part-you-can-view-compile-css-in-codepen">scss part - You can view compile css in codepen</h1>
 
-<pre><code class="language-css">.owl-carousel {
+<pre><code class="language-css">body, html {
+ margin: 0;
+ padding: 0;
+}
+.owl-carousel {
 
 }
 .oc__item {
@@ -286,6 +290,9 @@
     }
     &amp;__text {
       z-index: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       width: 100%;
       height: 100%;
     }
@@ -412,15 +419,15 @@ function callImageAndVideoMount($currentOwlMedia) {
 <h3>See Also</h3>
 <ul>
   
-  <li><a href="/ms/tutorials/2018-11-12-next-and-previous-element-in-php-array/">Next and Previous Element in Php Array</a></li>
-  
-  <li><a href="/ms/tutorials/2018-11-12-multiple-git-origin-url-to-push-code-to-multiple-repository/">Multiple git origin remote url to push code to multiple git repository</a></li>
+  <li><a href="/ms/tutorials/2018-11-12-ajax-api-call-for-multiple-file-upload-using-ajax/">Ajax Api Call for Multiple File Upload Using Ajax</a></li>
   
   <li><a href="/ms/tutorials/2018-11-12-setting-and-getting-user-data-in-session-session-flash-codeigniter/">Setting and Getting User Data in Session Session Flash Codeigniter</a></li>
   
-  <li><a href="/ms/tutorials/2018-11-12-ajax-api-call-for-multiple-file-upload-using-ajax/">Ajax Api Call for Multiple File Upload Using Ajax</a></li>
+  <li><a href="/ms/tutorials/2018-11-12-multiple-git-origin-url-to-push-code-to-multiple-repository/">Multiple git origin remote url to push code to multiple git repository</a></li>
   
   <li><a href="/ms/tutorials/2018-11-12-php-functions-part-one/">Php Functions - array_values, json_encode, json_decode, array_intersect</a></li>
+  
+  <li><a href="/ms/tutorials/2018-11-12-next-and-previous-element-in-php-array/">Next and Previous Element in Php Array</a></li>
   
 </ul>
 
