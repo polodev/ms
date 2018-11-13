@@ -10,7 +10,7 @@ categories= ['']
 tags= ['']
 language=['js']
 software=['']
-tutorial_tags= ['owl carousal 2', 'full width slider', 'video slider', 'carousal']
+tutorial_tags= ['owl carousal 2', 'full width slider', 'video slider', 'carousal', 'js plugin']
 tutorialTypes=['tutorials']
 keyword= "owl carousal 2, full width slider, video slider, carousal"
 description= "How to make a full width video and image slider using owl carousal"
@@ -19,6 +19,18 @@ available_skill_level=["beginner", "intermediate", "advanced"]
 series=[]
 series_weight=1
 +++
+
+
+# file dependency
+
+~~~bash
+https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css
+~~~
+
+~~~bash
+https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js
+https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js
+~~~
 
 # html part
 

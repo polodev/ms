@@ -16,6 +16,7 @@ tutorials
 ==================
 
 hugo new tutorials/2018-11-13-how-to-make-full-width-image-and-video-carousal-using-owl-carousal/index.md
+hugo new tutorials/2018-11-14-how-to-show-magnipop-modal-in-full-screen-along-with-scoped-class/index.md
 
 
 
