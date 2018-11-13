@@ -1,6 +1,8 @@
 <div class="card my-2">
   <div class="card-header">
-    <h3>Bit Tags</h3>
+    <h3>
+       <a href='{{$.Site.BaseURL}}/bit-tags'>Bit Tags</a>
+    </h3>
   </div>
   <ul class="sidebar_tags">
     {{ range $key, $value := .Site.Taxonomies.bit_tags }}
