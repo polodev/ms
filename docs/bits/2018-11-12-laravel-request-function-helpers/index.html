@@ -48,7 +48,7 @@
 
 
     </ul>
-    <div class='d-flex justify-content-center align-items-center mr-4' id="toggle_editor_button">
+    <div class='d-md-flex justify-content-center align-items-center mr-4 hidden_in_mobile' id="toggle_editor_button">
       <button class="btn">toggle editor</button>
     </div>
     <div id="search_box" class="search_result_box d-inline my-2">
@@ -148,10 +148,10 @@ request()-&gt;fullUrl(),
 
   <div class="text-center py-3">
     
-      <a class="btn btn-info" href="https://polodev.github.io/ms/bits/2018-11-12-laravel-serve-command-for-viewing-site-in-same-network/">Previous Post</a>
+      <a id="previous_post_link" class="btn btn-info" href="https://polodev.github.io/ms/bits/2018-11-12-laravel-serve-command-for-viewing-site-in-same-network/">Previous Post</a>
     
     
-      <a class="btn btn-info" href="https://polodev.github.io/ms/bits/2018-11-12-insert-into-database-in-codeigniter/">Next Post</a>
+      <a id="next_post_link" class="btn btn-info" href="https://polodev.github.io/ms/bits/2018-11-12-insert-into-database-in-codeigniter/">Next Post</a>
     
   </div>
 
@@ -165,11 +165,11 @@ request()-&gt;fullUrl(),
   
   <li><a href="/ms/bits/2018-11-12-order-by-clause-in-and-manipulate-database-result-codeigniter/">Order by Clause in and Manipulate Database Result Codeigniter</a></li>
   
-  <li><a href="/ms/bits/2018-11-12-multiple-file-upload-using-jquery-ajax-with-complete-percentage/">Multiple File Upload Using Jquery Ajax With Complete Percentage</a></li>
-  
-  <li><a href="/ms/bits/2018-11-12-insert-into-database-in-codeigniter/">Insert Into Database in Codeigniter</a></li>
+  <li><a href="/ms/bits/2018-11-12-getting-single-result-from-codeigniter/">Getting Single Result From Codeigniter</a></li>
   
   <li><a href="/ms/bits/2018-11-12-laravel-serve-command-for-viewing-site-in-same-network/">Laravel Serve Command for Viewing Site in Same Network</a></li>
+  
+  <li><a href="/ms/bits/2018-11-12-multiple-file-upload-using-jquery-ajax-with-complete-percentage/">Multiple File Upload Using Jquery Ajax With Complete Percentage</a></li>
   
   <li><a href="/ms/bits/2018-11-12-getting-current-month-content-in-laravel-using-mysql-raw-query/">Getting Current Month Content in Laravel Using Mysql Raw Query</a></li>
   
@@ -235,6 +235,10 @@ s.setAttribute('data-timestamp', +new Date());
     </li>
     
     <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/fixed-sidebar">Fixed sidebar (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
       <a href="https://polodev.github.io/ms//tutorial_tags/formdata">Formdata (1)</a>
     </li>
     
@@ -268,6 +272,22 @@ s.setAttribute('data-timestamp', +new Date());
     
     <li class="sidebar_tag">
       <a href="https://polodev.github.io/ms//tutorial_tags/jquery">Jquery (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/js-plugin">Js plugin (3)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/lightbox">Lightbox (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/magnipop-model">Magnipop model (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/modal">Modal (1)</a>
     </li>
     
     <li class="sidebar_tag">
@@ -323,11 +343,23 @@ s.setAttribute('data-timestamp', +new Date());
     </li>
     
     <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/scrollable-sticy-sidebar">Scrollable sticy sidebar (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
       <a href="https://polodev.github.io/ms//tutorial_tags/session">Session (1)</a>
     </li>
     
     <li class="sidebar_tag">
       <a href="https://polodev.github.io/ms//tutorial_tags/session-flash">Session flash (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/smart-sidebar">Smart sidebar (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/sticky-sidebar">Sticky sidebar (1)</a>
     </li>
     
     <li class="sidebar_tag">
@@ -595,6 +627,7 @@ s.setAttribute('data-timestamp', +new Date());
   <i class="fa fa-laptop-code"></i>
 </div>
 <script src="/ms/js/jquery.min.js"></script>
+<script src="/ms/js/jquery.mobile.custom.min.js"></script>
 <script src="/ms/js/resizable.js"></script>
 
 

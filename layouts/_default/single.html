@@ -54,10 +54,10 @@
 
   <div class="text-center py-3">
     {{ if .PrevInSection }}
-      <a class="btn btn-info" href="{{.PrevInSection.Permalink}}">Previous Post</a>
+      <a id="previous_post_link" class="btn btn-info" href="{{.PrevInSection.Permalink}}">Previous Post</a>
     {{ end }}
     {{ if .NextInSection }}
-      <a class="btn btn-info" href="{{.NextInSection.Permalink}}">Next Post</a>
+      <a id="next_post_link" class="btn btn-info" href="{{.NextInSection.Permalink}}">Next Post</a>
     {{ end }}
   </div>
 

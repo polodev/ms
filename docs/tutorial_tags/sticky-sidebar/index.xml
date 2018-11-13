@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sticky Sidebar on This Site</title>
+    <link>https://polodev.github.io/ms/tutorial_tags/sticky-sidebar/</link>
+    <description>Recent content in Sticky Sidebar on This Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Nov 2018 01:36:52 +0600</lastBuildDate>
+    
+	<atom:link href="https://polodev.github.io/ms/tutorial_tags/sticky-sidebar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adding Scrollable Sticy Sidebar in Your Website</title>
+      <link>https://polodev.github.io/ms/tutorials/2018-11-14-adding-scrollable-sticy-sidebar-in-your-website/</link>
+      <pubDate>Wed, 14 Nov 2018 01:36:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorials/2018-11-14-adding-scrollable-sticy-sidebar-in-your-website/</guid>
+      <description>file dependency https://abouolia.github.io/sticky-sidebar/examples/scrollable-element.html link will help you to understand how sticky scrollbar works. Just view page source and implement in your website. project gihub page link https://abouolia.github.io/sticky-sidebar/
+ https://abouolia.github.io/sticky-sidebar/js/rAF.js https://abouolia.github.io/sticky-sidebar/js/ResizeSensor.js https://abouolia.github.io/sticky-sidebar/js/sticky-sidebar.js  html part &amp;lt;section class=&amp;quot;mainsingle&amp;quot;&amp;gt; &amp;lt;div class=&#39;mainsingle__content&#39;&amp;gt; &amp;lt;div class=&#39;row&#39;&amp;gt; &amp;lt;div class=&#39;col-md-7&#39;&amp;gt; &amp;lt;div class=&#39;mainsingle__content__image&#39;&amp;gt; &amp;lt;p&amp;gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel cumque, ut expedita, fugiat cupiditate blanditiis magni odit. Consectetur illum eaque necessitatibus, voluptate molestiae at quae accusamus veritatis quibusdam laborum cum quidem.</description>
+    </item>
+    
+  </channel>
+</rss>

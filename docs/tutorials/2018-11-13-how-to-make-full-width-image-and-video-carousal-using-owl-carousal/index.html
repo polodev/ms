@@ -48,7 +48,7 @@
 
 
     </ul>
-    <div class='d-flex justify-content-center align-items-center mr-4' id="toggle_editor_button">
+    <div class='d-md-flex justify-content-center align-items-center mr-4 hidden_in_mobile' id="toggle_editor_button">
       <button class="btn">toggle editor</button>
     </div>
     <div id="search_box" class="search_result_box d-inline my-2">
@@ -115,6 +115,11 @@
           carousal
         </a>
       
+        ,
+        <a href="https://polodev.github.io/ms/tutorial_tags/js-plugin">
+          js plugin
+        </a>
+      
     </span>
   
 
@@ -135,6 +140,7 @@
     <div id='toc_content'>
       <nav id="TableOfContents">
 <ul>
+<li><a href="#file-dependency">file dependency</a></li>
 <li><a href="#html-part">html part</a></li>
 <li><a href="#scss-part-you-can-view-compile-css-in-codepen">scss part - You can view compile css in codepen</a></li>
 <li><a href="#js-part">js part</a></li>
@@ -149,6 +155,15 @@
 
   <div class='article mt-4 single'>
     
+
+<h1 id="file-dependency">file dependency</h1>
+
+<pre><code class="language-bash">https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css
+</code></pre>
+
+<pre><code class="language-bash">https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js
+https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js
+</code></pre>
 
 <h1 id="html-part">html part</h1>
 
@@ -397,6 +412,10 @@ function callImageAndVideoMount($currentOwlMedia) {
           carousal
         </a>
       
+        <a href="https://polodev.github.io/ms/tutorial_tags/js-plugin">
+          js plugin
+        </a>
+      
 
     </div>
   
@@ -406,8 +425,10 @@ function callImageAndVideoMount($currentOwlMedia) {
 
   <div class="text-center py-3">
     
-      <a class="btn btn-info" href="https://polodev.github.io/ms/tutorials/2018-11-12-ajax-api-call-for-multiple-file-upload-using-ajax/">Previous Post</a>
+      <a id="previous_post_link" class="btn btn-info" href="https://polodev.github.io/ms/tutorials/2018-11-12-ajax-api-call-for-multiple-file-upload-using-ajax/">Previous Post</a>
     
+    
+      <a id="next_post_link" class="btn btn-info" href="https://polodev.github.io/ms/tutorials/2018-11-14-how-to-show-magnipop-modal-in-full-screen-along-with-scoped-class/">Next Post</a>
     
   </div>
 
@@ -419,15 +440,15 @@ function callImageAndVideoMount($currentOwlMedia) {
 <h3>See Also</h3>
 <ul>
   
-  <li><a href="/ms/tutorials/2018-11-12-ajax-api-call-for-multiple-file-upload-using-ajax/">Ajax Api Call for Multiple File Upload Using Ajax</a></li>
+  <li><a href="/ms/tutorials/2018-11-14-adding-scrollable-sticy-sidebar-in-your-website/">Adding Scrollable Sticy Sidebar in Your Website</a></li>
   
-  <li><a href="/ms/tutorials/2018-11-12-setting-and-getting-user-data-in-session-session-flash-codeigniter/">Setting and Getting User Data in Session Session Flash Codeigniter</a></li>
-  
-  <li><a href="/ms/tutorials/2018-11-12-multiple-git-origin-url-to-push-code-to-multiple-repository/">Multiple git origin remote url to push code to multiple git repository</a></li>
-  
-  <li><a href="/ms/tutorials/2018-11-12-php-functions-part-one/">Php Functions - array_values, json_encode, json_decode, array_intersect</a></li>
+  <li><a href="/ms/tutorials/2018-11-14-how-to-show-magnipop-modal-in-full-screen-along-with-scoped-class/">How to Show Magnipop Modal in Full Screen Along With Scoped Class</a></li>
   
   <li><a href="/ms/tutorials/2018-11-12-next-and-previous-element-in-php-array/">Next and Previous Element in Php Array</a></li>
+  
+  <li><a href="/ms/tutorials/2018-11-12-ajax-api-call-for-multiple-file-upload-using-ajax/">Ajax Api Call for Multiple File Upload Using Ajax</a></li>
+  
+  <li><a href="/ms/tutorials/2018-11-12-php-functions-part-one/">Php Functions - array_values, json_encode, json_decode, array_intersect</a></li>
   
 </ul>
 
@@ -491,6 +512,10 @@ s.setAttribute('data-timestamp', +new Date());
     </li>
     
     <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/fixed-sidebar">Fixed sidebar (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
       <a href="https://polodev.github.io/ms//tutorial_tags/formdata">Formdata (1)</a>
     </li>
     
@@ -524,6 +549,22 @@ s.setAttribute('data-timestamp', +new Date());
     
     <li class="sidebar_tag">
       <a href="https://polodev.github.io/ms//tutorial_tags/jquery">Jquery (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/js-plugin">Js plugin (3)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/lightbox">Lightbox (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/magnipop-model">Magnipop model (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/modal">Modal (1)</a>
     </li>
     
     <li class="sidebar_tag">
@@ -579,11 +620,23 @@ s.setAttribute('data-timestamp', +new Date());
     </li>
     
     <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/scrollable-sticy-sidebar">Scrollable sticy sidebar (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
       <a href="https://polodev.github.io/ms//tutorial_tags/session">Session (1)</a>
     </li>
     
     <li class="sidebar_tag">
       <a href="https://polodev.github.io/ms//tutorial_tags/session-flash">Session flash (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/smart-sidebar">Smart sidebar (1)</a>
+    </li>
+    
+    <li class="sidebar_tag">
+      <a href="https://polodev.github.io/ms//tutorial_tags/sticky-sidebar">Sticky sidebar (1)</a>
     </li>
     
     <li class="sidebar_tag">
@@ -851,6 +904,7 @@ s.setAttribute('data-timestamp', +new Date());
   <i class="fa fa-laptop-code"></i>
 </div>
 <script src="/ms/js/jquery.min.js"></script>
+<script src="/ms/js/jquery.mobile.custom.min.js"></script>
 <script src="/ms/js/resizable.js"></script>
 
 

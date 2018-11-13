@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lightbox on This Site</title>
+    <link>https://polodev.github.io/ms/tutorial_tags/lightbox/</link>
+    <description>Recent content in Lightbox on This Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Nov 2018 01:12:52 +0600</lastBuildDate>
+    
+	<atom:link href="https://polodev.github.io/ms/tutorial_tags/lightbox/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Show Magnipop Modal in Full Screen Along With Scoped Class</title>
+      <link>https://polodev.github.io/ms/tutorials/2018-11-14-how-to-show-magnipop-modal-in-full-screen-along-with-scoped-class/</link>
+      <pubDate>Wed, 14 Nov 2018 01:12:52 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorials/2018-11-14-how-to-show-magnipop-modal-in-full-screen-along-with-scoped-class/</guid>
+      <description>file dependency  magnific-popup.css magnific-popup.js jquery  magnific-popup can be downloaded from http://dimsemenov.com/plugins/magnific-popup/ page
+Html part &amp;lt;div class=&#39;mainsingle__content__image&#39;&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a class=&#39;single-image-group&#39; href=&#39;assets/images/product_image/0518254500_1_1_1.jpg&#39;&amp;gt; &amp;lt;img src=&#39;assets/images/product_image/0518254500_1_1_1.jpg&#39; alt=&#39;&#39;/&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&#39;single-image-group&#39; href=&#39;assets/images/product_image/0518254500_2_1_1.jpg&#39;&amp;gt; &amp;lt;img src=&#39;assets/images/product_image/0518254500_2_1_1.jpg&#39; alt=&#39;&#39;/&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&#39;single-image-group&#39; href=&#39;assets/images/product_image/0518254500_2_2_1.jpg&#39;&amp;gt; &amp;lt;img src=&#39;assets/images/product_image/0518254500_2_2_1.jpg&#39; alt=&#39;&#39;/&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&#39;single-image-group&#39; href=&#39;assets/images/product_image/0518254500_2_3_1.jpg&#39;&amp;gt; &amp;lt;img src=&#39;assets/images/product_image/0518254500_2_3_1.jpg&#39; alt=&#39;&#39;/&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&#39;single-image-group&#39; href=&#39;assets/images/product_image/0518254500_2_4_1.jpg&#39;&amp;gt; &amp;lt;img src=&#39;assets/images/product_image/0518254500_2_4_1.jpg&#39; alt=&#39;&#39;/&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&#39;single-image-group&#39; href=&#39;assets/images/product_image/0518254500_2_5_1.jpg&#39;&amp;gt; &amp;lt;img src=&#39;assets/images/product_image/0518254500_2_5_1.jpg&#39; alt=&#39;&#39;/&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&#39;single-image-group&#39; href=&#39;assets/images/product_image/0518254500_2_6_1.jpg&#39;&amp;gt; &amp;lt;img src=&#39;assets/images/product_image/0518254500_2_6_1.jpg&#39; alt=&#39;&#39;/&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/div&amp;gt;  css part all css scoped under .</description>
+    </item>
+    
+  </channel>
+</rss>

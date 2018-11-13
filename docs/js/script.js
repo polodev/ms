@@ -347,8 +347,21 @@ $(function() {
 
 
 
-
-
+$single_page_content = $('#single_page_content');
+console.log('$single_page_content', $single_page_content)
+$single_page_content.on('swipeleft', function (event) {
+  let href = $('#previous_post_link').attr('href');
+  console.log('href', href);
+  if (href) {
+    window.location.href = href;
+  }
+});
+$single_page_content.on('swiperight', function (event) {
+  let href = $('#next_post_link').attr('href');
+  if (href) {
+    window.location.href = href;
+  }
+});
 
 
 

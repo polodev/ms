@@ -26,6 +26,9 @@ series_weight=1
 * magnific-popup.js
 * jquery
 
+magnific-popup can be downloaded from [http://dimsemenov.com/plugins/magnific-popup/](http://dimsemenov.com/plugins/magnific-popup/) page
+
+
 # Html part
 
 ~~~html
