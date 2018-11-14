@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scss on This Site</title>
+    <link>https://polodev.github.io/ms/bit_tags/scss/</link>
+    <description>Recent content in Scss on This Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Nov 2018 21:40:51 +0600</lastBuildDate>
+    
+	<atom:link href="https://polodev.github.io/ms/bit_tags/scss/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Basic Pagination Using Html Scss</title>
+      <link>https://polodev.github.io/ms/bits/2018-11-14-basic-pagination-using-html-scss/</link>
+      <pubDate>Wed, 14 Nov 2018 21:40:51 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/bits/2018-11-14-basic-pagination-using-html-scss/</guid>
+      <description>Html code &amp;lt;div class=&#39;pagination&#39;&amp;gt; &amp;lt;div class=&#39;pagination__inner&#39;&amp;gt; &amp;lt;a href=&amp;quot;#&amp;quot; disabled&amp;gt;&amp;lt;i class=&amp;quot;fas fa-chevron-left&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li class=&amp;quot;active&amp;quot;&amp;gt;&amp;lt;a href=&#39;#&#39;&amp;gt;1&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&#39;#&#39;&amp;gt;2&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&#39;#&#39;&amp;gt;3&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&#39;#&#39;&amp;gt;4&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&#39;#&#39;&amp;gt;5&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&#39;#&#39;&amp;gt;6&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&#39;#&#39;&amp;gt;7&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&#39;#&#39;&amp;gt;8&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;...&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&#39;#&#39;&amp;gt;41&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;a href=#&amp;gt;&amp;lt;i class=&amp;quot;fas fa-chevron-right&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;  scss code body { font-family: verdana, arial, sans-serif; } .pagination { padding: 3em 0; &amp;amp;__inner { display: flex; justify-content: center; align-items: center; [disabled] { cursor: none; opacity: .5; } a { display: block; text-decoration: none; padding: 5px 7px; transition: all .</description>
+    </item>
+    
+  </channel>
+</rss>

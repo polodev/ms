@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> polodev | Learning With Ease </title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-  <link rel="canonical" href="https://polodev.github.io/ms/tutorials/2018-11-12-next-and-previous-element-in-php-array/">
+  <link rel="canonical" href="https://polodev.github.io/ms/bit_tags/pagination/">
   <link rel='icon' href='/ms/images/favicon.ico' />
 
   
@@ -68,13 +68,16 @@
     <div class="col-lg-9">
       <div class="mt-3">
       
-<div id="single_page_content">
-  <h1 class="post_title">
-    <a href="/ms/tutorials/2018-11-12-next-and-previous-element-in-php-array/">Next and Previous Element in Php Array</a>
-  </h1>
-  <hr/>
+<div>
+<h2 class="mb-4">All posts under <span class='mark'>Pagination </span> </h2>
 
-  
+
+  <div class="card my-2">
+    <div class="card-body">
+      <h3 class="post_title">
+        <a href="/ms/bits/2018-11-14-basic-pagination-using-html-scss/">Basic Pagination Using Html Scss</a>
+      </h3>
+      
 <div class='author meta ml-1'>
   
     <i class='fa fa-user'></i>
@@ -88,189 +91,52 @@
 <div class="meta">
   <span class="date">
     <i class='fa fa-calendar'></i>
-    November 12, 2018
+    November 14, 2018
   </span>
 
  
  
   <span class='reading_time'>
       <i class='fa fa-clock'></i>
-      2 minutes
+      3 minutes
   </span>
 
+
+  
 
   
     <span class="category-block">
       <i class='fa fa-folder'></i>
       
         
-        <a href="https://polodev.github.io/ms/tutorial_tags/php-functions">
-          php functions
+        <a href="https://polodev.github.io/ms/bit_tags/pagination">
+          pagination
         </a>
       
         ,
-        <a href="https://polodev.github.io/ms/tutorial_tags/php-array">
-          php array
+        <a href="https://polodev.github.io/ms/bit_tags/scss">
+          scss
+        </a>
+      
+        ,
+        <a href="https://polodev.github.io/ms/bit_tags/css">
+          css
         </a>
       
     </span>
   
 
-  
-
 </div>
 
 
-
-  
-
-  
-  <div class="toc">
-    <h2>
-      Table of Contents
-      <span id="toc_toggle_span">[hide]</span>
-    </h2>
-    <div id='toc_content'>
-      <nav id="TableOfContents">
-<ul>
-<li><a href="#getting-next-element-from-array">getting next element from array</a>
-<ul>
-<li><a href="#previous-element">Previous Element</a></li>
-<li><a href="#testing">Testing</a></li>
-</ul></li>
-</ul>
-</nav>
     </div>
-    
-  </div>
-  
-
-  
-
-  <div class='article mt-4 single'>
-    
-
-<h1 id="getting-next-element-from-array">getting next element from array</h1>
-
-<pre><code class="language-php">function get_next_element ($needle, $haystack) {
-  $index = array_search($needle, $haystack);
-  if (count($haystack) &lt; 2) {
-    return false;
-  }
-  if ($index &lt; (count($haystack) - 1)) {
-    $index++;
-  }else {
-    $index = 0;
-  }
-  return $haystack[$index];
-}
-</code></pre>
-
-<h2 id="previous-element">Previous Element</h2>
-
-<pre><code class="language-php">function get_prev_elemnt($needle, $haystack) {
-
-  if (count($haystack) &lt; 2) {
-    return false;
-  }
-  $index = array_search($needle, $haystack);
-  if ($index == 0 || $index &lt; 1) {
-    $index = count($haystack) - 1;
-  }else {
-    $index--;
-  }
-  return $haystack[$index];
-}
-
-</code></pre>
-
-<h2 id="testing">Testing</h2>
-
-<pre><code class="language-php">$needle = 3;
-$haystack = [3, 2, 4, 5, 6];
-echo get_prev_elemnt($needle, $haystack);
-</code></pre>
-
   </div>
 
-<div id='next_previous_swiper_content'>
 
 
-    
-      <div class='tags py-3'>
-        Tags: 
-          <a href="https://polodev.github.io/ms/tutorial_tags/php-functions">
-            php functions
-          </a>
-        
-          <a href="https://polodev.github.io/ms/tutorial_tags/php-array">
-            php array
-          </a>
-        
 
-      </div>
-    
-    
-     
-    
-
-    <div class="text-center py-3">
-      
-        <a id="previous_post_link" class="btn btn-info" href="https://polodev.github.io/ms/tutorials/2018-11-12-php-functions-part-one/">Previous Post</a>
-      
-      
-        <a id="next_post_link" class="btn btn-info" href="https://polodev.github.io/ms/tutorials/2018-11-12-multiple-git-origin-url-to-push-code-to-multiple-repository/">Next Post</a>
-      
-    </div>
-
-
-  </div>
 
 </div>
-
-
-
-
-<h3>See Also</h3>
-<ul>
-  
-  <li><a href="/ms/tutorials/2018-11-14-adding-scrollable-sticy-sidebar-in-your-website/">Adding Scrollable Sticy Sidebar in Your Website</a></li>
-  
-  <li><a href="/ms/tutorials/2018-11-14-how-to-show-magnipop-modal-in-full-screen-along-with-scoped-class/">How to Show Magnipop Modal in Full Screen Along With Scoped Class</a></li>
-  
-  <li><a href="/ms/tutorials/2018-11-13-how-to-make-full-width-image-and-video-carousal-using-owl-carousal/">How to Make Full Width Image and Video Carousal Using Owl Carousal</a></li>
-  
-  <li><a href="/ms/tutorials/2018-11-12-multiple-git-origin-url-to-push-code-to-multiple-repository/">Multiple git origin remote url to push code to multiple git repository</a></li>
-  
-  <li><a href="/ms/tutorials/2018-11-12-deleting-in-database-and-unlink-file-in-codeigniter/">Deleting in Database and Unlink File in Codeigniter</a></li>
-  
-</ul>
-
-
-
-
-<div id="disqus_thread"></div>
-<script>
-
-
-
-
-
-(function() { 
-var d = document, s = d.createElement('script');
-s.src = 'https://'+ "dev-learning" +'.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
-<progress value="0" id="progressBar">
-  <div class="progress-container">
-    <span class="progress-bar"></span>
-  </div>
-</progress>
 
       </div>
     </div>
