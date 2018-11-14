@@ -26,4 +26,4 @@ hugo new tutorials/2018-11-14-adding-scrollable-sticy-sidebar-in-your-website/in
 
 
 #-bits
-hugo new bits/multiple-file-upload-using-jquery-ajax-with-complete-percentage.md
+hugo new bits/2018-11-14-basic-pagination-using-html-scss/index.md
