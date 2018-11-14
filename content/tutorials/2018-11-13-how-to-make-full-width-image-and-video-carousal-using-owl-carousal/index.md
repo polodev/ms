@@ -259,3 +259,19 @@ function callImageAndVideoMount($currentOwlMedia) {
 
 });
 ~~~
+
+You can consider some option when initialize owl carousal. like auto play, auto play time, pause autoplay when mouse hover by passing following extra arguments
+
+~~~js
+const $owlCarousel = $(".owl-carousel").owlCarousel({
+  loop:true,
+  items:1,
+  dots: false,
+
+  // following 3 options  you can
+
+  autoplay: true,
+  autoplayTimeout: 3000,
+  autoplayHoverPause: true,
+});
+~~~
