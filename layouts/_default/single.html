@@ -28,41 +28,49 @@
   <div class='article mt-4 single'>
     {{.Content}}
   </div>
-  <!-- /.article -->
-  {{if .Params.tutorial_tags }}
-    <div class='tags py-3'>
-      Tags: {{ range .Params.tutorial_tags }}
-        <a href="{{$.Site.BaseURL}}tutorial_tags/{{ . | urlize }}">
-          {{ . }}
-        </a>
+
+<div id='next_previous_swiper_content'>
+
+
+    {{if .Params.tutorial_tags }}
+      <div class='tags py-3'>
+        Tags: {{ range .Params.tutorial_tags }}
+          <a href="{{$.Site.BaseURL}}tutorial_tags/{{ . | urlize }}">
+            {{ . }}
+          </a>
+        {{ end }}
+
+      </div>
+    {{end}}
+    <!-- /.tags -->
+     {{if .Params.bit_tags }}
+      <div class='tags py-3'>
+        Tags: {{ range .Params.bit_tags }}
+          <a href="{{$.Site.BaseURL}}bit_tags/{{ . | urlize }}">
+            {{ . }}
+          </a>
+        {{ end }}
+
+      </div>
+    {{end}}
+    <!-- /.tags -->
+
+    <div class="text-center py-3">
+      {{ if .PrevInSection }}
+        <a id="previous_post_link" class="btn btn-info" href="{{.PrevInSection.Permalink}}">Previous Post</a>
       {{ end }}
-
-    </div>
-  {{end}}
-  <!-- /.tags -->
-   {{if .Params.bit_tags }}
-    <div class='tags py-3'>
-      Tags: {{ range .Params.bit_tags }}
-        <a href="{{$.Site.BaseURL}}bit_tags/{{ . | urlize }}">
-          {{ . }}
-        </a>
+      {{ if .NextInSection }}
+        <a id="next_post_link" class="btn btn-info" href="{{.NextInSection.Permalink}}">Next Post</a>
       {{ end }}
-
     </div>
-  {{end}}
-  <!-- /.tags -->
 
-  <div class="text-center py-3">
-    {{ if .PrevInSection }}
-      <a id="previous_post_link" class="btn btn-info" href="{{.PrevInSection.Permalink}}">Previous Post</a>
-    {{ end }}
-    {{ if .NextInSection }}
-      <a id="next_post_link" class="btn btn-info" href="{{.NextInSection.Permalink}}">Next Post</a>
-    {{ end }}
+
   </div>
 
 </div>
 {{partial "related_content" .}}
+
+
 {{ partial "comments" . }}
 <progress value="0" id="progressBar">
   <div class="progress-container">
