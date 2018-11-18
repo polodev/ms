@@ -654,3 +654,8 @@ bootstrap overwrite
   color: #eee;
 }
 
+.card {
+  -webkit-box-shadow: 0 1px 6px rgba(95, 158, 160, 0.4);
+          box-shadow: 0 1px 6px rgba(95, 158, 160, 0.4);
+}
+

@@ -1,9 +1,12 @@
+// $company_primary_color: #f38100;
+// $company_secondary_color: #005ea0;
+$nav_active_color: brown;
+$nav_active_bg_color: #fcf8e3;
+
 .navbar-light .navbar-nav .nav-link {
   color: #fff;
 }
 
-$nav_active_color: brown;
-$nav_active_bg_color: #fcf8e3;
 
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.active,
@@ -31,4 +34,8 @@ $nav_active_bg_color: #fcf8e3;
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
     color: #eee;
+}
+
+.card {
+  box-shadow: 0 1px 6px rgba(cadetblue, 0.4);
 }
