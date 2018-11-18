@@ -41,10 +41,10 @@ contact |
 -------------------------------------
 ~~~
 
-In main.vue component sidebar or any other component will be mount based on sidebar state. This things we can acheive through
-Event bus
+In main.vue component, sidebar component and a component from (home.vue, about.vue, contact.vue) will be mount based on sidebar state. This functionality we
+can achieve through Event bus
 
-entry js file for calling vue component and instantiate vue
+following entry js file for calling vue component, instantiate vue for main app and event bus.
 
 <p class="file-desc">
   <span>entry.js</span>
@@ -59,7 +59,7 @@ const app = new Vue({
 });
 ~~~
 
-Here I instantiate vue and assign to `window.SidebarEvent` for using this instance as event bus.
+Here I instantiate vue and assign to `window.SidebarEvent` for using this instance as event bus. And instantiate Vue for main app as well
 
 require all 5 component in entry js file
 
@@ -94,14 +94,17 @@ const app = new Vue({
   <transition name="fade">
     <div class='container'>
       <div class='row'>
+
         <div class='col-md-3'>
           <app-sidebar></app-sidebar>
         </div>
+
         <div class='col-md-9'>
           <app-home v-if="isSelect('home')" ></app-home>
           <app-about v-if="isSelect('about')" ></app-about>
           <app-contact v-if="isSelect('contact')" ></app-contact>
         </div>
+
       </div>
     </div>
   </transition>
@@ -180,9 +183,9 @@ export default {
 }
 ~~~
 
-In side bar component using `changeSidebar` we change sidebar state. Once we click on `changeSidebar` it will emit a
+In side bar component using `changeSidebar`, we change sidebar state. Once we click on `changeSidebar` it will emit 'sidebarchanged'
 event using `SidebarEvent.$emit()` function. this emit will be receive by Main component `SidebarEvent.$on()` function.
-`$emit()` function will take 2 parameter. first one is event name 2nd one is value we want to pass. In this case we pass
+`$emit()` function will take 2 parameter. first one is event name (in our case `sidebarchanged`) 2nd one is value we want to pass. In this case we pass
 value like `home` `about` `contact` to track our state
 
 

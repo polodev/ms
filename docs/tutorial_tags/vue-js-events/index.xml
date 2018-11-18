@@ -18,7 +18,7 @@
       
       <guid>https://polodev.github.io/ms/sibling-communication-in-vue-js-using-event-bus/</guid>
       <description>I wanted to make a single page application using vue. Functionality will be like following, when you click on sidebar link respective component will be load. Like following design I need 4 main component.
- Main component Sidebar component home component about component contact component  ------------------------------------- home | content of respective tab | about | | contact | | -------------------------------------  In main.vue component sidebar or any other component will be mount based on sidebar state.</description>
+ Main component Sidebar component home component about component contact component  ------------------------------------- home | content of respective tab | about | | contact | | -------------------------------------  In main.vue component, sidebar component and a component from (home.</description>
     </item>
     
   </channel>

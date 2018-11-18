@@ -175,10 +175,10 @@ contact |
 -------------------------------------
 </code></pre>
 
-<p>In main.vue component sidebar or any other component will be mount based on sidebar state. This things we can acheive through
-Event bus</p>
+<p>In main.vue component, sidebar component and a component from (home.vue, about.vue, contact.vue) will be mount based on sidebar state. This functionality we
+can achieve through Event bus</p>
 
-<p>entry js file for calling vue component and instantiate vue</p>
+<p>following entry js file for calling vue component, instantiate vue for main app and event bus.</p>
 
 <p class="file-desc">
   <span>entry.js</span>
@@ -192,7 +192,7 @@ const app = new Vue({
 });
 </code></pre>
 
-<p>Here I instantiate vue and assign to <code>window.SidebarEvent</code> for using this instance as event bus.</p>
+<p>Here I instantiate vue and assign to <code>window.SidebarEvent</code> for using this instance as event bus. And instantiate Vue for main app as well</p>
 
 <p>require all 5 component in entry js file</p>
 
@@ -225,14 +225,17 @@ const app = new Vue({
   &lt;transition name=&quot;fade&quot;&gt;
     &lt;div class='container'&gt;
       &lt;div class='row'&gt;
+
         &lt;div class='col-md-3'&gt;
           &lt;app-sidebar&gt;&lt;/app-sidebar&gt;
         &lt;/div&gt;
+
         &lt;div class='col-md-9'&gt;
           &lt;app-home v-if=&quot;isSelect('home')&quot; &gt;&lt;/app-home&gt;
           &lt;app-about v-if=&quot;isSelect('about')&quot; &gt;&lt;/app-about&gt;
           &lt;app-contact v-if=&quot;isSelect('contact')&quot; &gt;&lt;/app-contact&gt;
         &lt;/div&gt;
+
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/transition&gt;
@@ -308,9 +311,9 @@ In mounted method we are constantly listen to a event called <code>sidebarchange
 }
 </code></pre>
 
-<p>In side bar component using <code>changeSidebar</code> we change sidebar state. Once we click on <code>changeSidebar</code> it will emit a
+<p>In side bar component using <code>changeSidebar</code>, we change sidebar state. Once we click on <code>changeSidebar</code> it will emit &lsquo;sidebarchanged&rsquo;
 event using <code>SidebarEvent.$emit()</code> function. this emit will be receive by Main component <code>SidebarEvent.$on()</code> function.
-<code>$emit()</code> function will take 2 parameter. first one is event name 2nd one is value we want to pass. In this case we pass
+<code>$emit()</code> function will take 2 parameter. first one is event name (in our case <code>sidebarchanged</code>) 2nd one is value we want to pass. In this case we pass
 value like <code>home</code> <code>about</code> <code>contact</code> to track our state</p>
 
 <h1 id="home-vue-about-vue-contact-vue-component">home.vue, about.vue, contact.vue component</h1>
@@ -387,9 +390,9 @@ value like <code>home</code> <code>about</code> <code>contact</code> to track ou
   
   <li><a href="/ms/how-to-make-full-width-image-and-video-carousal-using-owl-carousal/">How to Make Full Width Image and Video Carousal Using Owl Carousal</a></li>
   
-  <li><a href="/ms/setting-and-getting-user-data-in-session-session-flash-codeigniter/">Setting and Getting User Data in Session Session Flash Codeigniter</a></li>
+  <li><a href="/ms/deleting-in-database-and-unlink-file-in-codeigniter/">Deleting in Database and Unlink File in Codeigniter</a></li>
   
-  <li><a href="/ms/multiple-git-origin-remote-url-to-push-code-to-multiple-git-repository/">Multiple git origin remote url to push code to multiple git repository</a></li>
+  <li><a href="/ms/php-functions---array_values-json_encode-json_decode-array_intersect/">Php Functions - array_values, json_encode, json_decode, array_intersect</a></li>
   
 </ul>
 
