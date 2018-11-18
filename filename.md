@@ -21,6 +21,8 @@ hugo new tutorials/2018-11-14-how-to-show-magnipop-modal-in-full-screen-along-wi
 hugo new tutorials/2018-11-14-adding-scrollable-sticy-sidebar-in-your-website/index.md
 hugo new tutorials/2018-11-18-sibling-communication-in-vue-js-using-event-bus/index.md
 
+hugo new tutorials/2018-11-18-basic-multi-auth-or-role-based-authentication-in-laravel/index.md
+
 
 
 

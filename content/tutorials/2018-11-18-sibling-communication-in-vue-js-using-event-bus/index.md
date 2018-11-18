@@ -15,7 +15,6 @@ tutorialTypes=['tutorials']
 keyword= "vue js, vue js events, sibling communication"
 description= "In this tutorial I have shown how to make sibling relation ship"
 skill_level=["beginner"]
-available_skill_level=["intermediate",]
 series=[]
 series_weight=1
 +++

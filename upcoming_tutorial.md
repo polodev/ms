@@ -6,7 +6,6 @@
 5 # basic multi authentication in laravel
 6 # how to use tailwind css
 7 # how to make vertical menu using
-8 # sibling communication in vuejs2
 9 # how to use cors in laravel
 10 # using vuex for vue in laravel for beginner
-
+11 # how to create a simple shortcode in gohugo
