@@ -13,10 +13,10 @@
     
     <item>
       <title>Adding Scrollable Sticy Sidebar in Your Website</title>
-      <link>https://polodev.github.io/ms/tutorials/2018-11-14-adding-scrollable-sticy-sidebar-in-your-website/</link>
+      <link>https://polodev.github.io/ms/adding-scrollable-sticy-sidebar-in-your-website/</link>
       <pubDate>Wed, 14 Nov 2018 01:36:52 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/2018-11-14-adding-scrollable-sticy-sidebar-in-your-website/</guid>
+      <guid>https://polodev.github.io/ms/adding-scrollable-sticy-sidebar-in-your-website/</guid>
       <description>file dependency https://abouolia.github.io/sticky-sidebar/examples/scrollable-element.html link will help you to understand how sticky scrollbar works. Just view page source and implement in your website. project gihub page link https://abouolia.github.io/sticky-sidebar/
  https://abouolia.github.io/sticky-sidebar/js/rAF.js https://abouolia.github.io/sticky-sidebar/js/ResizeSensor.js https://abouolia.github.io/sticky-sidebar/js/sticky-sidebar.js  html part &amp;lt;section class=&amp;quot;mainsingle&amp;quot;&amp;gt; &amp;lt;div class=&#39;mainsingle__content&#39;&amp;gt; &amp;lt;div class=&#39;row&#39;&amp;gt; &amp;lt;div class=&#39;col-md-7&#39;&amp;gt; &amp;lt;div class=&#39;mainsingle__content__image&#39;&amp;gt; &amp;lt;p&amp;gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel cumque, ut expedita, fugiat cupiditate blanditiis magni odit. Consectetur illum eaque necessitatibus, voluptate molestiae at quae accusamus veritatis quibusdam laborum cum quidem.</description>
     </item>

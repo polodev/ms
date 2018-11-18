@@ -13,10 +13,10 @@
     
     <item>
       <title>Getting Single Result From Codeigniter</title>
-      <link>https://polodev.github.io/ms/bits/2018-11-12-getting-single-result-from-codeigniter/</link>
+      <link>https://polodev.github.io/ms/getting-single-result-from-codeigniter/</link>
       <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/bits/2018-11-12-getting-single-result-from-codeigniter/</guid>
+      <guid>https://polodev.github.io/ms/getting-single-result-from-codeigniter/</guid>
       <description>public function single_result($id) { $this-&amp;gt;db-&amp;gt;select( &#39;*&#39; ); $this-&amp;gt;db-&amp;gt;where( &#39;id&#39;, $id); $q = $this-&amp;gt;db-&amp;gt;get( &#39;attachments&#39; ); $first = $q-&amp;gt;row(); return $first; }  </description>
     </item>
     

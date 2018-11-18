@@ -4,7 +4,7 @@
       {
         "title": "Sibling Communication in Vue Js Using Event Bus",
         "keyword": "vue js, vue js events, sibling communication",
-        "uri": "https://polodev.github.io/ms/tutorials/2018-11-18-sibling-communication-in-vue-js-using-event-bus/"
+        "uri": "https://polodev.github.io/ms/sibling-communication-in-vue-js-using-event-bus/"
       }
       
         ,
@@ -13,7 +13,7 @@
       {
         "title": "Basic Pagination Using Html Scss",
         "keyword": "pagination, html pagianation, pure css pagination ",
-        "uri": "https://polodev.github.io/ms/bits/2018-11-14-basic-pagination-using-html-scss/"
+        "uri": "https://polodev.github.io/ms/basic-pagination-using-html-scss/"
       }
       
         ,
@@ -22,7 +22,7 @@
       {
         "title": "Adding Scrollable Sticy Sidebar in Your Website",
         "keyword": "js plugin, sticky sidebar, fixed sidebar, smart sidebar, scrollable sticky sidebar",
-        "uri": "https://polodev.github.io/ms/tutorials/2018-11-14-adding-scrollable-sticy-sidebar-in-your-website/"
+        "uri": "https://polodev.github.io/ms/adding-scrollable-sticy-sidebar-in-your-website/"
       }
       
         ,
@@ -31,7 +31,7 @@
       {
         "title": "How to Show Magnipop Modal in Full Screen Along With Scoped Class",
         "keyword": "js plugin, magnipop model, lightbox modal",
-        "uri": "https://polodev.github.io/ms/tutorials/2018-11-14-how-to-show-magnipop-modal-in-full-screen-along-with-scoped-class/"
+        "uri": "https://polodev.github.io/ms/how-to-show-magnipop-modal-in-full-screen-along-with-scoped-class/"
       }
       
         ,
@@ -40,7 +40,7 @@
       {
         "title": "How to Make Full Width Image and Video Carousal Using Owl Carousal",
         "keyword": "owl carousal 2, full width slider, video slider, carousal",
-        "uri": "https://polodev.github.io/ms/tutorials/2018-11-13-how-to-make-full-width-image-and-video-carousal-using-owl-carousal/"
+        "uri": "https://polodev.github.io/ms/how-to-make-full-width-image-and-video-carousal-using-owl-carousal/"
       }
       
         ,
@@ -49,7 +49,7 @@
       {
         "title": "Order by Clause in and Manipulate Database Result Codeigniter",
         "keyword": "codeigniter, database ordery by query, sql",
-        "uri": "https://polodev.github.io/ms/bits/2018-11-12-order-by-clause-in-and-manipulate-database-result-codeigniter/"
+        "uri": "https://polodev.github.io/ms/order-by-clause-in-and-manipulate-database-result-codeigniter/"
       }
       
         ,
@@ -58,7 +58,7 @@
       {
         "title": "Export and Import Json in Mongodb",
         "keyword": "mongodb, export, import",
-        "uri": "https://polodev.github.io/ms/bits/2018-11-12-export-and-import-json-in-mongodb/"
+        "uri": "https://polodev.github.io/ms/export-and-import-json-in-mongodb/"
       }
       
         ,
@@ -67,7 +67,7 @@
       {
         "title": "Getting Current Month Content in Laravel Using Mysql Raw Query",
         "keyword": "laravel, mysql query",
-        "uri": "https://polodev.github.io/ms/bits/2018-11-12-getting-current-month-content-in-laravel-using-mysql-raw-query/"
+        "uri": "https://polodev.github.io/ms/getting-current-month-content-in-laravel-using-mysql-raw-query/"
       }
       
         ,
@@ -76,7 +76,7 @@
       {
         "title": "Getting Single Result From Codeigniter",
         "keyword": "codeigniter, database query",
-        "uri": "https://polodev.github.io/ms/bits/2018-11-12-getting-single-result-from-codeigniter/"
+        "uri": "https://polodev.github.io/ms/getting-single-result-from-codeigniter/"
       }
       
         ,
@@ -85,7 +85,7 @@
       {
         "title": "Insert Into Database in Codeigniter",
         "keyword": "codeigniter, database insert query, sql",
-        "uri": "https://polodev.github.io/ms/bits/2018-11-12-insert-into-database-in-codeigniter/"
+        "uri": "https://polodev.github.io/ms/insert-into-database-in-codeigniter/"
       }
       
         ,
@@ -94,7 +94,7 @@
       {
         "title": "Laravel Request Function Helpers",
         "keyword": "laravel, helper functions",
-        "uri": "https://polodev.github.io/ms/bits/2018-11-12-laravel-request-function-helpers/"
+        "uri": "https://polodev.github.io/ms/laravel-request-function-helpers/"
       }
       
         ,
@@ -103,7 +103,7 @@
       {
         "title": "Laravel Serve Command for Viewing Site in Same Network",
         "keyword": "laravel, artisan command",
-        "uri": "https://polodev.github.io/ms/bits/2018-11-12-laravel-serve-command-for-viewing-site-in-same-network/"
+        "uri": "https://polodev.github.io/ms/laravel-serve-command-for-viewing-site-in-same-network/"
       }
       
         ,
@@ -112,7 +112,7 @@
       {
         "title": "Multiple File Upload Using Jquery Ajax With Complete Percentage",
         "keyword": "multiple file upload using ajax",
-        "uri": "https://polodev.github.io/ms/bits/2018-11-12-multiple-file-upload-using-jquery-ajax-with-complete-percentage/"
+        "uri": "https://polodev.github.io/ms/multiple-file-upload-using-jquery-ajax-with-complete-percentage/"
       }
       
         ,
@@ -121,7 +121,7 @@
       {
         "title": "Ajax Api Call for Multiple File Upload Using Ajax",
         "keyword": "multiple file upload using ajax, codeigniter, file upload, form data",
-        "uri": "https://polodev.github.io/ms/tutorials/2018-11-12-ajax-api-call-for-multiple-file-upload-using-ajax/"
+        "uri": "https://polodev.github.io/ms/ajax-api-call-for-multiple-file-upload-using-ajax/"
       }
       
         ,
@@ -130,7 +130,7 @@
       {
         "title": "Deleting in Database and Unlink File in Codeigniter",
         "keyword": "codeigniter, database, file delete, unlink",
-        "uri": "https://polodev.github.io/ms/tutorials/2018-11-12-deleting-in-database-and-unlink-file-in-codeigniter/"
+        "uri": "https://polodev.github.io/ms/deleting-in-database-and-unlink-file-in-codeigniter/"
       }
       
         ,
@@ -139,7 +139,7 @@
       {
         "title": "Multiple git origin remote url to push code to multiple git repository",
         "keyword": "git, git remote url, multiple repo, git command, git delete remote origin, add remote origin",
-        "uri": "https://polodev.github.io/ms/tutorials/2018-11-12-multiple-git-origin-url-to-push-code-to-multiple-repository/"
+        "uri": "https://polodev.github.io/ms/multiple-git-origin-remote-url-to-push-code-to-multiple-git-repository/"
       }
       
         ,
@@ -148,7 +148,7 @@
       {
         "title": "Next and Previous Element in Php Array",
         "keyword": "php functions, next element in php array, previous elements in php array",
-        "uri": "https://polodev.github.io/ms/tutorials/2018-11-12-next-and-previous-element-in-php-array/"
+        "uri": "https://polodev.github.io/ms/next-and-previous-element-in-php-array/"
       }
       
         ,
@@ -157,7 +157,7 @@
       {
         "title": "Php Functions - array_values, json_encode, json_decode, array_intersect",
         "keyword": "php functions - array_values, json_encode, json_decode, array_intersect",
-        "uri": "https://polodev.github.io/ms/tutorials/2018-11-12-php-functions-part-one/"
+        "uri": "https://polodev.github.io/ms/php-functions---array_values-json_encode-json_decode-array_intersect/"
       }
       
         ,
@@ -166,7 +166,7 @@
       {
         "title": "Setting and Getting User Data in Session Session Flash Codeigniter",
         "keyword": "codeigniter, session",
-        "uri": "https://polodev.github.io/ms/tutorials/2018-11-12-setting-and-getting-user-data-in-session-session-flash-codeigniter/"
+        "uri": "https://polodev.github.io/ms/setting-and-getting-user-data-in-session-session-flash-codeigniter/"
       }
       
         ,
@@ -175,7 +175,7 @@
       {
         "title": "Basic Multilingual Features in Website Using Javascript and Keep Language Persist Using Local Storage",
         "keyword": "language, multilingual",
-        "uri": "https://polodev.github.io/ms/tutorials/2018-11-12-basic-multilingual-features-in-website-using-javascript-and-keep-language-persist-using-local-storage/"
+        "uri": "https://polodev.github.io/ms/basic-multilingual-features-in-website-using-javascript-and-keep-language-persist-using-local-storage/"
       }
       
         ,
@@ -184,7 +184,7 @@
       {
         "title": "Create a Google Column Chart",
         "keyword": "google chart",
-        "uri": "https://polodev.github.io/ms/tutorials/2018-11-12-create-a-google-column-chart/"
+        "uri": "https://polodev.github.io/ms/create-a-google-column-chart/"
       }
       
         ,
@@ -193,7 +193,7 @@
       {
         "title": "Flatten Array in Php",
         "keyword": "flatten array",
-        "uri": "https://polodev.github.io/ms/bits/2018-11-12-flatten-array-in-php/"
+        "uri": "https://polodev.github.io/ms/flatten-array-in-php/"
       }
       
         ,
@@ -202,7 +202,7 @@
       {
         "title": "How to Add Syntax Highlighting, Line Number Clipboard Js in Go Hugo Website",
         "keyword": "syntax highlighting, clipboard js, goHugo",
-        "uri": "https://polodev.github.io/ms/tutorials/2018-11-12-how-to-add-syntax-highlighting-ln-number-clipboard-js-in-go-hugo-website/"
+        "uri": "https://polodev.github.io/ms/how-to-add-syntax-highlighting-line-number-clipboard-js-in-go-hugo-website/"
       }
       
         ,
@@ -211,7 +211,7 @@
       {
         "title": "Installing Robo3t in Ubuntu 18.X",
         "keyword": "ubuntu, robo3t, mongodb",
-        "uri": "https://polodev.github.io/ms/tutorials/2018-11-12-installing-robo3t-in-ubuntu-18.x/"
+        "uri": "https://polodev.github.io/ms/installing-robo3t-in-ubuntu-18.x/"
       }
       
         ,
@@ -220,7 +220,7 @@
       {
         "title": "Nearby Location Using Latitude and Longitude in Laravel Application   Mysql Query Plus Vue Implementation",
         "keyword": "nearby location, mysql location query, vue js, mysql",
-        "uri": "https://polodev.github.io/ms/tutorials/2018-11-12-nearby-location-using-latitude-and-longitude-in-laravel-application---mysql-query-plus-vue-implementation/"
+        "uri": "https://polodev.github.io/ms/nearby-location-using-latitude-and-longitude-in-laravel-application---mysql-query-plus-vue-implementation/"
       }
       
         ,
@@ -229,7 +229,7 @@
       {
         "title": "Update Database in Codeigniter",
         "keyword": "update database in codeigniter",
-        "uri": "https://polodev.github.io/ms/bits/2018-11-12-update-database-in-codeigniter/"
+        "uri": "https://polodev.github.io/ms/update-database-in-codeigniter/"
       }
       
         ,
@@ -238,7 +238,7 @@
       {
         "title": "Codeigniter Base Url",
         "keyword": "codeigniter base url setting",
-        "uri": "https://polodev.github.io/ms/bits/2018-11-12-codeigniter-base-url/"
+        "uri": "https://polodev.github.io/ms/codeigniter-base-url/"
       }
       
         ,
@@ -247,7 +247,7 @@
       {
         "title": "Wordpress Theme Development 101",
         "keyword": "Essential wordpress theme development code for beginner",
-        "uri": "https://polodev.github.io/ms/tutorials/2018-11-12-wordpress-theme-development-101/"
+        "uri": "https://polodev.github.io/ms/wordpress-theme-development-101/"
       }
       
         ,
@@ -256,7 +256,7 @@
       {
         "title": "Jquery Essentials W3 Schools Summary",
         "keyword": "",
-        "uri": "https://polodev.github.io/ms/tutorials/2018-11-12-jquery-essentials-w3-schools-summary/"
+        "uri": "https://polodev.github.io/ms/jquery-essentials-w3-schools-summary/"
       }
       
         ,
@@ -265,7 +265,7 @@
       {
         "title": "Codeigniter Essentials",
         "keyword": "Codeigniter Essential training gist",
-        "uri": "https://polodev.github.io/ms/tutorials/2018-11-12-codeigniter-essentials/"
+        "uri": "https://polodev.github.io/ms/codeigniter-essentials/"
       }
       
 ]

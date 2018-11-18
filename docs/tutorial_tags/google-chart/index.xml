@@ -13,10 +13,10 @@
     
     <item>
       <title>Create a Google Column Chart</title>
-      <link>https://polodev.github.io/ms/tutorials/2018-11-12-create-a-google-column-chart/</link>
+      <link>https://polodev.github.io/ms/create-a-google-column-chart/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-create-a-google-column-chart/</guid>
+      <guid>https://polodev.github.io/ms/create-a-google-column-chart/</guid>
       <description>html part &amp;lt;div class=&amp;quot;col-lg-6 pull-left grpahinformation&amp;quot;&amp;gt; &amp;lt;div id=&amp;quot;restaurant_rating&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;  calling setOnLoadCallback function with callback parameter google.charts.setOnLoadCallback(restaurant_rating);  define callback function restaurant_rating() { // Create the data table. var data = new google.visualization.DataTable(); data.addColumn(&#39;string&#39; , &#39;Topping&#39;); data.addColumn(&#39;number&#39; , &#39;Count&#39;); data.addColumn({ type: &#39;string&#39;, role: &#39;style&#39; }); var colors=[&#39;salmon&#39;, &#39;teal&#39;, &#39;brown&#39;, &#39;cadetblue&#39;, &#39;burlywood&#39;]; data.addRows([&amp;lt;?php if(isset($ratings)){ foreach($ratings as $rating){ ?&amp;gt; [&#39;Rating &amp;lt;?= $rating-&amp;gt;rating ?&amp;gt;&#39; , &amp;lt;?= $rating-&amp;gt;c ?&amp;gt;, colors.shift()] , &amp;lt;?php } }?</description>
     </item>
     

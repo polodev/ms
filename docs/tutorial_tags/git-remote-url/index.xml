@@ -13,10 +13,10 @@
     
     <item>
       <title>Multiple git origin remote url to push code to multiple git repository</title>
-      <link>https://polodev.github.io/ms/tutorials/2018-11-12-multiple-git-origin-url-to-push-code-to-multiple-repository/</link>
+      <link>https://polodev.github.io/ms/multiple-git-origin-remote-url-to-push-code-to-multiple-git-repository/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-multiple-git-origin-url-to-push-code-to-multiple-repository/</guid>
+      <guid>https://polodev.github.io/ms/multiple-git-origin-remote-url-to-push-code-to-multiple-git-repository/</guid>
       <description>I have stored a project in my bitbucket. At the same time I wanted to keep these code in my github account so by adding multiple git remote origin url I am able to push code to different code repo.
 following command for adding remote
 git remote set-url --add --push origin https://github.com/username/projectname.git git remote set-url --add --push origin https://username@bitbucket.org/username/project.git  If you need to delete origin

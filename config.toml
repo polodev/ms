@@ -4,6 +4,10 @@ languageCode = "en-us"
 publishDir="docs"
 title = "This Site"
 disqusShortname = "dev-learning"
+[permalinks]
+  post= "/:title/"
+  tutorials= "/:title/"
+  bits= "/:title/"
 [params]
   afterDomain='ms'
   site_title = "polodev"

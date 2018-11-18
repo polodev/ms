@@ -13,77 +13,77 @@
     
     <item>
       <title>Sibling Communication in Vue Js Using Event Bus</title>
-      <link>https://polodev.github.io/ms/tutorials/2018-11-18-sibling-communication-in-vue-js-using-event-bus/</link>
+      <link>https://polodev.github.io/ms/sibling-communication-in-vue-js-using-event-bus/</link>
       <pubDate>Sun, 18 Nov 2018 22:27:50 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/2018-11-18-sibling-communication-in-vue-js-using-event-bus/</guid>
+      <guid>https://polodev.github.io/ms/sibling-communication-in-vue-js-using-event-bus/</guid>
       <description>I wanted to make a single page application using vue. Functionality will be like following, when you click on sidebar link respective component will be load. Like following design I need 4 main component.
  Main component Sidebar component home component about component contact component  ------------------------------------- home | content of respective tab | about | | contact | | -------------------------------------  In main.vue component sidebar or any other component will be mount based on sidebar state.</description>
     </item>
     
     <item>
       <title>Basic Pagination Using Html Scss</title>
-      <link>https://polodev.github.io/ms/bits/2018-11-14-basic-pagination-using-html-scss/</link>
+      <link>https://polodev.github.io/ms/basic-pagination-using-html-scss/</link>
       <pubDate>Wed, 14 Nov 2018 21:40:51 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/bits/2018-11-14-basic-pagination-using-html-scss/</guid>
+      <guid>https://polodev.github.io/ms/basic-pagination-using-html-scss/</guid>
       <description>Html code &amp;lt;div class=&#39;pagination&#39;&amp;gt; &amp;lt;div class=&#39;pagination__inner&#39;&amp;gt; &amp;lt;a href=&amp;quot;#&amp;quot; disabled&amp;gt;&amp;lt;i class=&amp;quot;fas fa-chevron-left&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li class=&amp;quot;active&amp;quot;&amp;gt;&amp;lt;a href=&#39;#&#39;&amp;gt;1&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&#39;#&#39;&amp;gt;2&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&#39;#&#39;&amp;gt;3&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&#39;#&#39;&amp;gt;4&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&#39;#&#39;&amp;gt;5&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&#39;#&#39;&amp;gt;6&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&#39;#&#39;&amp;gt;7&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&#39;#&#39;&amp;gt;8&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;...&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&#39;#&#39;&amp;gt;41&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;a href=#&amp;gt;&amp;lt;i class=&amp;quot;fas fa-chevron-right&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;  scss code body { font-family: verdana, arial, sans-serif; } .pagination { padding: 3em 0; &amp;amp;__inner { display: flex; justify-content: center; align-items: center; [disabled] { cursor: none; opacity: .5; } a { display: block; text-decoration: none; padding: 5px 7px; transition: all .</description>
     </item>
     
     <item>
       <title>Adding Scrollable Sticy Sidebar in Your Website</title>
-      <link>https://polodev.github.io/ms/tutorials/2018-11-14-adding-scrollable-sticy-sidebar-in-your-website/</link>
+      <link>https://polodev.github.io/ms/adding-scrollable-sticy-sidebar-in-your-website/</link>
       <pubDate>Wed, 14 Nov 2018 01:36:52 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/2018-11-14-adding-scrollable-sticy-sidebar-in-your-website/</guid>
+      <guid>https://polodev.github.io/ms/adding-scrollable-sticy-sidebar-in-your-website/</guid>
       <description>file dependency https://abouolia.github.io/sticky-sidebar/examples/scrollable-element.html link will help you to understand how sticky scrollbar works. Just view page source and implement in your website. project gihub page link https://abouolia.github.io/sticky-sidebar/
  https://abouolia.github.io/sticky-sidebar/js/rAF.js https://abouolia.github.io/sticky-sidebar/js/ResizeSensor.js https://abouolia.github.io/sticky-sidebar/js/sticky-sidebar.js  html part &amp;lt;section class=&amp;quot;mainsingle&amp;quot;&amp;gt; &amp;lt;div class=&#39;mainsingle__content&#39;&amp;gt; &amp;lt;div class=&#39;row&#39;&amp;gt; &amp;lt;div class=&#39;col-md-7&#39;&amp;gt; &amp;lt;div class=&#39;mainsingle__content__image&#39;&amp;gt; &amp;lt;p&amp;gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel cumque, ut expedita, fugiat cupiditate blanditiis magni odit. Consectetur illum eaque necessitatibus, voluptate molestiae at quae accusamus veritatis quibusdam laborum cum quidem.</description>
     </item>
     
     <item>
       <title>How to Show Magnipop Modal in Full Screen Along With Scoped Class</title>
-      <link>https://polodev.github.io/ms/tutorials/2018-11-14-how-to-show-magnipop-modal-in-full-screen-along-with-scoped-class/</link>
+      <link>https://polodev.github.io/ms/how-to-show-magnipop-modal-in-full-screen-along-with-scoped-class/</link>
       <pubDate>Wed, 14 Nov 2018 01:12:52 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/2018-11-14-how-to-show-magnipop-modal-in-full-screen-along-with-scoped-class/</guid>
+      <guid>https://polodev.github.io/ms/how-to-show-magnipop-modal-in-full-screen-along-with-scoped-class/</guid>
       <description>file dependency  magnific-popup.css magnific-popup.js jquery  magnific-popup can be downloaded from http://dimsemenov.com/plugins/magnific-popup/ page
 Html part &amp;lt;div class=&#39;mainsingle__content__image&#39;&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a class=&#39;single-image-group&#39; href=&#39;assets/images/product_image/0518254500_1_1_1.jpg&#39;&amp;gt; &amp;lt;img src=&#39;assets/images/product_image/0518254500_1_1_1.jpg&#39; alt=&#39;&#39;/&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&#39;single-image-group&#39; href=&#39;assets/images/product_image/0518254500_2_1_1.jpg&#39;&amp;gt; &amp;lt;img src=&#39;assets/images/product_image/0518254500_2_1_1.jpg&#39; alt=&#39;&#39;/&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&#39;single-image-group&#39; href=&#39;assets/images/product_image/0518254500_2_2_1.jpg&#39;&amp;gt; &amp;lt;img src=&#39;assets/images/product_image/0518254500_2_2_1.jpg&#39; alt=&#39;&#39;/&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&#39;single-image-group&#39; href=&#39;assets/images/product_image/0518254500_2_3_1.jpg&#39;&amp;gt; &amp;lt;img src=&#39;assets/images/product_image/0518254500_2_3_1.jpg&#39; alt=&#39;&#39;/&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&#39;single-image-group&#39; href=&#39;assets/images/product_image/0518254500_2_4_1.jpg&#39;&amp;gt; &amp;lt;img src=&#39;assets/images/product_image/0518254500_2_4_1.jpg&#39; alt=&#39;&#39;/&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&#39;single-image-group&#39; href=&#39;assets/images/product_image/0518254500_2_5_1.jpg&#39;&amp;gt; &amp;lt;img src=&#39;assets/images/product_image/0518254500_2_5_1.jpg&#39; alt=&#39;&#39;/&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&#39;single-image-group&#39; href=&#39;assets/images/product_image/0518254500_2_6_1.jpg&#39;&amp;gt; &amp;lt;img src=&#39;assets/images/product_image/0518254500_2_6_1.jpg&#39; alt=&#39;&#39;/&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/div&amp;gt;  css part all css scoped under .</description>
     </item>
     
     <item>
       <title>How to Make Full Width Image and Video Carousal Using Owl Carousal</title>
-      <link>https://polodev.github.io/ms/tutorials/2018-11-13-how-to-make-full-width-image-and-video-carousal-using-owl-carousal/</link>
+      <link>https://polodev.github.io/ms/how-to-make-full-width-image-and-video-carousal-using-owl-carousal/</link>
       <pubDate>Tue, 13 Nov 2018 19:38:42 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/2018-11-13-how-to-make-full-width-image-and-video-carousal-using-owl-carousal/</guid>
+      <guid>https://polodev.github.io/ms/how-to-make-full-width-image-and-video-carousal-using-owl-carousal/</guid>
       <description>file dependency https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css  https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js  html part in html markup .oc__item__content__media accept 4 data attribute
  data-type=&amp;lsquo;image&amp;rsquo; data-menu_color=&amp;ldquo;black&amp;rdquo; data-background_position=&amp;ldquo;center 0&amp;rdquo; data-source=&amp;lsquo;assets/images/product_image/slider/desktop_background.jpg&amp;rsquo;   Here data-type will be image or video data-menu_color will be white or nothing. I mean if you don&amp;rsquo;t want to change basic black color, you can ignore. data-background_position will be valid css background position - default center center. You can ignore if you want to make position center center data-source will be image or video source.</description>
     </item>
     
     <item>
       <title>Order by Clause in and Manipulate Database Result Codeigniter</title>
-      <link>https://polodev.github.io/ms/bits/2018-11-12-order-by-clause-in-and-manipulate-database-result-codeigniter/</link>
+      <link>https://polodev.github.io/ms/order-by-clause-in-and-manipulate-database-result-codeigniter/</link>
       <pubDate>Mon, 12 Nov 2018 01:24:30 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/bits/2018-11-12-order-by-clause-in-and-manipulate-database-result-codeigniter/</guid>
+      <guid>https://polodev.github.io/ms/order-by-clause-in-and-manipulate-database-result-codeigniter/</guid>
       <description>public function getUserInfoById($id) { $this-&amp;gt;db-&amp;gt;select( &#39;*&#39; ); $this-&amp;gt;db-&amp;gt;where( &#39;id&#39;, $id ); $q = $this-&amp;gt;db-&amp;gt;get( &#39;clients_web&#39; ); return $q-&amp;gt;row(); } public function getAllUpload() { $this-&amp;gt;db-&amp;gt;select(&#39;*&#39;); $this-&amp;gt;db-&amp;gt;from(&#39;user_upload&#39;); $this-&amp;gt;db-&amp;gt;order_by(&amp;quot;id&amp;quot;, &amp;quot;desc&amp;quot;); $query=$this-&amp;gt;db-&amp;gt;get(); $attachments = $query-&amp;gt;result_array(); $r = []; foreach ($attachments as $value) { $id = explode(&#39;,&#39;, $value[&#39;attachments&#39;]); $this-&amp;gt;db-&amp;gt;select(&#39;*&#39;); $this-&amp;gt;db-&amp;gt;from(&#39;attachments&#39;); $this-&amp;gt;db-&amp;gt;where_in(&#39;id&#39;, $id); $value[&#39;file_list&#39;] = $this-&amp;gt;db-&amp;gt;get(); $value[&#39;file_list&#39;] = $value[&#39;file_list&#39;]-&amp;gt;result_array(); $value[&#39;user_details&#39;] = $this-&amp;gt;getUserInfoById($value[&#39;clients_web_id&#39;]); $r[] = $value; } // echo json_encode(); // echo json_encode($r); return $r; }  </description>
     </item>
     
     <item>
       <title>Export and Import Json in Mongodb</title>
-      <link>https://polodev.github.io/ms/bits/2018-11-12-export-and-import-json-in-mongodb/</link>
+      <link>https://polodev.github.io/ms/export-and-import-json-in-mongodb/</link>
       <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/bits/2018-11-12-export-and-import-json-in-mongodb/</guid>
+      <guid>https://polodev.github.io/ms/export-and-import-json-in-mongodb/</guid>
       <description> exporting in mongo db mongoexport -d database_name -c collection_name -o file_name  importing in mongodb mongoimport -d datbase_name -c collection_name file_name  </description>
     </item>
     
     <item>
       <title>Getting Current Month Content in Laravel Using Mysql Raw Query</title>
-      <link>https://polodev.github.io/ms/bits/2018-11-12-getting-current-month-content-in-laravel-using-mysql-raw-query/</link>
+      <link>https://polodev.github.io/ms/getting-current-month-content-in-laravel-using-mysql-raw-query/</link>
       <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/bits/2018-11-12-getting-current-month-content-in-laravel-using-mysql-raw-query/</guid>
+      <guid>https://polodev.github.io/ms/getting-current-month-content-in-laravel-using-mysql-raw-query/</guid>
       <description>current months result
 $this_month = date(&#39;n&#39;); $ratings_last_month = DB::select(&amp;quot;select count(id) as c, rating from ratings where (user_id=$id and MONTH(created_at) = $this_month ) group by `rating` order by rating&amp;quot;);  table description
 +------------+------------------+------+-----+---------+----------------+ | Field | Type | Null | Key | Default | Extra | +------------+------------------+------+-----+---------+----------------+ | id | int(10) unsigned | NO | PRI | NULL | auto_increment | | rating | int(11) | NO | | NULL | | | ip_address | varchar(255) | NO | | NULL | | | user_id | int(11) | NO | | NULL | | | created_at | timestamp | YES | | NULL | | | updated_at | timestamp | YES | | NULL | | +------------+------------------+------+-----+---------+----------------+  </description>
@@ -91,73 +91,73 @@ $this_month = date(&#39;n&#39;); $ratings_last_month = DB::select(&amp;quot;sele
     
     <item>
       <title>Getting Single Result From Codeigniter</title>
-      <link>https://polodev.github.io/ms/bits/2018-11-12-getting-single-result-from-codeigniter/</link>
+      <link>https://polodev.github.io/ms/getting-single-result-from-codeigniter/</link>
       <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/bits/2018-11-12-getting-single-result-from-codeigniter/</guid>
+      <guid>https://polodev.github.io/ms/getting-single-result-from-codeigniter/</guid>
       <description>public function single_result($id) { $this-&amp;gt;db-&amp;gt;select( &#39;*&#39; ); $this-&amp;gt;db-&amp;gt;where( &#39;id&#39;, $id); $q = $this-&amp;gt;db-&amp;gt;get( &#39;attachments&#39; ); $first = $q-&amp;gt;row(); return $first; }  </description>
     </item>
     
     <item>
       <title>Insert Into Database in Codeigniter</title>
-      <link>https://polodev.github.io/ms/bits/2018-11-12-insert-into-database-in-codeigniter/</link>
+      <link>https://polodev.github.io/ms/insert-into-database-in-codeigniter/</link>
       <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/bits/2018-11-12-insert-into-database-in-codeigniter/</guid>
+      <guid>https://polodev.github.io/ms/insert-into-database-in-codeigniter/</guid>
       <description>public function insert_attachment($name, $path, $clients_web_id) { $data =[ &#39;name&#39; =&amp;gt; $name, &#39;path&#39; =&amp;gt; $path, &#39;clients_web_id&#39; =&amp;gt; $clients_web_id ]; $this-&amp;gt;db-&amp;gt;insert(&#39;attachments&#39;, $data); $id = $this-&amp;gt;db-&amp;gt;insert_id(); // return $this-&amp;gt;db-&amp;gt; $this-&amp;gt;db-&amp;gt;select( &#39;*&#39; ); $this-&amp;gt;db-&amp;gt;where( &#39;id&#39;, $id); $q = $this-&amp;gt;db-&amp;gt;get( &#39;attachments&#39; ); $first = $q-&amp;gt;row(); return $first; // return $this-&amp;gt;attachments_by_clients_web_id($clients_web_id); }  </description>
     </item>
     
     <item>
       <title>Laravel Request Function Helpers</title>
-      <link>https://polodev.github.io/ms/bits/2018-11-12-laravel-request-function-helpers/</link>
+      <link>https://polodev.github.io/ms/laravel-request-function-helpers/</link>
       <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/bits/2018-11-12-laravel-request-function-helpers/</guid>
+      <guid>https://polodev.github.io/ms/laravel-request-function-helpers/</guid>
       <description> to get app address using request() or Request:: request()-&amp;gt;root(); Request::fullUrl(), request()-&amp;gt;fullUrl(),  </description>
     </item>
     
     <item>
       <title>Laravel Serve Command for Viewing Site in Same Network</title>
-      <link>https://polodev.github.io/ms/bits/2018-11-12-laravel-serve-command-for-viewing-site-in-same-network/</link>
+      <link>https://polodev.github.io/ms/laravel-serve-command-for-viewing-site-in-same-network/</link>
       <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/bits/2018-11-12-laravel-serve-command-for-viewing-site-in-same-network/</guid>
+      <guid>https://polodev.github.io/ms/laravel-serve-command-for-viewing-site-in-same-network/</guid>
       <description> to find ip address // inet will be host ifconfig | grep 192.168  to serve sudo php artisan serve --host=192.168.31.254 --port=80  </description>
     </item>
     
     <item>
       <title>Multiple File Upload Using Jquery Ajax With Complete Percentage</title>
-      <link>https://polodev.github.io/ms/bits/2018-11-12-multiple-file-upload-using-jquery-ajax-with-complete-percentage/</link>
+      <link>https://polodev.github.io/ms/multiple-file-upload-using-jquery-ajax-with-complete-percentage/</link>
       <pubDate>Mon, 12 Nov 2018 01:24:29 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/bits/2018-11-12-multiple-file-upload-using-jquery-ajax-with-complete-percentage/</guid>
+      <guid>https://polodev.github.io/ms/multiple-file-upload-using-jquery-ajax-with-complete-percentage/</guid>
       <description>//================================================= // input On Change //================================================= function fileOnSelect(e) { e.preventDefault(); var files = e.target.files; for (var i = 0; i &amp;lt; files.length; i++) { var eachFile = files[i]; var formData = new FormData(); formData.append(&amp;quot;file&amp;quot;, eachFile); uploadThisFile(formData); } } //================================================= // Upload Each File //================================================= function uploadThisFile(formData){ $.ajax({ type: &amp;quot;POST&amp;quot;, url: [&#39;URL HERE&#39;], // Upload URL Here data: formData, processData: false, contentType: false, xhr: function () { var xhr = new window.</description>
     </item>
     
     <item>
       <title>Ajax Api Call for Multiple File Upload Using Ajax</title>
-      <link>https://polodev.github.io/ms/tutorials/2018-11-12-ajax-api-call-for-multiple-file-upload-using-ajax/</link>
+      <link>https://polodev.github.io/ms/ajax-api-call-for-multiple-file-upload-using-ajax/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-ajax-api-call-for-multiple-file-upload-using-ajax/</guid>
+      <guid>https://polodev.github.io/ms/ajax-api-call-for-multiple-file-upload-using-ajax/</guid>
       <description>upload php view file &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1&amp;quot;&amp;gt; &amp;lt;!-- Important Owl stylesheet --&amp;gt; &amp;lt;!-- &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;&amp;lt;?php/// echo base_url(&#39;/assets/site/css/owl.carousel.css&#39;); ?&amp;gt;&amp;quot;&amp;gt; --&amp;gt; &amp;lt;!-- Default Theme --&amp;gt; &amp;lt;!-- &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;&amp;lt;?php// echo base_url(&#39;/assets/site/css/owl.theme.default.min.css&#39;); ?&amp;gt;&amp;quot;&amp;gt; --&amp;gt; &amp;lt;!-- &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; href=&amp;quot;&amp;lt;?php///echo base_url(&#39;/assets/site/css/style.css&#39;); ?&amp;gt;&amp;quot;&amp;gt; --&amp;gt; &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css&amp;quot;&amp;gt; &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; href=&amp;quot;&amp;lt;?php echo base_url(&#39;/assets/site/css/style.css&#39;); ?&amp;gt;&amp;quot;&amp;gt; &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css&amp;quot;&amp;gt; &amp;lt;script src=&#39;https://code.jquery.com/jquery-3.3.1.js&#39;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;style&amp;gt; form h2 { color: #379e01; font-size: 25px; padding: 50px 0; } form { width: 80%; margin: 0 auto; } .</description>
     </item>
     
     <item>
       <title>Deleting in Database and Unlink File in Codeigniter</title>
-      <link>https://polodev.github.io/ms/tutorials/2018-11-12-deleting-in-database-and-unlink-file-in-codeigniter/</link>
+      <link>https://polodev.github.io/ms/deleting-in-database-and-unlink-file-in-codeigniter/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-deleting-in-database-and-unlink-file-in-codeigniter/</guid>
+      <guid>https://polodev.github.io/ms/deleting-in-database-and-unlink-file-in-codeigniter/</guid>
       <description> controller code public function delete_attachment() { $id = $this-&amp;gt;input-&amp;gt;post( &#39;id&#39;) ; $this-&amp;gt;db-&amp;gt;select( &#39;*&#39; ); $this-&amp;gt;db-&amp;gt;where( &#39;id&#39;, $id); $q = $this-&amp;gt;db-&amp;gt;get( &#39;attachments&#39; ); $first = $q-&amp;gt;row(); $this-&amp;gt;db-&amp;gt;delete(&#39;attachments&#39;, array(&#39;id&#39; =&amp;gt; $id)); if($this-&amp;gt;db-&amp;gt;affected_rows() &amp;gt;= 1){ $upload_path = &#39;./assets/user/images/&#39; . $first-&amp;gt;path; if(unlink($upload_path)) { $this-&amp;gt;attachments_by_clients_web_id(); } } else { $this-&amp;gt;attachments_by_clients_web_id(); } return; } public function attachments_by_clients_web_id() { $id = $this-&amp;gt;session-&amp;gt;userdata( &#39;id&#39; ); $attachments = $this-&amp;gt;user_model-&amp;gt;attachments_by_clients_web_id($id); echo json_encode($attachments); }  model // return whole results after deleting public function attachments_by_clients_web_id($clients_web_id) { $where[&#39;clients_web_id&#39;] = $clients_web_id; $result_set = $this-&amp;gt;db-&amp;gt;get_where(&#39;attachments&#39;, $where); return $result_set-&amp;gt;result_array(); }  </description>
     </item>
     
     <item>
       <title>Multiple git origin remote url to push code to multiple git repository</title>
-      <link>https://polodev.github.io/ms/tutorials/2018-11-12-multiple-git-origin-url-to-push-code-to-multiple-repository/</link>
+      <link>https://polodev.github.io/ms/multiple-git-origin-remote-url-to-push-code-to-multiple-git-repository/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-multiple-git-origin-url-to-push-code-to-multiple-repository/</guid>
+      <guid>https://polodev.github.io/ms/multiple-git-origin-remote-url-to-push-code-to-multiple-git-repository/</guid>
       <description>I have stored a project in my bitbucket. At the same time I wanted to keep these code in my github account so by adding multiple git remote origin url I am able to push code to different code repo.
 following command for adding remote
 git remote set-url --add --push origin https://github.com/username/projectname.git git remote set-url --add --push origin https://username@bitbucket.org/username/project.git  If you need to delete origin
@@ -166,19 +166,19 @@ git remote remove origin  Once you have delete origin you might need to add remo
     
     <item>
       <title>Next and Previous Element in Php Array</title>
-      <link>https://polodev.github.io/ms/tutorials/2018-11-12-next-and-previous-element-in-php-array/</link>
+      <link>https://polodev.github.io/ms/next-and-previous-element-in-php-array/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-next-and-previous-element-in-php-array/</guid>
+      <guid>https://polodev.github.io/ms/next-and-previous-element-in-php-array/</guid>
       <description> getting next element from array function get_next_element ($needle, $haystack) { $index = array_search($needle, $haystack); if (count($haystack) &amp;lt; 2) { return false; } if ($index &amp;lt; (count($haystack) - 1)) { $index++; }else { $index = 0; } return $haystack[$index]; }  Previous Element function get_prev_elemnt($needle, $haystack) { if (count($haystack) &amp;lt; 2) { return false; } $index = array_search($needle, $haystack); if ($index == 0 || $index &amp;lt; 1) { $index = count($haystack) - 1; }else { $index--; } return $haystack[$index]; }  Testing $needle = 3; $haystack = [3, 2, 4, 5, 6]; echo get_prev_elemnt($needle, $haystack);  </description>
     </item>
     
     <item>
       <title>Php Functions - array_values, json_encode, json_decode, array_intersect</title>
-      <link>https://polodev.github.io/ms/tutorials/2018-11-12-php-functions-part-one/</link>
+      <link>https://polodev.github.io/ms/php-functions---array_values-json_encode-json_decode-array_intersect/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-php-functions-part-one/</guid>
+      <guid>https://polodev.github.io/ms/php-functions---array_values-json_encode-json_decode-array_intersect/</guid>
       <description>array_values() json_encode(); json_decode() array_intersect()  array_values() It will give removed key of associated array
 $a = [ &#39;f1&#39; =&amp;gt; &#39;banana&#39;, &#39;f2&#39; =&amp;gt; &#39;apple&#39;, &#39;f3&#39; =&amp;gt; &#39;orange&#39;, ]; print_r (array_values($a));  Output for state above code
 Array ( [0] =&amp;gt; banana [1] =&amp;gt; apple [2] =&amp;gt; orange )  json_encode() - encode php to json $a = [ &#39;f1&#39; =&amp;gt; &#39;banana&#39;, &#39;f2&#39; =&amp;gt; &#39;apple&#39;, &#39;f3&#39; =&amp;gt; &#39;orange&#39;, ]; $b = json_encode($a); print_r( $b );  output</description>
@@ -186,57 +186,57 @@ Array ( [0] =&amp;gt; banana [1] =&amp;gt; apple [2] =&amp;gt; orange )  json_en
     
     <item>
       <title>Setting and Getting User Data in Session Session Flash Codeigniter</title>
-      <link>https://polodev.github.io/ms/tutorials/2018-11-12-setting-and-getting-user-data-in-session-session-flash-codeigniter/</link>
+      <link>https://polodev.github.io/ms/setting-and-getting-user-data-in-session-session-flash-codeigniter/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-setting-and-getting-user-data-in-session-session-flash-codeigniter/</guid>
+      <guid>https://polodev.github.io/ms/setting-and-getting-user-data-in-session-session-flash-codeigniter/</guid>
       <description>setting user data $session_data = array( &#39;type&#39; =&amp;gt; &amp;quot;admin&amp;quot;, &#39;email&#39; =&amp;gt; $email, &#39;id&#39; =&amp;gt; $res-&amp;gt;id, &#39;username&#39; =&amp;gt; $res-&amp;gt;username, &#39;password&#39; =&amp;gt; $res-&amp;gt;password, ); $this-&amp;gt;session-&amp;gt;set_userdata($session_data);  getting user data $id = $this-&amp;gt;session-&amp;gt;userdata( &#39;id&#39; );  setting flash message in session $this-&amp;gt;session-&amp;gt;set_flashdata( &#39;success&#39;, &#39;All updated successfully&#39; );  getting flash message from session &amp;lt;?php if ($this-&amp;gt;session-&amp;gt;flashdata(&#39;success&#39;)) { ?&amp;gt; &amp;lt;div class=&amp;quot;alert alert-success&amp;quot;&amp;gt; &amp;lt;?= $this-&amp;gt;session-&amp;gt;flashdata(&#39;success&#39;) ?&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;?php } ?&amp;gt; &amp;lt;?php if ($this-&amp;gt;session-&amp;gt;flashdata(&#39;error&#39;)) { ?</description>
     </item>
     
     <item>
       <title>Basic Multilingual Features in Website Using Javascript and Keep Language Persist Using Local Storage</title>
-      <link>https://polodev.github.io/ms/tutorials/2018-11-12-basic-multilingual-features-in-website-using-javascript-and-keep-language-persist-using-local-storage/</link>
+      <link>https://polodev.github.io/ms/basic-multilingual-features-in-website-using-javascript-and-keep-language-persist-using-local-storage/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-basic-multilingual-features-in-website-using-javascript-and-keep-language-persist-using-local-storage/</guid>
+      <guid>https://polodev.github.io/ms/basic-multilingual-features-in-website-using-javascript-and-keep-language-persist-using-local-storage/</guid>
       <description>following snippet helps me to convert a basic site to 2 language site
 Html code for menu &amp;lt;h3 data-langen=&amp;quot;Sorry this resturent does not have any menu yet . please try again later&amp;quot; data-langhe=&amp;quot;מצטערים, אין תפריט זה עדיין. בבקשה נסה שוב מאוחר יותר&amp;quot; class=&amp;quot;blanker&amp;quot;&amp;gt;Sorry this resturent does not have any menu yet . please try again later &amp;lt;/h3&amp;gt;  initial code for checking country (in my case Israel) and changed language to Hebrew function changeLanguage (lang) { if (lang == &#39;en&#39;) { $(&amp;quot;[data-langen]&amp;quot;).</description>
     </item>
     
     <item>
       <title>Create a Google Column Chart</title>
-      <link>https://polodev.github.io/ms/tutorials/2018-11-12-create-a-google-column-chart/</link>
+      <link>https://polodev.github.io/ms/create-a-google-column-chart/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-create-a-google-column-chart/</guid>
+      <guid>https://polodev.github.io/ms/create-a-google-column-chart/</guid>
       <description>html part &amp;lt;div class=&amp;quot;col-lg-6 pull-left grpahinformation&amp;quot;&amp;gt; &amp;lt;div id=&amp;quot;restaurant_rating&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;  calling setOnLoadCallback function with callback parameter google.charts.setOnLoadCallback(restaurant_rating);  define callback function restaurant_rating() { // Create the data table. var data = new google.visualization.DataTable(); data.addColumn(&#39;string&#39; , &#39;Topping&#39;); data.addColumn(&#39;number&#39; , &#39;Count&#39;); data.addColumn({ type: &#39;string&#39;, role: &#39;style&#39; }); var colors=[&#39;salmon&#39;, &#39;teal&#39;, &#39;brown&#39;, &#39;cadetblue&#39;, &#39;burlywood&#39;]; data.addRows([&amp;lt;?php if(isset($ratings)){ foreach($ratings as $rating){ ?&amp;gt; [&#39;Rating &amp;lt;?= $rating-&amp;gt;rating ?&amp;gt;&#39; , &amp;lt;?= $rating-&amp;gt;c ?&amp;gt;, colors.shift()] , &amp;lt;?php } }?</description>
     </item>
     
     <item>
       <title>Flatten Array in Php</title>
-      <link>https://polodev.github.io/ms/bits/2018-11-12-flatten-array-in-php/</link>
+      <link>https://polodev.github.io/ms/flatten-array-in-php/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/bits/2018-11-12-flatten-array-in-php/</guid>
+      <guid>https://polodev.github.io/ms/flatten-array-in-php/</guid>
       <description> following code for int type in my case. just change function appropriately when you want to change public function flattenUnique(array $array) { $return = array(); array_walk_recursive($array, function($a) use (&amp;amp;$return) { $return[] = intval($a); }); return array_unique( $return ); }  </description>
     </item>
     
     <item>
       <title>How to Add Syntax Highlighting, Line Number Clipboard Js in Go Hugo Website</title>
-      <link>https://polodev.github.io/ms/tutorials/2018-11-12-how-to-add-syntax-highlighting-ln-number-clipboard-js-in-go-hugo-website/</link>
+      <link>https://polodev.github.io/ms/how-to-add-syntax-highlighting-line-number-clipboard-js-in-go-hugo-website/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-how-to-add-syntax-highlighting-ln-number-clipboard-js-in-go-hugo-website/</guid>
+      <guid>https://polodev.github.io/ms/how-to-add-syntax-highlighting-line-number-clipboard-js-in-go-hugo-website/</guid>
       <description>Installing Pygmentation first you have to download python Pygments in your machine. In mac you can easily download by pip install Pygments . If you use ubuntu sudo apt-get install python3-pygments
 adding pygmentsUseClasses in config.toml file pygmentsUseClasses=true  generate chroma style using hugo gen command hugo gen chromastyles --style=monokai &amp;gt; static/css/syntax.css // for more info run following command hugo gen chromastyles -h  I have used monokai theme. There are a lot of themes available.</description>
     </item>
     
     <item>
       <title>Installing Robo3t in Ubuntu 18.X</title>
-      <link>https://polodev.github.io/ms/tutorials/2018-11-12-installing-robo3t-in-ubuntu-18.x/</link>
+      <link>https://polodev.github.io/ms/installing-robo3t-in-ubuntu-18.x/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-installing-robo3t-in-ubuntu-18.x/</guid>
+      <guid>https://polodev.github.io/ms/installing-robo3t-in-ubuntu-18.x/</guid>
       <description>download robomongo 3t from their website. Let downloaded file name is robomongo-0.9.0-rc8-linux-x86_64-c113244.tar.gz
 extract robomongo-0.9.0-rc8-linux-x86_64-c113244.tar.gz file
 move extracted folder to /usr/bin directory by following command
@@ -249,55 +249,55 @@ robo3t  </description>
     
     <item>
       <title>Nearby Location Using Latitude and Longitude in Laravel Application   Mysql Query Plus Vue Implementation</title>
-      <link>https://polodev.github.io/ms/tutorials/2018-11-12-nearby-location-using-latitude-and-longitude-in-laravel-application---mysql-query-plus-vue-implementation/</link>
+      <link>https://polodev.github.io/ms/nearby-location-using-latitude-and-longitude-in-laravel-application---mysql-query-plus-vue-implementation/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-nearby-location-using-latitude-and-longitude-in-laravel-application---mysql-query-plus-vue-implementation/</guid>
+      <guid>https://polodev.github.io/ms/nearby-location-using-latitude-and-longitude-in-laravel-application---mysql-query-plus-vue-implementation/</guid>
       <description>nearby location mysql raw query in laravel controller public function restaurant_by_coords () { $lat = request(&#39;lat&#39;); $lon = request(&#39;lon&#39;); $distance = 20; // hear distance in km $mysqlQuery = &amp;quot;SELECT settings.id as id, settings.title as title, settings.phone as phone, users.name as name, user_id, shortcode, address, logo, ( 6371 * acos( cos( radians( $lat ) ) * cos( radians( `lat` ) ) * cos( radians( `lon` ) - radians( $lon ) ) + sin(radians($lat)) * sin(radians(`lat`)) ) ) `distance` FROM `settings` JOIN `users` WHERE settings.</description>
     </item>
     
     <item>
       <title>Update Database in Codeigniter</title>
-      <link>https://polodev.github.io/ms/bits/2018-11-12-update-database-in-codeigniter/</link>
+      <link>https://polodev.github.io/ms/update-database-in-codeigniter/</link>
       <pubDate>Mon, 12 Nov 2018 01:23:52 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/bits/2018-11-12-update-database-in-codeigniter/</guid>
+      <guid>https://polodev.github.io/ms/update-database-in-codeigniter/</guid>
       <description>public function upload_doc() { $id = $this-&amp;gt;session-&amp;gt;userdata( &#39;id&#39; ); $data = array( &#39;heading&#39; =&amp;gt; $this-&amp;gt;input-&amp;gt;post(&#39;heading&#39;), ); $this-&amp;gt;db-&amp;gt;where( &#39;id&#39;, $id ); $this-&amp;gt;db-&amp;gt;update( &#39;clients_web&#39;, $data ); $this-&amp;gt;session-&amp;gt;set_flashdata( &#39;success&#39;, &#39;All updated successfully&#39; ); redirect( &#39;/account/upload&#39; ); }  </description>
     </item>
     
     <item>
       <title>Codeigniter Base Url</title>
-      <link>https://polodev.github.io/ms/bits/2018-11-12-codeigniter-base-url/</link>
+      <link>https://polodev.github.io/ms/codeigniter-base-url/</link>
       <pubDate>Sun, 11 Nov 2018 18:52:24 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/bits/2018-11-12-codeigniter-base-url/</guid>
+      <guid>https://polodev.github.io/ms/codeigniter-base-url/</guid>
       <description> setting up base url // file: application/config.php $config[&#39;base_url&#39;] = &#39;http://localhost:8000&#39;;  </description>
     </item>
     
     <item>
       <title>Wordpress Theme Development 101</title>
-      <link>https://polodev.github.io/ms/tutorials/2018-11-12-wordpress-theme-development-101/</link>
+      <link>https://polodev.github.io/ms/wordpress-theme-development-101/</link>
       <pubDate>Sun, 11 Nov 2018 18:20:16 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-wordpress-theme-development-101/</guid>
+      <guid>https://polodev.github.io/ms/wordpress-theme-development-101/</guid>
       <description>list of file  index.php style.css screenshot.png functions.php header.php footer.php single.php archive.php search.php content.php content-link.php content-gallery.php content-aside.php content-link.php page.php page-about.php company-template.php front-page.php comments.php  theme name and other meta data /** * Theme Name: Advanced WP; * Author: Jeff Bezos * Author URI: http://jeff.com * Description: Advanced wordpress theme * Version: 1.0 * * /  language attribute in html tag &amp;lt;html &amp;lt;?php language_attributes() ?&amp;gt;&amp;lt;/html&amp;gt;  adding stylesheet url using bloginfo bloginfo(&#39;stylesheet_url);  adding meta charset bloginfo(&#39;charset&#39;) ;  blog title bloginfo(&#39;name&#39;)  description bloginfo(&#39;description&#39;)  for wp_head &amp;amp; wp_footer() wp_head() wp_footer(); // responsible for admin menu in view page  search option in wordpress &amp;lt;form method=&#39;get&#39; action=&amp;quot;&amp;lt;?</description>
     </item>
     
     <item>
       <title>Jquery Essentials W3 Schools Summary</title>
-      <link>https://polodev.github.io/ms/tutorials/2018-11-12-jquery-essentials-w3-schools-summary/</link>
+      <link>https://polodev.github.io/ms/jquery-essentials-w3-schools-summary/</link>
       <pubDate>Sun, 11 Nov 2018 18:18:21 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-jquery-essentials-w3-schools-summary/</guid>
+      <guid>https://polodev.github.io/ms/jquery-essentials-w3-schools-summary/</guid>
       <description>1 - Basic syntax $(selector).action()  2 - The Document Ready Event $(document).ready(function(){ // jQuery methods go here... }); // shorter $(function(){ // jQuery methods go here... });  3 - Selects the first &amp;lt;li&amp;gt; element of the first &amp;lt;ul&amp;gt; $(&amp;quot;ul li:first&amp;quot;)  4 - Selects the first &amp;lt;li&amp;gt; element of every &amp;lt;ul&amp;gt; $(&amp;quot;ul li:first-child&amp;quot;)  5 - Selects all &amp;lt;a&amp;gt; elements with a target attribute value equal to &amp;quot;_blank&amp;quot; $(&amp;quot;a[target=&#39;_blank&#39;]&amp;quot;)  6 - Selects all &amp;lt;a&amp;gt; elements with a target attribute value NOT equal to &amp;quot;_blank&amp;quot; $(&amp;quot;a[target!</description>
     </item>
     
     <item>
       <title>Codeigniter Essentials</title>
-      <link>https://polodev.github.io/ms/tutorials/2018-11-12-codeigniter-essentials/</link>
+      <link>https://polodev.github.io/ms/codeigniter-essentials/</link>
       <pubDate>Sun, 11 Nov 2018 18:12:45 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/tutorials/2018-11-12-codeigniter-essentials/</guid>
+      <guid>https://polodev.github.io/ms/codeigniter-essentials/</guid>
       <description>1 - setting up base url // file: application/config.php $config[&#39;base_url&#39;] = &#39;http://localhost:8000&#39;;  2 - to load a view // file: controllers &amp;gt; Properties.php class Properties extends CI_Controller { public function index() { $this-&amp;gt;load-&amp;gt;view(&#39;layouts/header&#39;); $this-&amp;gt;load-&amp;gt;view(&#39;layouts/navbar&#39;); $this-&amp;gt;load-&amp;gt;view(&#39;properties/index&#39;) $this-&amp;gt;load-&amp;gt;view(&#39;layouts/footer&#39;); } }  3 - automatic url in codeigniter index.php/{cotroller}/{method}/[param1]/[param2]  4 - passing value in to the view $data[&#39;user_name&#39;] = &#39;Bernard&#39;; $data[&#39;status_group&#39;] = [&#39;all&#39;, &#39;available&#39;, &#39;unavailable&#39;]; $this-&amp;gt;load-&amp;gt;view(&#39;properties/index&#39;, $data)  5 - controller with params how codeIgniter making route automatically</description>
     </item>
     
