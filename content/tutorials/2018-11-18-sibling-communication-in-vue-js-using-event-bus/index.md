@@ -46,6 +46,10 @@ Event bus
 
 entry js file for calling vue component and instantiate vue
 
+<p class="file-desc">
+  <span>entry.js</span>
+</p>
+
 ~~~js
 window.Vue = require('vue');
 window.SidebarEvent = new Vue();
@@ -58,6 +62,11 @@ const app = new Vue({
 Here I instantiate vue and assign to `window.SidebarEvent` for using this instance as event bus.
 
 require all 5 component in entry js file
+
+<p class="file-desc">
+  <span>entry.js</span>
+</p>
+
 ~~~js
 window.Vue = require('vue');
 window.SidebarEvent = new Vue();
@@ -75,6 +84,10 @@ const app = new Vue({
 ~~~
 
 # Writing on main.vue component
+
+<p class="file-desc">
+  <span>main.vue html part</span>
+</p>
 
 ~~~html
 <template>
@@ -94,6 +107,10 @@ const app = new Vue({
   </transition>
 </template>
 ~~~
+
+<p class="file-desc">
+  <span>main.vue js part</span>
+</p>
 
 ~~~js
 export default {
@@ -123,6 +140,10 @@ In mounted method we are constantly listen to a event called `sidebarchanged` us
 
 # sidebar.vue component
 
+<p class="file-desc">
+  <span>sidebar.vue html part</span>
+</p>
+
 ~~~html
 <template>
   <ul>
@@ -133,6 +154,10 @@ In mounted method we are constantly listen to a event called `sidebarchanged` us
 </template>
 
 ~~~
+
+<p class="file-desc">
+  <span>sidebar.vue js-part</span>
+</p>
 
 ~~~js
 export default {
