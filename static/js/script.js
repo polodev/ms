@@ -350,6 +350,7 @@ $(function() {
 
 
 
+/**
 $single_page_content = $('#next_previous_swiper_content');
 console.log('$single_page_content', $single_page_content)
 $single_page_content.on('swipeleft', function (event) {
@@ -365,6 +366,8 @@ $single_page_content.on('swiperight', function (event) {
     window.location.href = href;
   }
 });
+*
+*/
 
 
 
