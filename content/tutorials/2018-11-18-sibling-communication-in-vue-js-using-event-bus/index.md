@@ -163,7 +163,7 @@ In mounted method we are constantly listen to a event called `sidebarchanged` us
 export default {
   data() {
     return {
-      selectedSidebar: 'personal',
+      selectedSidebar: 'home',
     }
   },
   methods: {
