@@ -54,7 +54,6 @@ window.Vue = require('vue');
 window.SidebarEvent = new Vue();
 const app = new Vue({
     el: '#app',
-    store
 });
 ~~~
 
@@ -78,7 +77,6 @@ Vue.component('app-contact', require('./components/contact.vue'));
 
 const app = new Vue({
     el: '#app',
-    store
 });
 ~~~
 
