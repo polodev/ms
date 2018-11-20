@@ -22,6 +22,7 @@ hugo new tutorials/2018-11-14-adding-scrollable-sticy-sidebar-in-your-website/in
 hugo new tutorials/2018-11-18-sibling-communication-in-vue-js-using-event-bus/index.md
 
 hugo new tutorials/2018-11-18-basic-multi-auth-or-role-based-authentication-in-laravel/index.md
+hugo new tutorials/2018-11-20-how-to-upload-a-file-laravel-in-ajax-way-using-vue-js-and-get-absolute-path-in-api-response-to-show-in-fronted/index.md
 
 
 
