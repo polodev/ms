@@ -6,7 +6,7 @@
     <description>Recent content in Tutorial_tags on This Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Nov 2018 01:23:53 +0600</lastBuildDate>
+    <lastBuildDate>Tue, 20 Nov 2018 19:47:55 +0600</lastBuildDate>
     
 	<atom:link href="https://polodev.github.io/ms/tutorial_tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Ajax</title>
       <link>https://polodev.github.io/ms/tutorial_tags/ajax/</link>
-      <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
+      <pubDate>Tue, 20 Nov 2018 19:47:55 +0600</pubDate>
       
       <guid>https://polodev.github.io/ms/tutorial_tags/ajax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Axios</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/axios/</link>
+      <pubDate>Tue, 20 Nov 2018 19:47:55 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/axios/</guid>
       <description></description>
     </item>
     
@@ -62,6 +71,15 @@
       <pubDate>Mon, 12 Nov 2018 01:23:53 +0600</pubDate>
       
       <guid>https://polodev.github.io/ms/tutorial_tags/file-delete/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>File Upload</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/file-upload/</link>
+      <pubDate>Tue, 20 Nov 2018 19:47:55 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/file-upload/</guid>
       <description></description>
     </item>
     
@@ -161,6 +179,15 @@
       <pubDate>Wed, 14 Nov 2018 01:36:52 +0600</pubDate>
       
       <guid>https://polodev.github.io/ms/tutorial_tags/js-plugin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Laravel</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/laravel/</link>
+      <pubDate>Tue, 20 Nov 2018 19:47:55 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/laravel/</guid>
       <description></description>
     </item>
     
@@ -395,6 +422,15 @@
       <pubDate>Tue, 13 Nov 2018 19:38:42 +0600</pubDate>
       
       <guid>https://polodev.github.io/ms/tutorial_tags/video-slider/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vue</title>
+      <link>https://polodev.github.io/ms/tutorial_tags/vue/</link>
+      <pubDate>Tue, 20 Nov 2018 19:47:55 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/ms/tutorial_tags/vue/</guid>
       <description></description>
     </item>
     
