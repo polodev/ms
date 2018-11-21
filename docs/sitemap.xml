@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://polodev.github.io/ms/how-to-upload-a-file-laravel-in-ajax-way-using-vue-js-and-get-absolute-path-in-api-response-to-show-in-fronted/</loc>
+    <loc>https://polodev.github.io/ms/how-to-upload-a-file-in-laravel-ajax-way-using-vue-js-and-get-absolute-path-in-api-response-to-show-in-frontend/</loc>
     <lastmod>2018-11-20T19:47:55+06:00</lastmod>
   </url>
   
@@ -194,14 +194,14 @@
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/tutorial_tags/ajax/</loc>
-    <lastmod>2018-11-20T19:47:55+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/bit_tags/ajax/</loc>
+    <lastmod>2018-11-12T01:24:29+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/bit_tags/ajax/</loc>
-    <lastmod>2018-11-12T01:24:29+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/tutorial_tags/ajax/</loc>
+    <lastmod>2018-11-20T19:47:55+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -259,8 +259,8 @@
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/tutorial_tags/codeigniter/</loc>
-    <lastmod>2018-11-12T01:23:53+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/bit_tags/codeigniter/</loc>
+    <lastmod>2018-11-12T01:24:30+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -277,8 +277,8 @@
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/bit_tags/codeigniter/</loc>
-    <lastmod>2018-11-12T01:24:30+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/tutorial_tags/codeigniter/</loc>
+    <lastmod>2018-11-12T01:23:53+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -343,14 +343,14 @@
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/tutorial_tags/formdata/</loc>
-    <lastmod>2018-11-12T01:23:53+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/bit_tags/formdata/</loc>
+    <lastmod>2018-11-12T01:24:29+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/bit_tags/formdata/</loc>
-    <lastmod>2018-11-12T01:24:29+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/tutorial_tags/formdata/</loc>
+    <lastmod>2018-11-12T01:23:53+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -415,12 +415,6 @@
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/tutorial_tags/jquery/</loc>
-    <lastmod>2018-11-11T18:18:21+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://polodev.github.io/ms/tags/jquery/</loc>
     <lastmod>2018-11-11T18:18:21+06:00</lastmod>
     <priority>0</priority>
@@ -433,20 +427,26 @@
   </url>
   
   <url>
+    <loc>https://polodev.github.io/ms/tutorial_tags/jquery/</loc>
+    <lastmod>2018-11-11T18:18:21+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://polodev.github.io/ms/tutorial_tags/js-plugin/</loc>
     <lastmod>2018-11-14T01:36:52+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/tutorial_tags/laravel/</loc>
-    <lastmod>2018-11-20T19:47:55+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/bit_tags/laravel/</loc>
+    <lastmod>2018-11-12T01:24:29+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/bit_tags/laravel/</loc>
-    <lastmod>2018-11-12T01:24:29+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/tutorial_tags/laravel/</loc>
+    <lastmod>2018-11-20T19:47:55+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -469,14 +469,14 @@
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/tutorial_tags/mongodb/</loc>
-    <lastmod>2018-11-12T01:23:52+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/bit_tags/mongodb/</loc>
+    <lastmod>2018-11-12T01:24:29+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/bit_tags/mongodb/</loc>
-    <lastmod>2018-11-12T01:24:29+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/tutorial_tags/mongodb/</loc>
+    <lastmod>2018-11-12T01:23:52+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -487,14 +487,14 @@
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/tutorial_tags/multiple-file-upload/</loc>
-    <lastmod>2018-11-12T01:23:53+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/bit_tags/multiple-file-upload/</loc>
+    <lastmod>2018-11-12T01:24:29+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/bit_tags/multiple-file-upload/</loc>
-    <lastmod>2018-11-12T01:24:29+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/tutorial_tags/multiple-file-upload/</loc>
+    <lastmod>2018-11-12T01:23:53+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -505,14 +505,14 @@
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/tutorial_tags/mysql/</loc>
-    <lastmod>2018-11-12T01:23:52+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/bit_tags/mysql/</loc>
+    <lastmod>2018-11-12T01:24:29+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/bit_tags/mysql/</loc>
-    <lastmod>2018-11-12T01:24:29+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/tutorial_tags/mysql/</loc>
+    <lastmod>2018-11-12T01:23:52+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -541,8 +541,8 @@
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/tutorial_tags/php/</loc>
-    <lastmod>2018-11-12T01:23:53+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/bit_tags/php/</loc>
+    <lastmod>2018-11-12T01:23:52+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -559,8 +559,8 @@
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/bit_tags/php/</loc>
-    <lastmod>2018-11-12T01:23:52+06:00</lastmod>
+    <loc>https://polodev.github.io/ms/tutorial_tags/php/</loc>
+    <lastmod>2018-11-12T01:23:53+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -577,12 +577,6 @@
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/tutorial_tags/php-mvc-framework/</loc>
-    <lastmod>2018-11-11T18:12:45+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://polodev.github.io/ms/tags/php-mvc-framework/</loc>
     <lastmod>2018-11-11T18:12:45+06:00</lastmod>
     <priority>0</priority>
@@ -590,6 +584,12 @@
   
   <url>
     <loc>https://polodev.github.io/ms/categories/php-mvc-framework/</loc>
+    <lastmod>2018-11-11T18:12:45+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/ms/tutorial_tags/php-mvc-framework/</loc>
     <lastmod>2018-11-11T18:12:45+06:00</lastmod>
     <priority>0</priority>
   </url>
@@ -748,12 +748,6 @@
   </url>
   
   <url>
-    <loc>https://polodev.github.io/ms/tutorial_tags/wordpress-theme-development/</loc>
-    <lastmod>2018-11-11T18:20:16+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://polodev.github.io/ms/tags/wordpress-theme-development/</loc>
     <lastmod>2018-11-11T18:20:16+06:00</lastmod>
     <priority>0</priority>
@@ -761,6 +755,12 @@
   
   <url>
     <loc>https://polodev.github.io/ms/categories/wordpress-theme-development/</loc>
+    <lastmod>2018-11-11T18:20:16+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/ms/tutorial_tags/wordpress-theme-development/</loc>
     <lastmod>2018-11-11T18:20:16+06:00</lastmod>
     <priority>0</priority>
   </url>

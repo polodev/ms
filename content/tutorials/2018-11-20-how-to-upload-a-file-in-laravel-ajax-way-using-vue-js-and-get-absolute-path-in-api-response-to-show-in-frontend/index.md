@@ -1,7 +1,7 @@
 +++
 type="post"
 toc=true
-title= "How to Upload a File Laravel in Ajax Way Using Vue Js and Get Absolute Path in Api Response to Show in Fronted"
+title= "How to Upload a File in Laravel Ajax Way Using Vue Js and Get Absolute Path in Api Response to Show in Frontend"
 date= 2018-11-20T19:47:55+06:00
 draft= false
 weight= 1

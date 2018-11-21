@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>How to Upload a File Laravel in Ajax Way Using Vue Js and Get Absolute Path in Api Response to Show in Fronted</title>
-      <link>https://polodev.github.io/ms/how-to-upload-a-file-laravel-in-ajax-way-using-vue-js-and-get-absolute-path-in-api-response-to-show-in-fronted/</link>
+      <title>How to Upload a File in Laravel Ajax Way Using Vue Js and Get Absolute Path in Api Response to Show in Frontend</title>
+      <link>https://polodev.github.io/ms/how-to-upload-a-file-in-laravel-ajax-way-using-vue-js-and-get-absolute-path-in-api-response-to-show-in-frontend/</link>
       <pubDate>Tue, 20 Nov 2018 19:47:55 +0600</pubDate>
       
-      <guid>https://polodev.github.io/ms/how-to-upload-a-file-laravel-in-ajax-way-using-vue-js-and-get-absolute-path-in-api-response-to-show-in-fronted/</guid>
+      <guid>https://polodev.github.io/ms/how-to-upload-a-file-in-laravel-ajax-way-using-vue-js-and-get-absolute-path-in-api-response-to-show-in-frontend/</guid>
       <description>function for uploading video VideoController.php public function post_video_details(Request $request) { $uploadedFile = $request-&amp;gt;file(&#39;file&#39;); $without_extension = pathinfo($uploadedFile-&amp;gt;getClientOriginalName(), PATHINFO_FILENAME); // getting only file name without extension to make it slugify $extension = $uploadedFile-&amp;gt;getClientOriginalExtension(); $without_extension = str_slug($without_extension); // make slugify only name $filename = time().$without_extension.&#39;.&#39;.$extension; // time() + name + . + extension Storage::disk(&#39;local&#39;)-&amp;gt;putFileAs( &#39;public/uploads/&#39;, $uploadedFile, $filename ); // putFileAs take 3 parameters. 1.folder, 2.file 3.my_desired_filename Video::create([ &#39;title&#39; =&amp;gt; $request-&amp;gt;title, &#39;video&#39; =&amp;gt; $filename, &#39;user_id&#39; =&amp;gt; auth()-&amp;gt;id(), ]); // adding info to the database return response()-&amp;gt;json([ &#39;success&#39; =&amp;gt; &#39;Video Details update successfully&#39;, ]); }  transforming single instance in model for api response Video.</description>
     </item>
     
